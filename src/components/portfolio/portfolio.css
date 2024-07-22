@@ -1,0 +1,736 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cookie&family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cookie&family=Julius+Sans+One&family=Kaisei+Tokumin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cookie&family=Julius+Sans+One&family=Kaisei+Tokumin&family=ZCOOL+XiaoWei&display=swap');
+
+
+
+:root {
+    --white: white;
+    --black:black;
+    --green:green;
+    --whitesmoke:whitesmoke;
+}
+
+
+
+
+
+
+
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    transition: 0.7s ease-in-out
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------NAVBAR--------------------------------------------*/
+
+
+.Nav-Container  {
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+    border-radius: 10px;
+    position: fixed;
+    top:0px;
+    z-index: 101;
+    
+}
+
+
+
+.Nav-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:30px;
+
+}
+
+
+.portfolio {
+    position: relative;
+    top:0px;
+    right: 210px;
+    font-size: 1.5rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    color:var(--white)
+}
+
+
+.nav-button-content {
+    position: relative;
+    top:0px;
+    left: 210px;
+   
+}
+
+
+
+
+.nav-button-content button {
+    border:none;
+    outline: none;
+    border-radius: none;
+    color:var(--white);
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.nav-button-content button:hover {
+  color:var(--green);
+  cursor: pointer;
+}
+
+
+
+
+
+.portfolio-inner-text {
+    color:var(--green)
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------HEADER--------------------------------------------------*/
+
+
+.Header-Container {
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--black);
+    height: 710px;
+}
+
+
+.Header-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 110px;
+}
+
+
+
+
+
+.header-content {
+    color:white;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 310px;
+}
+
+
+.header-content .font-end {
+    color:var(--whitesmoke);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+
+.header-content:not(.font-end) {
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.header-content img {
+    object-fit: contain;
+    width: 25px;
+}
+
+
+
+.header-image img {
+    width: 550px;
+    object-fit: contain;
+    border-radius:60%
+}
+
+
+.header-links-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+
+
+
+.link a {
+    width: 410px;
+    background-color:var(--green);
+    color:var(--white);
+    font-size: 1rem;
+    text-decoration: none;
+    padding:0.8em 1em;
+    border-radius:10px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+}
+
+.link-two a {
+    width: 410px;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color:var(--green);
+    color:var(--white);
+    padding:0.8em 1em;
+    border-radius:10px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    
+}
+
+
+.link-two a:hover {
+    background-color:var(--whitesmoke);
+    color:var(--green);
+}
+
+.link a:hover {
+    background-color:var(--whitesmoke);
+    color:var(--green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------CONTENT--------------------------------------------------*/
+
+
+
+.Main-Content {
+    overflow: hidden;
+    width: 100%;
+    background-color:var(--white);
+    height: 680px;
+}
+
+
+
+.Main-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+.about-content {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;    
+    font-size: 1.9rem;
+}
+
+
+.about-content hr {
+    color:var(--green);
+    margin-top: -30px;
+}
+
+
+
+
+.About-Me-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1800px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+
+
+
+.about-me-content-bio {
+    font-family: "Kaisei Tokumin", serif;
+  font-weight: 400;
+    width: 710px;
+    margin-top:-90px;
+    font-size: 1.1rem;
+  
+}
+
+.about-me-content-bio h3 {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-weight: 400;
+}
+
+
+.about-me-content img {
+    width: 610px;
+    object-fit: contain;
+    object-position: 9px 10px;
+    border-radius:3%
+}
+
+
+
+.About-Me-Links-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 210px;
+    text-align: center;
+}
+
+.About-Me-Links-Wrapper img {
+    width: 45px;
+    object-fit: contain;
+}
+
+
+.About-Me-Links-Wrapper img:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------WHAT I KNOW CONTENT--------------------------------------------------*/
+
+
+
+.Technologies-Container {
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--black);
+    height: 610px;
+}
+
+
+
+
+.Tech-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+}
+
+
+
+.Tech-Wrapper  h3 {
+    color:var(--white);
+    font-size: 1.9rem;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;  
+}
+
+
+.Tech-Wrapper hr {
+    color:var(--green);
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+.Tech-Skills-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+    margin-left: 90px;
+}
+
+
+.tech-skills-content {
+    color:var(--white);
+}
+
+
+.image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 800px;
+    height: 110px;
+    position: relative;
+    top:90px;
+    left: 280px;
+}
+
+
+
+
+
+.image-language img {
+    width: 140px;
+    object-fit: contain;
+    margin:0px 30px
+}
+
+
+.Tech-Skills-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+    text-align: center;
+    position: relative;
+    top:0px;
+    right: 409px;
+}
+
+
+
+
+.know-text {
+    color:var(--white);
+    width: 490px;
+}
+
+
+.know-text h3 {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.know-text p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------WORK SO FAR--------------------------------------------------*/
+
+
+.Showcase-Container {
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--white);
+    height: 610px;
+}
+
+
+.Showcase-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+}
+
+
+.Showcase-Wrapper h3 {
+    color:var(--black);
+    font-size: 1.9rem;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;  
+}
+
+
+.Showcase-Wrapper hr {
+    color:var(--green);
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+.Experience-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1600px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+.Experience-Wrapper img {
+    height: 180px;
+    object-fit: contain;
+}
+
+
+.image-one,
+.image-two,
+.image-three {
+    background-color:var(--green);
+    height: 410px;
+}
+
+
+
+.image-one-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 1.2rem;
+}
+
+
+.image-one-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 1.1rem;
+    margin-top: 90px;
+}
+
+
+
+.image-two-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 1rem;
+}
+
+
+.image-two-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 0.9rem;
+    margin-top: 101px;
+}
+
+
+
+.image-three-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 1.1rem;
+}
+
+
+
+.image-three-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 0.9rem;
+    margin-top: 101px;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+.Contact-Container {
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--black);
+    height: 310px;
+}
+
+
+.Contact-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+}
+
+
+
+.Contact-Wrapper h3 {
+    font-size: 1.9rem;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    color:var(--white)
+}
+
+
+.Contact-Wrapper hr {
+    color:var(--green);
+    margin-top: -30px;
+}
+
+
+.contact-text-two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+}
+
+
+
+
+.Contact-Info-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+    gap:45px;
+    padding:3em
+    
+
+}
+
+
+.Contact-Info-Wrapper img {
+    width: 45px;
+    object-fit: contain;
+    background: transparent;
+}
+
+.contact-text-three h3 {
+    color:var(--white)
+}
+
+
+.contact-text-three span {
+    color:var(--white)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------FOOTER----------------------------*/
+.Footer-Container {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--white);
+    position: relative;
+    bottom: 0px;
+}
+
+
+.Footer-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.footer-content {
+   text-align: center;
+}
+
+
+.footer-content span {
+    color:var(--green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer-content:not(span) {
+    color:var(--black);
+    font-family: 'Times New Roman', Times, serif;
+}
