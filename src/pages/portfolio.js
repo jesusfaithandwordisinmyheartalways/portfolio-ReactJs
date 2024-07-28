@@ -22,6 +22,8 @@ import TravelLandPage from '../images/travel screenshot.png';
 import User from '../images/user icon icon.png';
 import Location from '../images/location.jpg';
 import Email from '../images/email.png';
+import RecipeSearchImage from '../images/receipesearch.png';
+import FigmaLogo from '../images/figmalogo.png';
 
 
 const Portfolio = () => {
@@ -107,7 +109,7 @@ const Portfolio = () => {
 
                             <div className="header-content">
                                 <div className="font-end"><div>FrontEnd Developer | UI/UX Designer</div></div>
-                                <div><div><h3>Hi, <img src={HandImage}></img> I'm Andrew Johnson, Recent College Graduate</h3></div></div>
+                                <div><div><h3>Hi, <img src={HandImage}></img> I'm Andrew Johnson, Frontend Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
                                    <div className="link"><a href="#contact">I Need a Website</a></div>
@@ -174,8 +176,8 @@ const Portfolio = () => {
                                    My focus is on creating dynamic friendly websites within an team and remain in the process to continue to improve
                                    my knowledge on the latest industry technologies. I have a drive to always want to improve myself as an developer
                                    with different programming languages & tools. Here, the portfolio showcases just some of 
-                                   the web applications developed by me and highlights my ability to deliver 
-                                   dynamic web apps for a company.  </div>
+                                   the web applications I have by me and highlights my ability to deliver 
+                                   dynamic web apps for a company. Please visit my Github or Linkedin image icon to see my craft.  </div>
                                 </div>
                             </div>
 
@@ -239,6 +241,8 @@ const Portfolio = () => {
 
                                         <img src={CSSLogo}></img>
 
+                                        <img src={FigmaLogo}></img>
+
                                         </div>
 
 
@@ -252,12 +256,11 @@ const Portfolio = () => {
                                    
                                    <div className="know-text">
                                         <div><h3>My Experience</h3></div>
-                                       <div><p>I'm an frontend developer college graduated
-                                        BS in Information Technology with an concentration in Software Engineering (2023).
-                                        I have motivation , driven to achieve results, team person, & on continually to improve 
-                                        my skills with different languages and the industry trend as a Frontend developer.
-                                        With firm knowledge on ReactJs framework, React Hooks,  JavaScript, Git version control, Regular expressions,
-                                        GitHub, CSS, CSS3, HTML5 a& Third Party APIs.  
+                                       <div><p>I'm an frontend developer and recent college graduated with an
+                                        BS in Information Technology that focus on a concentration in Software Engineering (2023).
+                                        I have motivation , driven to achieve results, project management, team person, & continually to stay up-to-date
+                                        on the latest technologies trends as an Frontend developer. With firm knowledge on ReactJs framework, Context API, React Hooks,  JavaScript, Git version control, Regular expressions,
+                                        GitHub, CSS, CSS3, HTML5 & Interface Design Tools with Figma.  I'm ready to contribute to your company to bring success. 
                                           </p></div>
                                    </div>
 
@@ -281,7 +284,7 @@ const Portfolio = () => {
                         <div className="Showcase-Wrapper">
 
                             <div>
-                                <div><h3>Some of My Projects</h3></div>
+                                <div><h3>Some of My Projects |  Click & See </h3></div>
                                     <hr />
                             </div>
 
@@ -293,23 +296,24 @@ const Portfolio = () => {
                         <div className="image-one" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
                             <div><img src={TravelLandPage}></img></div>
                             <div className="image-one-text"><div><h3>Travel Land ReactJs Web App</h3></div></div>
-                            <div className="image-one-text-two"><div><p>ReactJs | JavaScript | Animation</p></div></div>
+                            <div className="image-one-text-two"><div><p>ReactJs | JavaScript | Animation | Muti Page</p></div></div>
 
                         </div>
+
+
+                        <div className="image-three" onClick={() => handleExternalNavigation('https://culture-recipe-search.vercel.app/')}>
+                            <div><img src={RecipeSearchImage} className="image-recipe"></img></div>
+                            <div className="image-three-text"><div><h3>Recipe Culture Search Web App</h3></div></div>
+                            <div className="image-three-text-two"><div><h3>JavScript | Multi Page | Animation</h3></div></div>
+                        </div>
+
 
                         <div className="image-two" onClick={() => handleExternalNavigation('https://user-form-validation-react-js.vercel.app/')}>
                             <div><img src={UserForm}></img></div>
                             <div className="image-two-text"><div><h3>Form Validation App (Mobile,Tablet,Laptop)  </h3></div></div>
-                            <div className="image-two-text-two"><div><h3>ReactJS | JavaScript | User Error Handling </h3></div></div>
+                            <div className="image-two-text-two"><div><h3>ReactJS | JavaScript | Animation </h3></div></div>
                         </div>
 
-
-
-                        <div className="image-three" onClick={() => handleExternalNavigation('https://space-travel-react-js-indol.vercel.app/')}>
-                            <div><img src={Space}></img></div>
-                            <div className="image-three-text"><div><h3>Space Travel Web App</h3></div></div>
-                            <div className="image-three-text-two"><div><h3>ReactJs | VsCode | Animation</h3></div></div>
-                        </div>
 
 
 
@@ -337,7 +341,7 @@ const Portfolio = () => {
 
                             <div className="contact-text-two">
                                 <div>
-                                <div><h3>React Out to Me</h3></div>
+                                <div><h3>Reach Out to Me</h3></div>
                                 </div>
                             </div>
 
