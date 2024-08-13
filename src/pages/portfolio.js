@@ -25,7 +25,8 @@ import Email from '../images/email.png';
 import RecipeSearchImage from '../images/receipesearch.png';
 import FigmaLogo from '../images/figmalogo.png';
 import JSONImage from '../images/json.png';
-import GoToTech from '../images/go to tech screenshot.png'
+import GoToTech from '../images/go to tech screenshot.png';
+import TS from '../images/ts.png';
 
 
 const Portfolio = () => {
@@ -111,7 +112,7 @@ const Portfolio = () => {
 
                             <div className="header-content">
                                 <div className="font-end"><div>UI/UX Designer | Frontend Developer</div></div>
-                                <div className="font-end-text"><div><h3>Hi, <img src={HandImage}></img> I'm Andrew Johnson,      Frontend Developer</h3></div></div>
+                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson Front-End Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
                                    <div className="link"><a href="#contact">I Need a Website</a></div>
@@ -176,11 +177,11 @@ const Portfolio = () => {
                                    <div><h3>I'm Andrew & I love to develop websites</h3></div>
                                    <div>I'm an recent college graduated with an BS in Information Technology with an concentration in Software Engineering (2023).
                                     I have an passion for Front-End development & UI/UX design for webs apps, tablets  and mobile screens.
-                                   My focus is on creating dynamic friendly websites within an team and remain in the process to continue to improve
+                                   My focus is on creating dynamic and user-friendly websites within a team and continue to improve
                                    my knowledge on the latest industry technologies. I have a drive to always want to improve myself as an developer
-                                   with different programming languages & tools. Here, the portfolio showcases just some of 
-                                   the web applications I have by me and highlights my ability to deliver 
-                                   dynamic web apps for a company. Please visit my Github or Linkedin image icon to see my craft.  </div>
+                                   with different programming languages & tools. Here, my portfolio showcases just some of 
+                                   the web applications I have developed which highlights my ability to deliver 
+                                   dynamic web apps. Please visit my Github or Linkedin image icon to see my craft. </div>
                                 </div>
                             </div>
 
@@ -228,6 +229,9 @@ const Portfolio = () => {
                             <div className="image-wrapper">
 
                                     <div className="image-language">
+
+                                        <img src={TS}></img>
+
                                         <img src={ReactLogo}></img>
                                         <img src={JavaScript}></img>
 
@@ -248,6 +252,8 @@ const Portfolio = () => {
 
                                         <img src={JSONImage}></img>
 
+
+
                                         </div>
 
 
@@ -264,7 +270,7 @@ const Portfolio = () => {
                                        <div><p>I'm a frontend developer and recent college graduated that focus on designing dynamic websites. 
                                        I am motivated, love to learn from others,  driven to achieve results, well equip in a project management environment, team person, 
                                        & continually up to date on the latest technologies trends as a Frontend developer.
-                                        With knowledge & experience with ReactJS framework, Context API, React Hooks,
+                                        With knowledge & experience with TypeScript, ReactJS framework, Context API, React Hooks,
                                          Interface Design Tools with Figma, JavaScript, Git Version Control, GitHub, Regular expressions,
                                           & CSS, CSS3, HTML5. I'm ready to contribute to your company to bring success 
                                        in the UX/UI design aspect & to help clients to bring their website ideas to life’.

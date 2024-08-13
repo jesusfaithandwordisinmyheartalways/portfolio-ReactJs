@@ -58,8 +58,7 @@ body {
 .Nav-Container  {
     width: 100%;
     overflow: hidden;
-    background-color:black;
-    border-radius: 10px;
+    background-color:white;
     position: fixed;
     top:0px;
     z-index: 101;
@@ -86,7 +85,7 @@ body {
     font-size: 1.5rem;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
-    color:var(--white)
+    color:var(--dodgerBlue)
 }
 
 
@@ -104,7 +103,7 @@ body {
     border:none;
     outline: none;
     border-radius: none;
-    color:var(--white);
+    color:var(--black);
     background-color: transparent;
     font-size: 1.2rem;
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -121,7 +120,7 @@ body {
 
 
 .portfolio-inner-text {
-    color:var(--green)
+    color:var(--purpleColor)
 }
 
 
@@ -204,6 +203,16 @@ body {
 }
 
 
+.font-end {
+    position: relative;
+    top:0px;
+    left: 40px;
+}
+
+
+.font-end-text {
+    width: 510px;
+}
 
 
 
@@ -442,6 +451,7 @@ body {
     width: 145px;
     object-fit: contain;
     margin:0px 20px;
+    mix-blend-mode: normal;
 }
 
 
@@ -987,9 +997,20 @@ body {
 
 
 
+    .font-end {
+        margin-left: -65px;
+    }
+
+
      .font-end-text {
         font-size: 1.4rem;
+        width: 380px;
+        text-align: center;
+        margin-left: 25px;
+        
      }
+
+     
 
 
     .header-content {
