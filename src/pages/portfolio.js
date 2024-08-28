@@ -27,6 +27,7 @@ import FigmaLogo from '../images/figmalogo.png';
 import JSONImage from '../images/json.png';
 import GoToTech from '../images/go to tech screenshot.png';
 import TS from '../images/ts.png';
+import StockMarketScreenshot from '../images/screenshotstockmarket.png';
 
 
 const Portfolio = () => {
@@ -169,7 +170,6 @@ const Portfolio = () => {
 
 
                             <div className="about-me-content">
-                                <div><div><img src={Graduation}></img></div></div>
                             </div>
 
                             <div className="about-me-content-bio">
@@ -338,6 +338,15 @@ const Portfolio = () => {
                             <div className="image-four-text-two"><div><h3>ReactJS | JavaScript | Image Slideshow </h3></div></div>
                         </div>
 
+
+
+                        <div className="image-five" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
+                            <div><img src={StockMarketScreenshot}></img></div>
+                            <div className="image-five-text"><div><h3>Popular Stock Market Web App  </h3></div></div>
+                            <div className="image-five-text-three"><div><p>Responsive Web | Laptop | UX/UI Design</p></div></div>
+                            <div className="image-five-text-two"><div><h3> TypeScript| ReactJS | Animation </h3></div></div>
+
+                        </div>
 
 
 

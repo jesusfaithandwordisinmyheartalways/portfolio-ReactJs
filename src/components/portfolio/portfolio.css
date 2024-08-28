@@ -31,7 +31,6 @@ body {
     padding:0;
     margin:0;
     overflow-x: hidden;
-    transition: 7s ease
 }
 
 
@@ -139,9 +138,52 @@ body {
 .Header-Container {
     width: 100%;
     overflow: hidden;
-    background-color:var(--black);
+    background:url('/src/images/malibubackground.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
     height: 710px;
+    animation-name: headerContent;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transition: 10s linear;
+    
 }
+
+
+  @keyframes headerContent {
+    0% {
+        background:url(/src/images/malibubackground.jpg);
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        
+
+    }
+
+    50% {
+        background:url(/src/images/cannon-beach-oregon.jpg);
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+
+    }
+
+    100% {
+        background:url(/src/images/Oregon-Canon-Beach.png);
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        
+    }
+  }
 
 
 .Header-Wrapper {
@@ -186,11 +228,15 @@ body {
 
 
 
+
+
 .header-image img {
     width: 550px;
     object-fit: contain;
-    border-radius:60%
+    border-radius:60%;
 }
+
+
 
 
 .header-links-wrapper {
@@ -331,6 +377,51 @@ body {
 }
 
 
+.about-me-content {
+    background:url(/src/images/graduation\ image\ .jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 10% 70%;
+    width: 610px;
+    height: 310px;
+    animation-name: imageContent;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: 10s linear;
+
+
+}
+
+@keyframes imageContent {
+    0% {
+        background:url(/src/images/myself.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+
+    }
+
+    50% {
+        background:url(/src/images/graduation\ image\ .jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: 10% 70%;
+    }
+
+    100% {
+        background:url(/src/images/animation.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+    
+}
+
+
+
+
 .about-me-content img {
     width: 610px;
     object-fit: contain;
@@ -380,7 +471,21 @@ body {
     overflow: hidden;
     background-color:var(--black);
     height: 645px;
+    animation-name:techContainer;
+    animation-delay:0s;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    transition: 4s linear;
 }
+
+@keyframes techContainer {
+    0% {background-color:black}
+    100%{background-color:purple};
+}
+
+
 
 
 
@@ -620,9 +725,13 @@ body {
     background-color:rgba(0, 0, 0, 0.059);
 }
 
-.image-four:hover {
-    cursor: pointer;
+
+.image-five {
+    height: 410px;
+    background-color:rgba(248, 29, 29, 0.764);
 }
+
+
 
 
 
@@ -631,7 +740,9 @@ body {
 
 .image-one:hover,
 .image-two:hover,
-.image-three:hover {
+.image-three:hover,
+.image-four:hover,
+.image-five:hover {
     cursor: pointer;
 }
 
@@ -763,6 +874,54 @@ body {
 
 
 .image-four-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    color:var(--black);
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-five {
+    position: relative;
+    top:30px;
+    left: -30px;
+}
+
+
+.image-five-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+
+.image-five-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--white);
+    font-size: 1rem;
+}
+
+
+
+
+.image-five-text-three {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 400; 
     color:var(--black);
@@ -918,6 +1077,11 @@ body {
 
     @media screen and (min-width:320px) and (max-width:420px) {
 
+
+        body {
+            margin-block:-380px
+        }
+
         .Nav-Container  {
             width: 100%;
             overflow: hidden;
@@ -925,6 +1089,7 @@ body {
             border-radius: 0px;
             z-index: 101;
             position: relative;
+            visibility: hidden;
             
         }
 
@@ -1172,7 +1337,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--white);
-        height: 2000px;
+        height: 2350px;
         text-align: center;
     }
     
@@ -1250,6 +1415,19 @@ body {
     left: 0px;
 }
 
+
+.image-five {
+    position: relative;
+    top:30px;
+    left: 0px;
+
+}
+
+
+
+
+
+
 .Contact-Container {
     width: 100%;
     overflow: hidden;
@@ -1305,15 +1483,5 @@ body {
 
 
     
-
-
-   
-
-
-
-
-
-
-        
 
     }
