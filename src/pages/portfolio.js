@@ -28,6 +28,7 @@ import JSONImage from '../images/json.png';
 import GoToTech from '../images/go to tech screenshot.png';
 import TS from '../images/ts.png';
 import StockMarketScreenshot from '../images/screenshotstockmarket.png';
+import weatherappimage from '../images/weather app screenshot.png'
 
 
 const Portfolio = () => {
@@ -335,7 +336,7 @@ const Portfolio = () => {
                             <div><img src={GoToTech}></img></div>
                             <div className="image-four-text"><div><h3>E-Commerce Product Page Web App  </h3></div></div>
                             <div className="image-four-text-three"><div><p>Responsive Web | Mobile, Laptop | UX/UI Design</p></div></div>
-                            <div className="image-four-text-two"><div><h3>ReactJS | JavaScript | Image Slideshow </h3></div></div>
+                            <div className="image-four-text-two"><div><h3>ReactJS | JSON | Image Slideshow </h3></div></div>
                         </div>
 
 
@@ -344,9 +345,22 @@ const Portfolio = () => {
                             <div><img src={StockMarketScreenshot}></img></div>
                             <div className="image-five-text"><div><h3>Popular Stock Market Web App  </h3></div></div>
                             <div className="image-five-text-three"><div><p>Responsive Web | Laptop | UX/UI Design</p></div></div>
-                            <div className="image-five-text-two"><div><h3> TypeScript| ReactJS | Animation </h3></div></div>
+                            <div className="image-five-text-two"><div><h3> TypeScript| JSON | Animation </h3></div></div>
 
                         </div>
+
+
+
+                        <div className="image-six" onClick={() => handleExternalNavigation('https://weatherdataapp-typescript.vercel.app/')}>
+                            <div><img src={weatherappimage}></img></div>
+                            <div className="image-six-text"><div><h3>Weather Data App Web App  </h3></div></div>
+                            <div className="image-six-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
+                            <div className="image-six-text-two"><div><h3> TypeScript| JSON | Fetch API </h3></div></div>
+
+                        </div>
+
+
+
 
 
 

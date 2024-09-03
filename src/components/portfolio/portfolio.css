@@ -610,7 +610,7 @@ body {
 .Showcase-Container {
     width: 100%;
     overflow: hidden;
-    background-color:var(--white);
+    background-color:var(--whitesmoke);
     height: 1040px;
 }
 
@@ -690,6 +690,23 @@ body {
 }
 
 
+.image-five:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+.image-six:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+
+
+
+
+
 
 
 
@@ -733,6 +750,12 @@ body {
 
 
 
+.image-six {
+    height: 410px;
+    background-color:rgba(29, 248, 55, 0.764);
+}
+
+
 
 
 
@@ -742,7 +765,8 @@ body {
 .image-two:hover,
 .image-three:hover,
 .image-four:hover,
-.image-five:hover {
+.image-five:hover,
+.image-six:hover {
     cursor: pointer;
 }
 
@@ -849,7 +873,7 @@ body {
 .image-four {
     position: relative;
     top:30px;
-    left: -30px;
+    left: -3px;
 }
 
 
@@ -897,7 +921,7 @@ body {
 .image-five {
     position: relative;
     top:30px;
-    left: -30px;
+    left: -15px;
 }
 
 
@@ -929,6 +953,46 @@ body {
     margin-top: 35px;
 }
 
+
+
+
+
+
+
+.image-six {
+    position: relative;
+    top:30px;
+    left: -3px;
+}
+
+
+.image-six-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+
+.image-six-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--black);
+    font-size: 1rem;
+}
+
+
+
+
+.image-six-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    color:var(--black);
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
 
 
 
@@ -1337,7 +1401,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--white);
-        height: 2350px;
+        height: 2800px;
         text-align: center;
     }
     
@@ -1417,6 +1481,14 @@ body {
 
 
 .image-five {
+    position: relative;
+    top:30px;
+    left: 0px;
+
+}
+
+
+.image-six {
     position: relative;
     top:30px;
     left: 0px;
