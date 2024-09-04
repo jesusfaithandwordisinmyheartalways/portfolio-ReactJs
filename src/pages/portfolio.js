@@ -355,7 +355,7 @@ const Portfolio = () => {
                             <div><img src={weatherappimage}></img></div>
                             <div className="image-six-text"><div><h3>Weather Data App Web App  </h3></div></div>
                             <div className="image-six-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
-                            <div className="image-six-text-two"><div><h3> TypeScript| JSON | Fetch API </h3></div></div>
+                            <div className="image-six-text-two"><div><h3> TypeScript| ReactJS | Fetch API </h3></div></div>
 
                         </div>
 
