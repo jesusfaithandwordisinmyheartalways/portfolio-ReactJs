@@ -32,8 +32,7 @@ import weatherappimage from '../images/weather app screenshot.png'
 import ExpressJs from '../images/expressjs.png';
 import NodeJs from '../images/nodejs logo.png'
 import BeverageMarketplace from '../images/beveragemarketplacefront.png'
-
-
+import Doctor from '../images/doctor.png'
 
 const Portfolio = () => {
     const navigate = useNavigate()
@@ -373,10 +372,21 @@ const Portfolio = () => {
                         <div className="image-seven" onClick={() => handleExternalNavigation('https://fullstackapp-beveragemarketplace.vercel.app/')}>
                             <div><img src={BeverageMarketplace}></img></div>
                             <div className="image-seven-text"><div><h3>Expressjs DrinkCompany LandPage w User Form</h3></div></div>
-                            <div className="image-seven-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
-                            <div className="image-seven-text-two"><div><h3> Expressjs| Nodejs | TypeScript </h3></div></div>
+                            <div className="image-seven-text-three"><div><p>Responsive Web | UX/UI Design</p></div></div>
+                            <div className="image-seven-text-two"><div><h3> Express | Nodejs | TypeScript </h3></div></div>
 
                         </div>
+
+
+
+                        <div className="image-eight" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
+                            <div><img src={Doctor}></img></div>
+                            <div className="image-eight-text"><div><h3>Doctor LandPage & Welcome Page</h3></div></div>
+                            <div className="image-eight-text-three"><div><p>Responsive Web | UX/UI Design</p></div></div>
+                            <div className="image-eight-text-two"><div><h3> Nodejs | Express | TypeScript </h3></div></div>
+
+                        </div>
+
 
 
 

@@ -764,6 +764,14 @@ body {
 
 
 
+.image-eight {
+    height: 410px;
+    background-color:rgba(7, 26, 238, 0.764);
+}
+
+
+
+
 
 
 .image-one:hover,
@@ -772,7 +780,8 @@ body {
 .image-four:hover,
 .image-five:hover,
 .image-six:hover,
-.image-seven:hover {
+.image-seven:hover ,
+.image-eight:hover{
     cursor: pointer;
 }
 
@@ -1009,7 +1018,15 @@ body {
 .image-seven {
     position: relative;
     top:80px;
-    right:450px;
+    right:50px;
+}
+
+
+
+.image-eight {
+    position: relative;
+    top:80px;
+    right:45px;
 }
 
 
@@ -1047,6 +1064,42 @@ body {
 
 
     
+
+
+.image-eight-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:white; 
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+
+.image-eight-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:white; 
+    font-size: 1rem;
+}
+
+
+
+
+.image-eight-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color:white; 
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1450,7 +1503,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--white);
-        height: 2800px;
+        height: 3800px;
         text-align: center;
     }
     
@@ -1532,7 +1585,7 @@ body {
 .image-five {
     position: relative;
     top:30px;
-    left: 0px;
+    left: 3px;
 
 }
 
@@ -1540,7 +1593,7 @@ body {
 .image-six {
     position: relative;
     top:30px;
-    left: 0px;
+    left: -20px;
 
 }
 
@@ -1550,6 +1603,15 @@ body {
     position: relative;
     top:30px;
     left: 0px;
+
+}
+
+
+
+.image-eight {
+    position: relative;
+    top:30px;
+    left: -20px;
 
 }
 
