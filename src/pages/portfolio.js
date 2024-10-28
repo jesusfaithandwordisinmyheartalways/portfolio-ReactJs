@@ -29,6 +29,10 @@ import GoToTech from '../images/go to tech screenshot.png';
 import TS from '../images/ts.png';
 import StockMarketScreenshot from '../images/screenshotstockmarket.png';
 import weatherappimage from '../images/weather app screenshot.png'
+import ExpressJs from '../images/expressjs.png';
+import NodeJs from '../images/nodejs logo.png'
+import BeverageMarketplace from '../images/beveragemarketplacefront.png'
+
 
 
 const Portfolio = () => {
@@ -83,7 +87,7 @@ const Portfolio = () => {
                         
                     <div className="nav-button-content"> 
                     <div className="navbar-content">
-                      <div onClick={() => NavigateTo('showcase')}><button type="button">Projects</button></div>
+                      <div onClick={() => NavigateTo('showcase')}><button type="button">Live Projects</button></div>
                     </div>
                     </div>   
 
@@ -113,12 +117,12 @@ const Portfolio = () => {
                             <div className="Header-Wrapper">
 
                             <div className="header-content">
-                                <div className="font-end"><div>UI/UX Designer | Frontend Developer</div></div>
-                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson Front-End Developer</h3></div></div>
+                                <div className="font-end"><div>Web Developer</div></div>
+                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson, Web Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
-                                   <div className="link"><a href="#contact">I Need a Website</a></div>
-                                   <div className="link-two"><a href="https://www.linkedin.com/in/andrew-johnson-64632199/" target="_blank">Want to hire</a></div>
+                                   <div className="link"><a href="#contact"> Need a Website</a></div>
+                                   <div className="link-two"><a href="https://www.linkedin.com/in/andrew-johnson-64632199/" target="_blank">We Want To Hire</a></div>
                                    
                                  </div>
 
@@ -177,7 +181,7 @@ const Portfolio = () => {
                                 <div>
                                    <div><h3>I'm Andrew & I love to develop websites</h3></div>
                                    <div>I'm an recent college graduated with an BS in Information Technology with an concentration in Software Engineering (2023).
-                                    I have an passion for Front-End development & UI/UX design for webs apps, tablets  and mobile screens.
+                                    I have an passion for Front-End & Back-End development & UI/UX design for webs apps, tablets and mobile screens.
                                    My focus is on creating dynamic and user-friendly websites within a team and continue to improve
                                    my knowledge on the latest industry technologies. I have a drive to always want to improve myself as an developer
                                    with different programming languages & tools. Here, my portfolio showcases just some of 
@@ -252,7 +256,11 @@ const Portfolio = () => {
                                         <img src={FigmaLogo}></img>
 
                                         <img src={JSONImage}></img>
-
+                                        
+                                        <img src={ExpressJs}></img>
+                                        
+                                        
+                                        <img src={NodeJs}></img>
 
 
                                         </div>
@@ -268,13 +276,15 @@ const Portfolio = () => {
                                    
                                    <div className="know-text">
                                         <div><h3>My Experience</h3></div>
-                                       <div><p>I'm a frontend developer and recent college graduated that focus on designing dynamic websites. 
-                                       I am motivated, love to learn from others,  driven to achieve results, well equip in a project management environment, team person, 
-                                       & continually up to date on the latest technologies trends as a Frontend developer.
+                                       <div><p>Experienced in developing projects with a wide range of technologies of user-friendly & lively applications.
+                                        Motivated, love to learn from others, driven to achieve results, well equip in a project management environment, 
+                                        team person, & continually up to date on the latest technologies trends as a Web Developer.
+                                       Solid experience in Express.js and Node.js, proficient in building RESTful APIs 
+                                       for handling back-end server logic and data management.
                                         With knowledge & experience with TypeScript, ReactJS framework, Context API, React Hooks,
                                          Interface Design Tools with Figma, JavaScript, Git Version Control, GitHub, Regular expressions,
                                           & CSS, CSS3, HTML5. I'm ready to contribute to your company to bring success 
-                                       in the UX/UI design aspect & to help clients to bring their website ideas to life’.
+                                       in the UX/UI design aspect & to help clients to bring their website ideas to life.
                                           </p></div>
                                    </div>
 
@@ -353,9 +363,18 @@ const Portfolio = () => {
 
                         <div className="image-six" onClick={() => handleExternalNavigation('https://weatherdataapp-typescript.vercel.app/')}>
                             <div><img src={weatherappimage}></img></div>
-                            <div className="image-six-text"><div><h3>Weather Data App Web App  </h3></div></div>
+                            <div className="image-six-text"><div><h3>Weather Data Web App  </h3></div></div>
                             <div className="image-six-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
                             <div className="image-six-text-two"><div><h3> TypeScript| ReactJS | Fetch API </h3></div></div>
+
+                        </div>
+
+
+                        <div className="image-seven" onClick={() => handleExternalNavigation('https://fullstackapp-beveragemarketplace.vercel.app/')}>
+                            <div><img src={BeverageMarketplace}></img></div>
+                            <div className="image-seven-text"><div><h3>Expressjs DrinkCompany LandPage w User Form</h3></div></div>
+                            <div className="image-seven-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
+                            <div className="image-seven-text-two"><div><h3> Expressjs| Nodejs | TypeScript </h3></div></div>
 
                         </div>
 

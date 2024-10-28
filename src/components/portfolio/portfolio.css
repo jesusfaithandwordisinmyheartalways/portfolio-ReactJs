@@ -470,7 +470,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--black);
-    height: 645px;
+    height: 740px;
     animation-name:techContainer;
     animation-delay:0s;
     animation-duration:4s;
@@ -611,7 +611,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--whitesmoke);
-    height: 1040px;
+    height: 1550px;
 }
 
 
@@ -756,6 +756,11 @@ body {
 }
 
 
+.image-seven {
+    height: 410px;
+    background-color:rgba(238, 227, 7, 0.764);
+}
+
 
 
 
@@ -766,7 +771,8 @@ body {
 .image-three:hover,
 .image-four:hover,
 .image-five:hover,
-.image-six:hover {
+.image-six:hover,
+.image-seven:hover {
     cursor: pointer;
 }
 
@@ -994,6 +1000,49 @@ body {
     margin-top: 35px;
 }
 
+
+
+
+
+
+
+.image-seven {
+    position: relative;
+    top:80px;
+    right:450px;
+}
+
+
+
+
+
+.image-seven-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+
+.image-seven-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:var(--black);
+    font-size: 1rem;
+}
+
+
+
+
+.image-seven-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    color:var(--black);
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
 
 
 
@@ -1489,6 +1538,15 @@ body {
 
 
 .image-six {
+    position: relative;
+    top:30px;
+    left: 0px;
+
+}
+
+
+
+.image-seven {
     position: relative;
     top:30px;
     left: 0px;
