@@ -611,7 +611,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--whitesmoke);
-    height: 1550px;
+    height: 1650px;
 }
 
 
@@ -769,6 +769,12 @@ body {
     background-color:rgba(7, 26, 238, 0.764);
 }
 
+.image-nine {
+    height: 410px;
+    background-color:pink
+}
+
+
 
 
 
@@ -781,7 +787,8 @@ body {
 .image-five:hover,
 .image-six:hover,
 .image-seven:hover ,
-.image-eight:hover{
+.image-eight:hover,
+.image-nine:hover{
     cursor: pointer;
 }
 
@@ -1018,7 +1025,7 @@ body {
 .image-seven {
     position: relative;
     top:80px;
-    right:50px;
+    right:14px;
 }
 
 
@@ -1026,7 +1033,7 @@ body {
 .image-eight {
     position: relative;
     top:80px;
-    right:45px;
+    right:15px;
 }
 
 
@@ -1066,6 +1073,9 @@ body {
     
 
 
+
+
+
 .image-eight-text-two {
     font-family: "Antic Didone", serif;
     font-weight: 400; 
@@ -1097,6 +1107,42 @@ body {
 
 
 
+
+.image-nine {
+    position: relative;
+    top:78px;
+    left: -10px;
+}
+
+
+
+.image-nine-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+
+
+.image-nine-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:black;
+    font-size: 1rem;
+}
+
+
+
+
+.image-nine-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
 
 
 
@@ -1461,7 +1507,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--black);
-        height: 1080px;
+        height: 1180px;
     }
 
 
@@ -1503,7 +1549,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--white);
-        height: 3800px;
+        height: 4200px;
         text-align: center;
     }
     

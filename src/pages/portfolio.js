@@ -33,6 +33,8 @@ import ExpressJs from '../images/expressjs.png';
 import NodeJs from '../images/nodejs logo.png'
 import BeverageMarketplace from '../images/beveragemarketplacefront.png'
 import Doctor from '../images/doctor.png'
+import SaasLogo from '../images/SaaS.png';
+import NodeMailerScreenshot from '../images/nodemailerSaaSscreenshot.png'
 
 const Portfolio = () => {
     const navigate = useNavigate()
@@ -237,16 +239,21 @@ const Portfolio = () => {
                                         <img src={TS}></img>
 
                                         <img src={ReactLogo}></img>
+
+                                        <img src={ExpressJs}></img>
+                                        
+                                        
+                                        <img src={NodeJs}></img>
+
                                         <img src={JavaScript}></img>
+
+                                        <img src={SaasLogo}></img>
 
                                         <img src={GitLogo}></img>
 
                                         <img src={GitHub}></img>
 
                                         <img src={RegexLogo}></img>
-
-                                        <img src={UXUILogo}></img>
-
 
                                         <img src={HTML}></img>
 
@@ -255,11 +262,7 @@ const Portfolio = () => {
                                         <img src={FigmaLogo}></img>
 
                                         <img src={JSONImage}></img>
-                                        
-                                        <img src={ExpressJs}></img>
-                                        
-                                        
-                                        <img src={NodeJs}></img>
+
 
 
                                         </div>
@@ -282,7 +285,7 @@ const Portfolio = () => {
                                        for handling back-end server logic and data management.
                                         With knowledge & experience with TypeScript, ReactJS framework, Context API, React Hooks,
                                          Interface Design Tools with Figma, JavaScript, Git Version Control, GitHub, Regular expressions,
-                                          & CSS, CSS3, HTML5. I'm ready to contribute to your company to bring success 
+                                          SaaS style sheets, CSS, CSS3, HTML5. I'm ready to contribute to your company to bring success 
                                        in the UX/UI design aspect & to help clients to bring their website ideas to life.
                                           </p></div>
                                    </div>
@@ -386,6 +389,18 @@ const Portfolio = () => {
                             <div className="image-eight-text-two"><div><h3> Nodejs | Express | TypeScript </h3></div></div>
 
                         </div>
+
+
+                        <div className="image-nine" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>
+                            <div><img src={NodeMailerScreenshot}></img></div>
+                            <div className="image-nine-text"><div><h3>Nodemailer Express Web App</h3></div></div>
+                            <div className="image-nine-text-three"><div><p>Responsive Web | Mobile Screen Design</p></div></div>
+                            <div className="image-nine-text-two"><div><h3> SaaS | Express | Background Animation </h3></div></div>
+
+                        </div>
+
+
+
 
 
 
