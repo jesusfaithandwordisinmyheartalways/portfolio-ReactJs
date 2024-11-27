@@ -611,7 +611,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--whitesmoke);
-    height: 1650px;
+    height: 1940px;
 }
 
 
@@ -775,6 +775,13 @@ body {
 }
 
 
+.image-ten {
+    height: 410px;
+    background-color:black
+}
+
+
+
 
 
 
@@ -788,7 +795,8 @@ body {
 .image-six:hover,
 .image-seven:hover ,
 .image-eight:hover,
-.image-nine:hover{
+.image-nine:hover,
+.image-ten:hover{
     cursor: pointer;
 }
 
@@ -1143,6 +1151,52 @@ body {
     font-size: 0.9rem;
     margin-top: 35px;
 }
+
+
+
+
+
+
+
+.image-ten {
+    position: relative;
+    top:101px;
+    left: 30px;
+}
+
+
+.image-ten img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.image-ten-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 800; 
+    color:rgb(115, 115, 217);
+    font-size: 1.2rem;
+}
+
+
+.image-ten-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:rgb(115, 115, 217);
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+
+.image-ten-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    color:rgb(115, 115, 217);
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+
+
 
 
 

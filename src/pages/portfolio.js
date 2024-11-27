@@ -35,6 +35,9 @@ import BeverageMarketplace from '../images/beveragemarketplacefront.png'
 import Doctor from '../images/doctor.png'
 import SaasLogo from '../images/SaaS.png';
 import NodeMailerScreenshot from '../images/nodemailerSaaSscreenshot.png'
+import ReactNativeCal  from '../images/ reactnavtivecalculator.png';
+import ReactNativeLogo  from '../images/reactnativelogo.png';
+
 
 const Portfolio = () => {
     const navigate = useNavigate()
@@ -240,6 +243,9 @@ const Portfolio = () => {
 
                                         <img src={ReactLogo}></img>
 
+                                        <img src={ReactNativeLogo}></img>
+
+
                                         <img src={ExpressJs}></img>
                                         
                                         
@@ -398,6 +404,17 @@ const Portfolio = () => {
                             <div className="image-nine-text-two"><div><h3> SaaS | Express | Background Animation </h3></div></div>
 
                         </div>
+
+
+
+                        <div className="image-ten" onClick={() => handleExternalNavigation('https://usercalculator-reactnative.vercel.app/')}>
+                            <div><img src={ReactNativeCal}></img></div>
+                            <div className="image-ten-text"><div><h3>React Native Calculator Mobile App</h3></div></div>
+                            <div className="image-ten-text-three"><div><p>Responsive App | Mobile Screen Design</p></div></div>
+                            <div className="image-ten-text-two"><div><h3> React Native | TouchableOpacity | StyleSheet </h3></div></div>
+
+                        </div>
+
 
 
 
