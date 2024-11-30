@@ -35,7 +35,7 @@ import BeverageMarketplace from '../images/beveragemarketplacefront.png'
 import Doctor from '../images/doctor.png'
 import SaasLogo from '../images/SaaS.png';
 import NodeMailerScreenshot from '../images/nodemailerSaaSscreenshot.png'
-import ReactNativeCal  from '../images/ reactnavtivecalculator.png';
+import ReactNativeCal  from '../images/ UserReactNativeCalculator.png';
 import ReactNativeLogo  from '../images/reactnativelogo.png';
 
 
@@ -407,7 +407,7 @@ const Portfolio = () => {
 
 
 
-                        <div className="image-ten" onClick={() => handleExternalNavigation('https://usercalculator-reactnative.vercel.app/')}>
+                        <div className="image-ten" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
                             <div><img src={ReactNativeCal}></img></div>
                             <div className="image-ten-text"><div><h3>React Native Calculator Mobile App</h3></div></div>
                             <div className="image-ten-text-three"><div><p>Responsive App | Mobile Screen Design</p></div></div>
