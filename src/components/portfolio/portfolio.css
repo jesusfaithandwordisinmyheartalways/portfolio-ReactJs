@@ -1603,7 +1603,7 @@ body {
         width: 100%;
         overflow: hidden;
         background-color:var(--white);
-        height: 4200px;
+        height: 4700px;
         text-align: center;
     }
     
@@ -1654,9 +1654,27 @@ body {
     height: 410px;
 }
 
+.image-one {
+    position: relative;
+    top:30px;
+    left: -20px;
+
+}
+
+
+
+
 .image-two {
     height: 410px;
     background-color:var(--purpleColor)
+}
+
+
+.image-two {
+    position: relative;
+    top:30px;
+    left: -20px;
+
 }
 
 
@@ -1668,6 +1686,14 @@ body {
 
 }
 
+.image-three {
+    position: relative;
+    top:30px;
+    left: -20px;
+
+}
+
+
 
 .image-four {
     height: 410px;
@@ -1678,14 +1704,14 @@ body {
 .image-four {
     position: relative;
     top:30px;
-    left: 0px;
+    left: -20px;
 }
 
 
 .image-five {
     position: relative;
     top:30px;
-    left: 3px;
+    left: -20px;
 
 }
 
@@ -1714,6 +1740,24 @@ body {
     left: -20px;
 
 }
+
+
+.image-nine {
+    position: relative;
+    top:30px;
+    left: -20px;
+
+}
+
+
+
+.image-ten {
+    position: relative;
+    top:30px;
+    left: -20px;
+
+}
+
 
 
 
