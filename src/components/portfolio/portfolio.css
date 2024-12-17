@@ -249,6 +249,30 @@ body {
 }
 
 
+
+
+
+.header-links-wrapper button.resume {
+    border:none;
+    outline: none;
+    background:orange;
+    color:white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding:0.9em 2em;
+    text-align: center;
+}
+
+
+.header-links-wrapper button.resume:hover {
+    background:greenyellow
+}
+
+
+
+
+
 .font-end {
     position: relative;
     top:0px;
@@ -262,41 +286,28 @@ body {
 
 
 
-.link a {
-    width: 410px;
-    background-color:var(--green);
+ .header-links-wrapper button.hire {
+    background-color:var(--black);
     color:var(--white);
     font-size: 1rem;
     text-decoration: none;
-    padding:0.8em 1em;
     border-radius:10px;
     font-family: "Patua One", serif;
     font-weight: 400;
-}
-
-.link-two a {
-    width: 410px;
-    font-size: 1rem;
-    text-decoration: none;
-    background-color:var(--green);
-    color:var(--white);
-    padding:0.8em 1em;
-    border-radius:10px;
-    font-family: "Patua One", serif;
-    font-weight: 400;
+    border:none;
+    outline: none;
+    padding:0.8em 2em;
+    cursor: pointer;
     
 }
 
 
-.link-two a:hover {
-    background-color:var(--whitesmoke);
-    color:var(--green);
+
+
+.header-links-wrapper button.hire:hover {
+    background:greenyellow
 }
 
-.link a:hover {
-    background-color:var(--whitesmoke);
-    color:var(--green);
-}
 
 
 
@@ -470,7 +481,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--black);
-    height: 740px;
+    height: 810px;
     animation-name:techContainer;
     animation-delay:0s;
     animation-duration:4s;
@@ -724,8 +735,16 @@ body {
 
 .image-two {
     height: 410px;
-    background-color:var(--purpleColor)
+    background-color:var(--purpleColor);
+    
 }
+
+
+.image-two img {
+    object-fit: cover;
+    width: 400px;
+}
+
 
 
 

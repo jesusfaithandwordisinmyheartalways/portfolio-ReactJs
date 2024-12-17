@@ -37,6 +37,9 @@ import SaasLogo from '../images/SaaS.png';
 import NodeMailerScreenshot from '../images/nodemailerSaaSscreenshot.png'
 import ReactNativeCal  from '../images/ UserReactNativeCalculator.png';
 import ReactNativeLogo  from '../images/reactnativelogo.png';
+import ShoeEcommerce from '../images/shoeecommmercehomepageshort.png'
+import MongoDB from '../images/mongo db.png'
+
 
 
 const Portfolio = () => {
@@ -49,6 +52,28 @@ const Portfolio = () => {
             element.scrollIntoView({behavior: 'smooth'})
         }
     }
+
+
+
+         const Hire  = () => { 
+            window.location.href = 'https://www.linkedin.com/in/andrew-johnson-64632199/'
+            
+         }
+
+
+
+   
+        const ResumeDownload = () => {
+                window.location.href = '/resume.pdf'
+
+        }
+
+
+        
+
+
+
+
 
 
         const handleExternalNavigation = (url) => {
@@ -121,12 +146,11 @@ const Portfolio = () => {
                             <div className="Header-Wrapper">
 
                             <div className="header-content">
-                                <div className="font-end"><div>Web Developer</div></div>
-                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson, Web Developer</h3></div></div>
+                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson, I'm a Full Stack Web Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
-                                   <div className="link"><a href="#contact"> Need a Website</a></div>
-                                   <div className="link-two"><a href="https://www.linkedin.com/in/andrew-johnson-64632199/" target="_blank">We Want To Hire</a></div>
+                                   <div onClick={Hire} className="hire"><div><button className="hire">Hire Andrew</button></div></div>
+                                   <div onClick={ResumeDownload}><div><button  className="resume" >Download Resume</button></div></div>
                                    
                                  </div>
 
@@ -141,7 +165,7 @@ const Portfolio = () => {
 
 
                             <div className="header-image">
-                                <img src={HeaderImage}></img>
+                                <img src={HeaderImage} alt=""></img>
                             </div>
 
 
@@ -239,35 +263,37 @@ const Portfolio = () => {
 
                                     <div className="image-language">
 
-                                        <img src={TS}></img>
+                                        <img src={TS} alt=""></img>
 
-                                        <img src={ReactLogo}></img>
+                                        <img src={ReactLogo} alt=""></img>
 
-                                        <img src={ReactNativeLogo}></img>
+                                        <img src={ReactNativeLogo} alt=""></img>
+
+                                        <img src={MongoDB} alt=""></img>
 
 
-                                        <img src={ExpressJs}></img>
+                                        <img src={ExpressJs} alt=""></img>
                                         
                                         
-                                        <img src={NodeJs}></img>
+                                        <img src={NodeJs} alt=""></img>
 
-                                        <img src={JavaScript}></img>
+                                        <img src={JavaScript} alt=""></img>
 
-                                        <img src={SaasLogo}></img>
+                                        <img src={SaasLogo} alt=""></img>
 
-                                        <img src={GitLogo}></img>
+                                        <img src={GitLogo} alt=""></img>
 
-                                        <img src={GitHub}></img>
+                                        <img src={GitHub} alt=""></img>
 
-                                        <img src={RegexLogo}></img>
+                                        <img src={RegexLogo} alt=""></img>
 
-                                        <img src={HTML}></img>
+                                        <img src={HTML } alt=""></img>
 
-                                        <img src={CSSLogo}></img>
+                                        <img src={CSSLogo} alt=""></img>
 
-                                        <img src={FigmaLogo}></img>
+                                        <img src={FigmaLogo} alt=""></img>
 
-                                        <img src={JSONImage}></img>
+                                        <img src={JSONImage} alt=""></img>
 
 
 
@@ -342,11 +368,11 @@ const Portfolio = () => {
                         </div>
 
 
-                        <div className="image-two" onClick={() => handleExternalNavigation('https://user-form-validation-react-js.vercel.app/')}>
-                            <div><img src={UserForm}></img></div>
-                            <div className="image-two-text"><div><h3>User Form Validation App  </h3></div></div>
-                            <div className="image-two-text-three"><div><p>Responsive Web | Mobile, Tablet, Laptop | UX/UI Design</p></div></div>
-                            <div className="image-two-text-two"><div><h3>ReactJS | JavaScript | Animation </h3></div></div>
+                        <div className="image-two" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7274752334604222464/')}>
+                            <div><img src={ShoeEcommerce} alt=""></img></div>
+                            <div className="image-two-text"><div><h3>MERN Shoe Ecommerce Web App  </h3></div></div>
+                            <div className="image-two-text-three"><div><p>Responsive Web | User Validation | UX/UI Design</p></div></div>
+                            <div className="image-two-text-two"><div><h3>MongoDB | Context API | Nodejs </h3></div></div>
                         </div>
 
 
