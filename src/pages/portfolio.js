@@ -39,6 +39,10 @@ import ReactNativeCal  from '../images/ UserReactNativeCalculator.png';
 import ReactNativeLogo  from '../images/reactnativelogo.png';
 import ShoeEcommerce from '../images/shoeecommmercehomepageshort.png'
 import MongoDB from '../images/mongo db.png'
+import ChatApp from '../images/websocket React App.png'
+import WebSocket from '../images/websocket.png'
+
+
 
 
 
@@ -149,7 +153,7 @@ const Portfolio = () => {
                                 <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson, I'm a Full Stack Web Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
-                                   <div onClick={Hire} className="hire"><div><button className="hire">Hire Andrew</button></div></div>
+                                   <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
                                    <div onClick={ResumeDownload}><div><button  className="resume" >Download Resume</button></div></div>
                                    
                                  </div>
@@ -294,6 +298,8 @@ const Portfolio = () => {
                                         <img src={FigmaLogo} alt=""></img>
 
                                         <img src={JSONImage} alt=""></img>
+
+                                        <img src={WebSocket} alt=""></img>
 
 
 
@@ -441,6 +447,16 @@ const Portfolio = () => {
 
                         </div>
 
+
+
+
+                        <div className="image-eleven" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
+                            <div><img src={ChatApp}></img></div>
+                            <div className="image-eleven-text"><div><h3>WebSocket Chat App - Full Stack</h3></div></div>
+                            <div className="image-eleven-text-three"><div><p>Responsive App | Laptop Screen Design</p></div></div>
+                            <div className="image-eleven-text-two"><div><h3> Socket.io Library | Nodejs | Reactjs </h3></div></div>
+
+                        </div>
 
 
 

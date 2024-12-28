@@ -622,7 +622,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--whitesmoke);
-    height: 1940px;
+    height: 2019px;
 }
 
 
@@ -713,6 +713,44 @@ body {
 }
 
 
+.image-six:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+
+.image-seven:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+
+
+.image-eight:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+.image-nine:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+.image-ten:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
+
+.image-eleven:hover {
+    transform: scale(1.1, 1);
+    transition: 3s linear;
+}
+
 
 
 
@@ -800,6 +838,12 @@ body {
 }
 
 
+.image-eleven {
+    height: 410px;
+    background-color:goldenrod
+}
+
+
 
 
 
@@ -815,7 +859,8 @@ body {
 .image-seven:hover ,
 .image-eight:hover,
 .image-nine:hover,
-.image-ten:hover{
+.image-ten:hover,
+.image-eleven:hover{
     cursor: pointer;
 }
 
@@ -1213,6 +1258,70 @@ body {
     font-size: 1rem;
     margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-eleven {
+    position: relative;
+    top:101px;
+    left: 30px;
+}
+
+
+.image-eleven  img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.image-eleven-text {
+    font-family: "Antic Didone", serif;
+    font-weight: 800; 
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+
+
+.image-eleven-text-two {
+    font-family: "Antic Didone", serif;
+    font-weight: 400; 
+    color:whitesmoke;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+
+.image-eleven-text-three {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400; 
+    color:whitesmoke;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
