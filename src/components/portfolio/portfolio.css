@@ -129,16 +129,12 @@ body {
 
 
 
-
-
-
 /*------------------------------------HEADER--------------------------------------------------*/
-
 
 .Header-Container {
     width: 100%;
     overflow: hidden;
-    background:url('/src/images/malibubackground.jpg');
+    background: url('/src/images/malibubackground.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,69 +147,61 @@ body {
     animation-iteration-count: infinite;
     animation-direction: normal;
     transition: 10s linear;
-    
 }
 
-
-  @keyframes headerContent {
+/* Keyframes for the background animation */
+@keyframes headerContent {
     0% {
-        background:url(/src/images/malibubackground.jpg);
+        background: url(/src/images/malibubackground.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;
-        
-
     }
-
     50% {
-        background:url(/src/images/cannon-beach-oregon.jpg);
+        background: url(/src/images/cannon-beach-oregon.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;
-
     }
-
     100% {
-        background:url(/src/images/Oregon-Canon-Beach.png);
+        background: url(/src/images/Oregon-Canon-Beach.png);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;
-        
     }
-  }
+}
 
-
+/* Wrapper for the header content */
 .Header-Wrapper {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     max-width: 1800px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     margin-top: 110px;
 }
 
-
-
-
-
+/* Header content */
 .header-content {
-    color:white;
+    color: white;
     font-size: 1.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 410px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Initially translated */
+    animation: fadeInUp 1.5s ease-out forwards; /* Fade-in and translate-up animation */
 }
 
-
+/* Font end text */
 .header-content .font-end {
-    color:var(--whitesmoke);
+    color: var(--whitesmoke);
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
 }
-
 
 .header-content:not(.font-end) {
     font-family: "Patua One", serif;
@@ -226,87 +214,244 @@ body {
     width: 25px;
 }
 
-
-
-
-
 .header-image img {
     width: 550px;
     object-fit: contain;
-    border-radius:60%;
+    border-radius: 60%;
 }
 
-
-
-
+/* Header links wrapper */
 .header-links-wrapper {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1000px;
     text-align: center;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Initially translated */
+    animation: fadeInUp 1.5s ease-out 0.5s forwards; /* Delay the animation for this section */
 }
 
-
-
-
-
 .header-links-wrapper button.resume {
-    border:none;
+    border: none;
     outline: none;
-    background:orange;
-    color:white;
+    background: orange;
+    color: white;
     font-size: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
-    padding:0.9em 2em;
+    padding: 0.9em 2em;
     text-align: center;
 }
 
-
 .header-links-wrapper button.resume:hover {
-    background:greenyellow
+    background: greenyellow;
 }
-
-
-
-
 
 .font-end {
     position: relative;
-    top:0px;
+    top: 0px;
     left: 40px;
 }
-
 
 .font-end-text {
     width: 510px;
 }
 
-
-
- .header-links-wrapper button.hire {
-    background-color:var(--black);
-    color:var(--white);
+.header-links-wrapper button.hire {
+    background-color: var(--black);
+    color: var(--white);
     font-size: 1rem;
     text-decoration: none;
-    border-radius:10px;
+    border-radius: 10px;
     font-family: "Patua One", serif;
     font-weight: 400;
-    border:none;
+    border: none;
     outline: none;
-    padding:0.8em 2em;
+    padding: 0.8em 2em;
     cursor: pointer;
-    
 }
-
-
-
 
 .header-links-wrapper button.hire:hover {
-    background:greenyellow
+    background: greenyellow;
 }
+
+/* Fade-in and translate-up animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/*------------------------------------EDUCATION--------------------------------------------------*/
+.education-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Advanced background color animation */
+.education-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff6a00, #ffcc00, #33cc33, #0099ff, #ff0099);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.education-wrapper, .degree-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.education-wrapper.visible, .degree-wrapper.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/*------------------------------------INFORMATION TECHNOLOGY--------------------------------------------------*/
+.it-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* IT section unique background animation */
+.it-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #000000, #434343, #008080, #2E8B57);
+    background-size: 400% 400%;
+    animation: itGradientAnimation 5s ease infinite;
+    z-index: -1;
+}
+
+@keyframes itGradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.it-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: "Roboto", sans-serif; /* A cool modern font for IT */
+    font-weight: 500;
+    font-size: 2rem; /* Slightly larger font size for IT */
+    color: white; /* Text color */
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.it-wrapper.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+/*------------------------------------DEGREE--------------------------------------------------*/
+.degree-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px; /* Added padding */
+}
+
+/* Degree section unique background animation */
+.degree-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f44336, #2196f3, #4caf50, #ffeb3b);
+    background-size: 400% 400%;
+    animation: degreeGradientAnimation 5s ease infinite;
+    z-index: -1;
+}
+
+@keyframes degreeGradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.degree-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.degree-wrapper.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 
 
@@ -330,6 +475,7 @@ body {
     width: 100%;
     background-color:var(--white);
     height: 680px;
+    margin-top:50px
 }
 
 
@@ -695,10 +841,6 @@ body {
 
 
 
-.image-four:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
 
 
 .image-five:hover {
@@ -707,16 +849,6 @@ body {
 }
 
 
-.image-six:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-.image-six:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
 
 
 
@@ -794,10 +926,7 @@ body {
 }
 
 
-.image-four {
-    height: 410px;
-    background-color:rgba(0, 0, 0, 0.059);
-}
+
 
 
 .image-five {
@@ -806,11 +935,6 @@ body {
 }
 
 
-
-.image-six {
-    height: 410px;
-    background-color:rgba(29, 248, 55, 0.764);
-}
 
 
 .image-seven {
@@ -853,9 +977,7 @@ body {
 .image-one:hover,
 .image-two:hover,
 .image-three:hover,
-.image-four:hover,
 .image-five:hover,
-.image-six:hover,
 .image-seven:hover ,
 .image-eight:hover,
 .image-nine:hover,
@@ -964,43 +1086,6 @@ body {
 
 
 
-.image-four {
-    position: relative;
-    top:30px;
-    left: -3px;
-}
-
-
-.image-four-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-four-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 1rem;
-}
-
-
-
-
-.image-four-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
-
-
-
 
 
 
@@ -1053,52 +1138,12 @@ body {
 
 
 
-.image-six {
-    position: relative;
-    top:30px;
-    left: -3px;
-}
-
-
-.image-six-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:black;
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-six-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 1rem;
-}
-
-
-
-
-.image-six-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
 
 
 
 
 
 
-
-.image-seven {
-    position: relative;
-    top:80px;
-    right:14px;
-}
 
 
 
@@ -1112,33 +1157,6 @@ body {
 
 
 
-.image-seven-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:black;
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-seven-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 1rem;
-}
-
-
-
-
-.image-seven-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
 
 
 

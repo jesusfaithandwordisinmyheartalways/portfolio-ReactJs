@@ -1,6 +1,6 @@
 
 
-import React from "react";
+import React, {useEffect, useRef,} from "react";
 import '../components/portfolio/portfolio.css';
 import { useNavigate } from "react-router-dom";
 import HandImage from '../images/handsign.png';
@@ -42,11 +42,55 @@ import MongoDB from '../images/mongo db.png'
 import ChatApp from '../images/websocket React App.png'
 import WebSocket from '../images/websocket.png'
 import ReactNativeMobileApp from '../images/reactnativemobileapp.png'
-
+import clothing_store from '../images/clothing store.png'
 
 
 
 const Portfolio = () => {
+
+
+
+
+
+
+    useEffect(() => {
+        const educationWrapper = document.querySelector('.education-wrapper');
+        const degreeWrapper = document.querySelector('.degree-wrapper');
+        const itWrapper = document.querySelector('.it-wrapper'); // IT Section wrapper
+    
+        const options = {
+          root: null, 
+          rootMargin: '0px',
+          threshold: 0.1, 
+        };
+    
+        const revealElement = (entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        };
+    
+        const observer = new IntersectionObserver(revealElement, options);
+    
+        // Start observing the elements
+        if (educationWrapper) observer.observe(educationWrapper);
+        if (degreeWrapper) observer.observe(degreeWrapper);
+        if (itWrapper) observer.observe(itWrapper); // Observe IT section
+    
+        // Cleanup observer on unmount
+        return () => {
+          if (educationWrapper) observer.unobserve(educationWrapper);
+          if (degreeWrapper) observer.unobserve(degreeWrapper);
+          if (itWrapper) observer.unobserve(itWrapper); // Cleanup IT section observer
+        };
+      }, []); 
+
+
+    
+    
     const navigate = useNavigate()
 
     const NavigateTo = (id) => {
@@ -181,6 +225,40 @@ const Portfolio = () => {
 
                         </header>
                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        {/*----------------------------------CONTENT SECTION --------------------------------------------*/}
+
+                                <div className={'education-container'}>
+                                    <div className={'education-wrapper'}>
+
+                                        <div><h3>EDUCATION</h3></div>
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+
+                                <div className={'degree-container'}>
+                                    <div className={'degree-wrapper'}>
+
+                                            <div><div>INFORMATION TECHNOLOGY- SOFTWARE ENGINEERING</div></div>
+
+                                    </div>
+
+
+
+
+                                </div>
                         
                         
                         
@@ -357,6 +435,18 @@ const Portfolio = () => {
 
                         <div className="Experience-Wrapper">
 
+
+
+                        <div className="image-two" onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
+                            <div><img src={clothing_store} alt=""></img></div>
+                            <div className="image-two-text"><div><h3>MERN Clothing Store E-commerce Web App  </h3></div></div>
+                            <div className="image-two-text-three"><div><p>Filter Items| Search Bar | PayPal Intergration</p></div></div>
+                            <div className="image-two-text-two"><div><h3>MongoDB| React | Nodejs </h3></div></div>
+                        </div>
+
+
+
+
                         <div className="image-one" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
                             <div><img src={TravelLandPage}></img></div>
                             <div className="image-one-text"><div><h3>Travel Land ReactJs Web App</h3></div></div>
@@ -374,20 +464,8 @@ const Portfolio = () => {
                         </div>
 
 
-                        <div className="image-two" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7274752334604222464/')}>
-                            <div><img src={ShoeEcommerce} alt=""></img></div>
-                            <div className="image-two-text"><div><h3>MERN Shoe Ecommerce Web App  </h3></div></div>
-                            <div className="image-two-text-three"><div><p>Responsive Web | User Validation | UX/UI Design</p></div></div>
-                            <div className="image-two-text-two"><div><h3>MongoDB | Context API | Nodejs </h3></div></div>
-                        </div>
 
 
-                        <div className="image-four" onClick={() => handleExternalNavigation('https://gototechecommercepage-react-js.vercel.app//')}>
-                            <div><img src={GoToTech}></img></div>
-                            <div className="image-four-text"><div><h3>E-Commerce Product Page Web App  </h3></div></div>
-                            <div className="image-four-text-three"><div><p>Responsive Web | Mobile, Laptop | UX/UI Design</p></div></div>
-                            <div className="image-four-text-two"><div><h3>ReactJS | JSON | Image Slideshow </h3></div></div>
-                        </div>
 
 
 
@@ -401,22 +479,7 @@ const Portfolio = () => {
 
 
 
-                        <div className="image-six" onClick={() => handleExternalNavigation('https://weatherdataapp-typescript.vercel.app/')}>
-                            <div><img src={weatherappimage}></img></div>
-                            <div className="image-six-text"><div><h3>Weather Data Web App  </h3></div></div>
-                            <div className="image-six-text-three"><div><p>Responsive Web | Laptop, Mobile | UX/UI Design</p></div></div>
-                            <div className="image-six-text-two"><div><h3> TypeScript| ReactJS | Fetch API </h3></div></div>
-
-                        </div>
-
-
-                        <div className="image-seven" onClick={() => handleExternalNavigation('https://fullstackapp-beveragemarketplace.vercel.app/')}>
-                            <div><img src={BeverageMarketplace}></img></div>
-                            <div className="image-seven-text"><div><h3>Expressjs DrinkCompany LandPage w User Form</h3></div></div>
-                            <div className="image-seven-text-three"><div><p>Responsive Web | UX/UI Design</p></div></div>
-                            <div className="image-seven-text-two"><div><h3> Express | Nodejs | TypeScript </h3></div></div>
-
-                        </div>
+               
 
 
 
@@ -580,3 +643,9 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
+
+
+
+
