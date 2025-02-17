@@ -1,28 +1,19 @@
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Portfolio from './pages/portfolio';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
-  const Load = () => {
-      return (
-        <>
-          <Router>
-            <Routes>
-              <Route path='/' element={<Portfolio />}>
-              
-
-              </Route>
-            </Routes>
-          </Router>
-        </>
-      )
-  }
+import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Load />);
-
-
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(
+    
+ <BrowserRouter>
+     <App />
+ </BrowserRouter>
+  
+  )

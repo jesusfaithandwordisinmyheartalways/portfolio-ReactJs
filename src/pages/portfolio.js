@@ -1,10 +1,7 @@
-
-
-import React, {useEffect, useRef,} from "react";
+import React, {useEffect, useRef ,useState,} from "react";
 import '../components/portfolio/portfolio.css';
 import { useNavigate } from "react-router-dom";
 import HandImage from '../images/handsign.png';
-import Graduation from '../images/graduation image .jpg';
 import HeaderImage from '../images/portfolio image.jpg';
 import GitHub from '../images/github image.png';
 import Linkedin from '../images/linkedin.png';
@@ -14,30 +11,21 @@ import GitLogo from '../images/gitversioncontrol.png';
 import HTML from '../images/html5.png';
 import CSSLogo from '../images/css.png';
 import RegexLogo from '../images/regex.png';
-import UXUILogo from '../images/UI_UX image.avif';
-import TravelLand from '../images/travel.png';
-import UserForm from '../images/Laptop Screen.png';
-import Space from '../images/space land page(1).png';
 import TravelLandPage from '../images/travel screenshot.png';
-import User from '../images/user icon icon.png';
 import Location from '../images/location.jpg';
 import Email from '../images/email.png';
 import RecipeSearchImage from '../images/receipesearch.png';
 import FigmaLogo from '../images/figmalogo.png';
 import JSONImage from '../images/json.png';
-import GoToTech from '../images/go to tech screenshot.png';
 import TS from '../images/ts.png';
 import StockMarketScreenshot from '../images/screenshotstockmarket.png';
-import weatherappimage from '../images/weather app screenshot.png'
 import ExpressJs from '../images/expressjs.png';
 import NodeJs from '../images/nodejs logo.png'
-import BeverageMarketplace from '../images/beveragemarketplacefront.png'
 import Doctor from '../images/doctor.png'
 import SaasLogo from '../images/SaaS.png';
 import NodeMailerScreenshot from '../images/nodemailerSaaSscreenshot.png'
 import ReactNativeCal  from '../images/ UserReactNativeCalculator.png';
 import ReactNativeLogo  from '../images/reactnativelogo.png';
-import ShoeEcommerce from '../images/shoeecommmercehomepageshort.png'
 import MongoDB from '../images/mongo db.png'
 import ChatApp from '../images/websocket React App.png'
 import WebSocket from '../images/websocket.png'
@@ -46,11 +34,119 @@ import clothing_store from '../images/clothing store.png'
 
 
 
+
+
+
 const Portfolio = () => {
 
+        const navigate = useNavigate()
+            const [sectionIsVisible, setSectionVisible] = useState(false);
+            const sectionRef = useRef(null);
+            const sectionTech = useRef(null)
+            const sectionResume = useRef(null)
 
 
 
+
+         const Hire  = () => { 
+            window.location.href = 'https://www.linkedin.com/in/andrew-johnson-64632199/'
+            
+         }
+
+
+
+   
+        const ResumeDownload = () => {
+                window.location.href = '/resume.pdf'
+
+        }
+
+
+        const handleExternalNavigation = (url) => {
+            window.location.href = url
+        }
+
+
+
+        const NavigateTo = (id) => {
+            navigate(`#${id}`)
+            const element = document.getElementById(id)
+            if(element) {
+                element.scrollIntoView({behavior: 'smooth'})
+            }
+        }
+
+
+
+
+
+
+              useEffect(() => {
+                    const userScrolls = () => {
+                        if (sectionRef.current) {
+                            const sectionTop = sectionRef.current.getBoundingClientRect().top;
+                            if (sectionTop < window.innerHeight * 0.75) {
+                                setSectionVisible(true);
+                            }
+                        }
+                    };
+            
+                    userScrolls();
+                    window.addEventListener('scroll', userScrolls);
+                    return () => window.removeEventListener('scroll', userScrolls);
+                }, []);
+           
+            
+
+
+
+
+              useEffect(() => {
+                const userScrolls = () => {
+                    if (sectionTech.current) {
+                        const sectionTop = sectionTech.current.getBoundingClientRect().top;
+                        if (sectionTop < window.innerHeight * 1.40) {
+                            setSectionVisible(true);
+                        }
+                    }
+                };
+        
+                userScrolls();
+                window.addEventListener('scroll', userScrolls);
+                return () => window.removeEventListener('scroll', userScrolls);
+            }, []);
+
+
+
+
+
+
+
+
+
+            useEffect(() => {
+                const userScrolls = () => {
+                    if (sectionResume.current) {
+                        const sectionTop = sectionResume.current.getBoundingClientRect().top;
+                        if (sectionTop < window.innerHeight * 1.40) {
+                            setSectionVisible(true);
+                        }
+                    }
+                };
+        
+                userScrolls();
+                window.addEventListener('scroll', userScrolls);
+                return () => window.removeEventListener('scroll', userScrolls);
+            }, []);
+
+
+
+
+
+
+
+
+    
 
 
     useEffect(() => {
@@ -91,50 +187,32 @@ const Portfolio = () => {
 
     
     
-    const navigate = useNavigate()
-
-    const NavigateTo = (id) => {
-        navigate(`#${id}`)
-        const element = document.getElementById(id)
-        if(element) {
-            element.scrollIntoView({behavior: 'smooth'})
-        }
-    }
-
-
-
-         const Hire  = () => { 
-            window.location.href = 'https://www.linkedin.com/in/andrew-johnson-64632199/'
-            
-         }
-
-
-
-   
-        const ResumeDownload = () => {
-                window.location.href = '/resume.pdf'
-
-        }
-
-
-        
 
 
 
 
 
 
-        const handleExternalNavigation = (url) => {
-            window.location.href = url
-        }
   
     return (
         <>
-
         
-            {/*----------------------------------NAVBAR --------------------------------------------*/}
+        
+        
+        
+     
 
-            <nav className="Nav-Container">
+
+
+
+
+
+
+
+
+          {/*----------------------------------NAVBAR --------------------------------------------*/}
+
+          <nav className="Nav-Container">
                 <div className="Nav-Wrapper">
 
                     <div className="portfolio">
@@ -181,9 +259,9 @@ const Portfolio = () => {
             
             
             
-            
-            
-            
+
+        
+         
             
             
             
@@ -194,7 +272,7 @@ const Portfolio = () => {
                             <div className="Header-Wrapper">
 
                             <div className="header-content">
-                                <div className="font-end-text"><div><h3>Hi <img src={HandImage}></img> I'm Andrew Johnson, I'm a Full Stack Web Developer</h3></div></div>
+                                <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Andrew Johnson, I'm a Full Stack Web Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
                                    <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
@@ -224,6 +302,16 @@ const Portfolio = () => {
 
 
                         </header>
+
+
+
+
+
+
+
+
+
+
                         
                         
                         
@@ -259,78 +347,87 @@ const Portfolio = () => {
 
 
                                 </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        {/*----------------------------------CONTENT SECTION --------------------------------------------*/}
-
-
-                        <main className="Main-Content" id="content">
-
-                            <div className="Main-Wrapper">
-                                    <div className="about-content">
-                                        <div><h3>About Me</h3></div>
-                                        <div><hr /> </div>
-                                    </div>
-                            </div>
-
-                            <div className="About-Me-Wrapper">
-
-
-                            <div className="about-me-content">
-                            </div>
-
-                            <div className="about-me-content-bio">
-                                <div>
-                                   <div><h3>I'm Andrew & I love to develop websites</h3></div>
-                                   <div>I'm an recent college graduated with an BS in Information Technology with an concentration in Software Engineering (2023).
-                                    I have an passion for Front-End & Back-End development & UI/UX design for webs apps, tablets and mobile screens.
-                                   My focus is on creating dynamic and user-friendly websites within a team and continue to improve
-                                   my knowledge on the latest industry technologies. I have a drive to always want to improve myself as an developer
-                                   with different programming languages & tools. Here, my portfolio showcases just some of 
-                                   the web applications I have developed which highlights my ability to deliver 
-                                   dynamic web apps. Please visit my Github or Linkedin image icon to see my craft. </div>
-                                </div>
-                            </div>
-
-
-                            </div>
-
-                            <div className="About-Me-Links-Wrapper">
-                                <div>
-                                    <div onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways')}><img src={GitHub}></img></div>
-                                </div>
-
-                                <div>
-                                    <div onClick={() => handleExternalNavigation('https://www.linkedin.com/in/andrew-johnson-64632199/')}><img src={Linkedin}></img></div>
-                                </div>
-
-
                                 
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                {/*------------------------------------ABOUT ME CONTENT---------------------------------------*/}
+
+
+                                <main ref={sectionRef} className={`Main-Content ${sectionIsVisible ? 'visible' : ''}`} id="content">
+                <div className="Main-Wrapper">
+                    <div className="about-content">
+                        <div><h3>About Me</h3></div>
+                        <div><hr /></div>
+                    </div>
+                </div>
+
+                <div className="About-Me-Wrapper">
+                    <div className="about-me-content"></div>
+
+                    <div className="about-me-content-bio">
+                        <div>
+                            <div><h3>I'm Andrew & I love to develop websites</h3></div>
+                            <div>
+                                I'm a recent college graduate with a BS in Information Technology, concentrating in 
+                                Software Engineering (2023). I have a passion for Front-End & Back-End development and UI/UX design 
+                                for web apps, tablets, and mobile screens. My focus is on creating dynamic and user-friendly websites 
+                                within a team and continuing to improve my knowledge of the latest industry technologies. I always strive
+                                 to improve my skills with different programming languages and tools. My portfolio showcases some of 
+                                 the web applications I have developed,
+                                 highlighting my ability to deliver dynamic web apps. Please visit my GitHub or LinkedIn icons to see my work.
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="About-Me-Links-Wrapper">
+                <div>
+                <div onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways')}><img src={GitHub} alt=""></img></div>
+                 </div>
+
+                 <div>
+                  <div onClick={() => handleExternalNavigation('https://www.linkedin.com/in/andrew-johnson-64632199/')}><img src={Linkedin}  alt=""></img></div>
+                   </div>
 
 
-                        </main>
+                </div>
+
+
+            </main>
+
+
+                                            
+
+
+
+
+
                         
                         
+                      
                         
                         
-                        
-                        
+
+
+
+
                         
                         {/*----------------------------------WHAT I KNOW SECTION --------------------------------------------*/}
 
 
 
 
-                        <div className="Technologies-Container">
+                        <div ref={sectionTech} className={`Technologies-Container ${sectionIsVisible ? 'visible' : ''}`} id="content">
 
 
                             <div className="Tech-Wrapper" id="skills">
@@ -416,8 +513,17 @@ const Portfolio = () => {
                         
                         
                         
+
+
+
+
+
+
                         
                         
+
+
+
                         {/*----------------------------------WORK SO FAR --------------------------------------------*/}
 
                     <div className="Showcase-Container" id="showcase">
@@ -440,15 +546,15 @@ const Portfolio = () => {
                         <div className="image-two" onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
                             <div><img src={clothing_store} alt=""></img></div>
                             <div className="image-two-text"><div><h3>MERN Clothing Store E-commerce Web App  </h3></div></div>
-                            <div className="image-two-text-three"><div><p>Filter Items| Search Bar | PayPal Intergration</p></div></div>
-                            <div className="image-two-text-two"><div><h3>MongoDB| React | Nodejs </h3></div></div>
+                            <div className="image-two-text-three"><div><p>Filter Items| Search Bar | PayPal Intergration| Server Security</p></div></div>
+                            <div className="image-two-text-two"><div><h3>MongoDB| React | Nodejs | Express </h3></div></div>
                         </div>
 
 
 
 
                         <div className="image-one" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
-                            <div><img src={TravelLandPage}></img></div>
+                            <div><img src={TravelLandPage} alt=""></img></div>
                             <div className="image-one-text"><div><h3>Travel Land ReactJs Web App</h3></div></div>
                             <div className="image-one-text-three"><div><p>Web, UX/UI Design</p></div></div>
                             <div className="image-one-text-two"><div><p>ReactJs | User Re-routing | Animation</p></div></div>
@@ -457,7 +563,7 @@ const Portfolio = () => {
 
 
                         <div className="image-three" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
-                            <div><img src={RecipeSearchImage} className="image-recipe"></img></div>
+                            <div><img src={RecipeSearchImage} className="image-recipe" alt=""></img></div>
                             <div className="image-three-text"><div><h3>Recipe Culture Search Web App</h3></div></div>
                             <div className="image-three-text-three"><div><p>Web, UX/UI Design (Mobile, Tablet Land & Login)</p></div></div>
                             <div className="image-three-text-two"><div><h3>JavScript | User Redirection | Animation</h3></div></div>
@@ -470,7 +576,7 @@ const Portfolio = () => {
 
 
                         <div className="image-five" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
-                            <div><img src={StockMarketScreenshot}></img></div>
+                            <div><img src={StockMarketScreenshot} alt=""></img></div>
                             <div className="image-five-text"><div><h3>Popular Stock Market Web App  </h3></div></div>
                             <div className="image-five-text-three"><div><p>Responsive Web | Laptop | UX/UI Design</p></div></div>
                             <div className="image-five-text-two"><div><h3> TypeScript| JSON | Animation </h3></div></div>
@@ -484,7 +590,7 @@ const Portfolio = () => {
 
 
                         <div className="image-eight" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
-                            <div><img src={Doctor}></img></div>
+                            <div><img src={Doctor} alt=""></img></div>
                             <div className="image-eight-text"><div><h3>Doctor LandPage & Welcome Page</h3></div></div>
                             <div className="image-eight-text-three"><div><p>Responsive Web | UX/UI Design</p></div></div>
                             <div className="image-eight-text-two"><div><h3> Nodejs | Express | TypeScript </h3></div></div>
@@ -493,7 +599,7 @@ const Portfolio = () => {
 
 
                         <div className="image-nine" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>
-                            <div><img src={NodeMailerScreenshot}></img></div>
+                            <div><img src={NodeMailerScreenshot} alt=""></img></div>
                             <div className="image-nine-text"><div><h3>Nodemailer Express Web App</h3></div></div>
                             <div className="image-nine-text-three"><div><p>Responsive Web | Mobile Screen Design</p></div></div>
                             <div className="image-nine-text-two"><div><h3> SaaS | Express | Background Animation </h3></div></div>
@@ -503,7 +609,7 @@ const Portfolio = () => {
 
 
                         <div className="image-ten" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
-                            <div><img src={ReactNativeCal}></img></div>
+                            <div><img src={ReactNativeCal }  alt="" ></img></div>
                             <div className="image-ten-text"><div><h3>React Native Calculator Mobile App</h3></div></div>
                             <div className="image-ten-text-three"><div><p>Responsive App | Mobile Screen Design</p></div></div>
                             <div className="image-ten-text-two"><div><h3> React Native | TouchableOpacity | StyleSheet </h3></div></div>
@@ -514,7 +620,7 @@ const Portfolio = () => {
 
 
                         <div className="image-eleven" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
-                            <div><img src={ChatApp}></img></div>
+                            <div><img src={ChatApp} alt=""></img></div>
                             <div className="image-eleven-text"><div><h3>WebSocket Chat App - Full Stack</h3></div></div>
                             <div className="image-eleven-text-three"><div><p>Responsive App | Laptop Screen Design</p></div></div>
                             <div className="image-eleven-text-two"><div><h3> Socket.io Library | Nodejs | Reactjs </h3></div></div>
@@ -525,7 +631,7 @@ const Portfolio = () => {
 
 
                         <div className="image-ten" onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
-                            <div><img src={ReactNativeMobileApp}></img></div>
+                            <div><img src={ReactNativeMobileApp} alt=""></img></div>
                             <div className="image-ten-text"><div><h3>React Native College Mobile App</h3></div></div>
                             <div className="image-ten-text-three"><div><p>Pagination | Search Filter | User Feedback</p></div></div>
                             <div className="image-ten-text-two"><div><h3> React Native | NavigationContainer | ScrollView </h3></div></div>
@@ -556,6 +662,11 @@ const Portfolio = () => {
 
 
 
+
+
+
+
+
                     {/*----------------------------------CONTACT ME SECTION --------------------------------------------*/}
 
                     <div className="Contact-Container" id="contact">
@@ -580,7 +691,7 @@ const Portfolio = () => {
                                 <div className="Contact-Info-Wrapper">
 
                                 <div className="contact-text-three">
-                                      <div><img src={HeaderImage}></img></div>
+                                      <div><img src={HeaderImage}  alt=""></img></div>
                                 </div>
 
                                 <div className="contact-text-three">
@@ -588,7 +699,7 @@ const Portfolio = () => {
                                 </div>
 
                                 <div className="contact-text-three" >
-                                    <div><img src={Location}></img></div>
+                                    <div><img src={Location}  alt=""></img></div>
                                 </div>
 
                                 <div className="contact-text-three">
@@ -596,7 +707,7 @@ const Portfolio = () => {
                                 </div>
 
                                 <div>
-                                    <div><img src={Email}></img></div>
+                                    <div><img src={Email}  alt=""></img></div>
                                 </div>
 
                                 <div className="contact-text-three">
@@ -608,6 +719,11 @@ const Portfolio = () => {
                     </div>
                     
                     
+
+
+
+
+
 
 
 
@@ -641,6 +757,9 @@ const Portfolio = () => {
 
 
 }
+
+
+
 
 export default Portfolio
 

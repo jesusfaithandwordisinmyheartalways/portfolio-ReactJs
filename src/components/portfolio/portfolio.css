@@ -19,6 +19,7 @@
     --whitesmoke:whitesmoke;
     --purpleColor: purple;
     --dodgerBlue: dodgerBlue;
+  
 }
 
 
@@ -121,6 +122,11 @@ body {
 .portfolio-inner-text {
     color:var(--purpleColor)
 }
+
+
+
+
+
 
 
 
@@ -344,6 +350,11 @@ body {
     transform: translateX(0);
 }
 
+
+
+
+
+
 /*------------------------------------INFORMATION TECHNOLOGY--------------------------------------------------*/
 .it-container {
     width: 100%;
@@ -396,6 +407,11 @@ body {
     opacity: 1;
     transform: translateX(0);
 }
+
+
+
+
+
 
 
 
@@ -466,27 +482,39 @@ body {
 
 
 
-/*------------------------------------CONTENT--------------------------------------------------*/
 
 
 
+
+
+
+/*-------------------------------------ABOUT ME CONTENT--------------------------------------------------*/
+
+
+
+
+
+/* Hidden state before animation */
 .Main-Content {
-    overflow: hidden;
     width: 100%;
-    background-color:var(--white);
-    height: 680px;
-    margin-top:50px
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
 }
 
+/* When the component becomes visible */
+.Main-Content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
 .Main-Wrapper {
     display: flex;
     align-items:center;
     justify-content: center;
-    margin:0 auto;
-    max-width: 1000px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -535,7 +563,7 @@ body {
 
 
 .about-me-content {
-    background:url(/src/images/graduation\ image\ .jpg);
+    background:url(/src/images/graduationimage.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: 10% 70%;
@@ -561,7 +589,7 @@ body {
     }
 
     50% {
-        background:url(/src/images/graduation\ image\ .jpg);
+        background:url(/src/images/graduationimage.jpg);
         background-repeat:no-repeat;
         background-size:cover;
         background-position: 10% 70%;
@@ -619,11 +647,21 @@ body {
 
 
 
+
+
+
+
+
+
+
 /*------------------------------------WHAT I KNOW CONTENT--------------------------------------------------*/
 
 
 
 .Technologies-Container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
     width: 100%;
     overflow: hidden;
     background-color:var(--black);
@@ -636,6 +674,18 @@ body {
     animation-direction:alternate;
     transition: 4s linear;
 }
+
+
+.Technologies-Container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
 
 @keyframes techContainer {
     0% {background-color:black}
@@ -761,6 +811,10 @@ body {
 
 
 
+
+
+
+
 /*-------------------------------------WORK SO FAR--------------------------------------------------*/
 
 
@@ -770,6 +824,13 @@ body {
     background-color:var(--whitesmoke);
     height: 2019px;
 }
+
+
+
+
+
+
+
 
 
 .Showcase-Wrapper {
