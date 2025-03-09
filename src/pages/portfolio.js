@@ -31,8 +31,10 @@ import ChatApp from '../images/websocket React App.png'
 import WebSocket from '../images/websocket.png'
 import ReactNativeMobileApp from '../images/reactnativemobileapp.png'
 import clothing_store from '../images/clothing store.png'
-
-
+import  webdevelopment_image from '../images/Web development.png'
+import  simplemobile_image from '../images/Mobile screenshot.png'
+import  simpleweb_image from '../images/Web screenshot.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -517,10 +519,58 @@ const Portfolio = () => {
 
 
 
+                        {/*----------------------------------MY WORTH--------------------------------------------*/}
 
 
+                        <div className="My-Worth-Container" id="worth">
+                            <div className="my-worth-wrapper">
+
+                                    <div className="dev-section">
+                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><h3>Web Development</h3></div>
+                                        <div><p>As a web developer, I create dynamic and functional websites using a combination of front-end and back-end technologies. 
+                                        I specialize in building responsive, user-friendly interfaces that enhance the user experience. 
+                                        Whether it’s an e-commerce site, a blog, or a custom web application, I can bring ideas to life through code. </p></div>
+                                    </div>
+
+
+
+                                    <div className="dev-section">
+                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><h3>UI Development</h3></div>
+                                        <div><p>UI (User Interface) development focuses on creating the visual elements of a website or
+                                         application. I specialize in turning design mockups into interactive interfaces using HTML, CSS,
+                                          and JavaScript. My goal is to ensure that users have a 
+                                        seamless and enjoyable experience while interacting with your product. </p></div>
+                                    </div>
+
+
+
+                                    <div className="dev-section"> 
+                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><h3>UI Designing</h3></div>
+                                        <div><p>UI design is all about aesthetics and usability. As a UI designer, I craft visually appealing 
+                                        layouts, choose color schemes, and create intuitive navigation. I pay attention to details like
+                                         typography, spacing, and consistency. My designs aim to enhance the overall look and feel of your
+                                          digital product
+                                        </p></div>
+                                    </div>
+
+
+
+
+
+                            </div>
+                        </div>
                         
-                        
+
+
+
+
+
+
+
+
 
 
 
@@ -537,119 +587,134 @@ const Portfolio = () => {
                             </div>
 
                         </div>
+                        
+                        
+                          <div className="Experience-Wrapper">
+                                <div className="work"  >
+                                <div><img src={simpleweb_image} alt="" /></div>
+                                <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
+                                <div><p>Cart Functionality |StripePayment Form Handling | Duplicate Account Prevention | Server Security</p></div>
+                                <div><h3>MongoDB | React | Nodejs | Express</h3></div>
+                                  <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('https://clientshoestoreclient.onrender.com/')}>
+                                              Link To Project</span>
+                                        </div>
+                                <Link to="/simple/case/study" className="case-study">
+                                <div>See Case Study</div>
+                                </Link>
 
-
-                        <div className="Experience-Wrapper">
-
-
-
-                        <div className="image-two" onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
-                            <div><img src={clothing_store} alt=""></img></div>
-                            <div className="image-two-text"><div><h3>MERN Clothing Store E-commerce Web App  </h3></div></div>
-                            <div className="image-two-text-three"><div><p>Filter Items| Search Bar | PayPal Intergration| Server Security</p></div></div>
-                            <div className="image-two-text-two"><div><h3>MongoDB| React | Nodejs | Express </h3></div></div>
+                                  </div>
                         </div>
 
 
 
+                <div className="work">
+                    <div><img src={clothing_store} alt="" /></div>
+                    <div><h3>MERN Clothing Store E-commerce Web App</h3></div>
+                    <div><p>Filter Items | Search Bar | PayPal Integration | Server Security</p></div>
+                    <div><h3>MongoDB | React | Nodejs | Express</h3></div>
+                    <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
+                                              Link To Project</span>
+                                        </div>
+                                <Link to="/clothing/case/study" className="case-study">
+                                <div>See Case Study</div>
+                                </Link>
 
-                        <div className="image-one" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
-                            <div><img src={TravelLandPage} alt=""></img></div>
-                            <div className="image-one-text"><div><h3>Travel Land ReactJs Web App</h3></div></div>
-                            <div className="image-one-text-three"><div><p>Web, UX/UI Design</p></div></div>
-                            <div className="image-one-text-two"><div><p>ReactJs | User Re-routing | Animation</p></div></div>
-
-                        </div>
-
-
-                        <div className="image-three" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
-                            <div><img src={RecipeSearchImage} className="image-recipe" alt=""></img></div>
-                            <div className="image-three-text"><div><h3>Recipe Culture Search Web App</h3></div></div>
-                            <div className="image-three-text-three"><div><p>Web, UX/UI Design (Mobile, Tablet Land & Login)</p></div></div>
-                            <div className="image-three-text-two"><div><h3>JavScript | User Redirection | Animation</h3></div></div>
-                        </div>
-
-
-
-
-
-
-
-                        <div className="image-five" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
-                            <div><img src={StockMarketScreenshot} alt=""></img></div>
-                            <div className="image-five-text"><div><h3>Popular Stock Market Web App  </h3></div></div>
-                            <div className="image-five-text-three"><div><p>Responsive Web | Laptop | UX/UI Design</p></div></div>
-                            <div className="image-five-text-two"><div><h3> TypeScript| JSON | Animation </h3></div></div>
-
-                        </div>
-
-
-
-               
-
-
-
-                        <div className="image-eight" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
-                            <div><img src={Doctor} alt=""></img></div>
-                            <div className="image-eight-text"><div><h3>Doctor LandPage & Welcome Page</h3></div></div>
-                            <div className="image-eight-text-three"><div><p>Responsive Web | UX/UI Design</p></div></div>
-                            <div className="image-eight-text-two"><div><h3> Nodejs | Express | TypeScript </h3></div></div>
-
-                        </div>
-
-
-                        <div className="image-nine" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>
-                            <div><img src={NodeMailerScreenshot} alt=""></img></div>
-                            <div className="image-nine-text"><div><h3>Nodemailer Express Web App</h3></div></div>
-                            <div className="image-nine-text-three"><div><p>Responsive Web | Mobile Screen Design</p></div></div>
-                            <div className="image-nine-text-two"><div><h3> SaaS | Express | Background Animation </h3></div></div>
-
-                        </div>
-
-
-
-                        <div className="image-ten" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
-                            <div><img src={ReactNativeCal }  alt="" ></img></div>
-                            <div className="image-ten-text"><div><h3>React Native Calculator Mobile App</h3></div></div>
-                            <div className="image-ten-text-three"><div><p>Responsive App | Mobile Screen Design</p></div></div>
-                            <div className="image-ten-text-two"><div><h3> React Native | TouchableOpacity | StyleSheet </h3></div></div>
-
-                        </div>
-
-
-
-
-                        <div className="image-eleven" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
-                            <div><img src={ChatApp} alt=""></img></div>
-                            <div className="image-eleven-text"><div><h3>WebSocket Chat App - Full Stack</h3></div></div>
-                            <div className="image-eleven-text-three"><div><p>Responsive App | Laptop Screen Design</p></div></div>
-                            <div className="image-eleven-text-two"><div><h3> Socket.io Library | Nodejs | Reactjs </h3></div></div>
-
-                        </div>
-
-
-
-
-                        <div className="image-ten" onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
-                            <div><img src={ReactNativeMobileApp} alt=""></img></div>
-                            <div className="image-ten-text"><div><h3>React Native College Mobile App</h3></div></div>
-                            <div className="image-ten-text-three"><div><p>Pagination | Search Filter | User Feedback</p></div></div>
-                            <div className="image-ten-text-two"><div><h3> React Native | NavigationContainer | ScrollView </h3></div></div>
-
-                        </div>
+                                  </div>
+                </div>
 
 
 
 
 
+    <div className="work"  >
+        <div><img src={ReactNativeMobileApp} alt="" /></div>
+        <div><h3>React Native College University Mobile App</h3></div>
+        <div><p>Pagination | | Image Carousel | Search Filter | User Feedback</p></div>
+        <div><h3>React Native | NavigationContainer | ScrollView</h3></div>
+        <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
+                                              Link To Project</span>
+                                        </div>
+                                <Link to="/campus/case/study" className="case-study">
+                                <div>See Case Study</div>
+                                </Link>
+
+                                  </div>
+  </div>
 
 
 
 
 
+    <div className="work" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
+        <div><img src={TravelLandPage} alt="" /></div>
+        <div><h3>Travel Land ReactJs Web App</h3></div>
+        <div><p>Web, UX/UI Design</p></div>
+        <div><p>ReactJs | User Re-routing | Animation</p></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
+        <div><img src={RecipeSearchImage} className="image-recipe" alt="" /></div>
+        <div><h3>Recipe Culture Search Web App</h3></div>
+        <div><p>Web, UX/UI Design (Mobile, Tablet Land & Login)</p></div>
+        <div><h3>JavaScript | User Redirection | Animation</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
+        <div><img src={StockMarketScreenshot} alt="" /></div>
+        <div><h3>Popular Stock Market Web App</h3></div>
+        <div><p>Responsive Web | Laptop | UX/UI Design</p></div>
+        <div><h3>TypeScript | JSON | Animation</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
+        <div><img src={Doctor} alt="" /></div>
+        <div><h3>Doctor LandPage & Welcome Page</h3></div>
+        <div><p>Responsive Web | UX/UI Design</p></div>
+        <div><h3>Nodejs | Express | TypeScript</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>
+        <div><img src={NodeMailerScreenshot} alt="" /></div>
+        <div className="image-nine-text"><h3>Nodemailer Express Web App</h3></div>
+        <div className="image-nine-text-three"><p>Responsive Web | Mobile Screen Design</p></div>
+        <div className="image-nine-text-two"><h3>SaaS | Express | Background Animation</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
+        <div><img src={ReactNativeCal} alt="" /></div>
+        <div><h3>React Native Calculator Mobile App</h3></div>
+        <div><p>Responsive App | Mobile Screen Design</p></div>
+        <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
+    </div>
+
+    <div className="work" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
+        <div><img src={ChatApp} alt="" /></div>
+        <div><h3>WebSocket Chat App - Full Stack</h3></div>
+        <div><p>Responsive App | Laptop Screen Design</p></div>
+        <div><h3>Socket.io Library | Nodejs | Reactjs</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>Link To Project</span>
+    </div>
+</div>
 
 
-                        </div>
+
+
+
 
 
 

@@ -814,6 +814,105 @@ body {
 
 
 
+/*-------------------------------------MY WORTH--------------------------------------------------*/
+
+
+
+
+
+
+.My-Worth-Container {
+    width: 100%;
+    overflow: hidden;
+    background:black;
+    animation: fade-in 4s ease-in-out;
+    height: 510px;
+}
+
+
+
+
+.my-worth-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+
+
+.my-worth-wrapper > div:hover { 
+    border: 2px solid green;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 
+                0 0 20px rgba(0, 255, 0, 0.5), 
+                0 0 30px rgba(0, 255, 0, 0.4), 
+                0 0 40px rgba(0, 255, 0, 0.3);
+    transform: scale(1.08);
+    transition: all 0.4s ease-in-out; 
+}
+
+
+
+
+
+
+.my-worth-wrapper h3 {
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.my-worth-wrapper img {
+    width: 150px;
+    object-fit: contain;
+}
+
+
+
+.my-worth-wrapper p {
+    color:white;
+    width: 350px;
+    font-size: 0.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+
+
+
+/* Keyframe Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------WORK SO FAR--------------------------------------------------*/
 
@@ -821,8 +920,10 @@ body {
 .Showcase-Container {
     width: 100%;
     overflow: hidden;
-    background-color:var(--whitesmoke);
-    height: 2019px;
+    background:black;
+    height:auto;
+    animation: fade-in 4s ease-in-out;
+    
 }
 
 
@@ -835,16 +936,18 @@ body {
 
 .Showcase-Wrapper {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: center;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 2000px;
     text-align: center;
 }
 
 
 .Showcase-Wrapper h3 {
-    color:var(--black);
+    color:green;
     font-size: 1.9rem;
     font-family: "Antic Didone", serif;
     font-weight: 400;  
@@ -865,478 +968,120 @@ body {
 
 .Experience-Wrapper {
     display: flex;
-    align-items:center;
-    justify-content: space-around;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    gap:110px;
     margin: 0 auto;
-    max-width: 2100px;
+    max-width: 2000px;
     text-align: center;
-    margin-top: 90px;
 }
+
+
+
+
 
 
 .Experience-Wrapper img {
-    height: 180px;
-    object-fit: contain;
-    border: 1px solid var(--black)
-}
-
-
-
-
-.image-one:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-.image-two:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-.image-three:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-
-
-
-.image-five:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-
-
-
-.image-seven:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-
-
-.image-eight:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-.image-nine:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-.image-ten:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-.image-eleven:hover {
-    transform: scale(1.1, 1);
-    transition: 3s linear;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image-one {
-    background-color:var(--green);
-    height: 410px;
-}
-
-.image-two {
-    height: 410px;
-    background-color:var(--purpleColor);
-    
-}
-
-
-.image-two img {
+    height: 280px;
+    width:100%;
     object-fit: cover;
-    width: 400px;
+    border: 3px solid black
 }
 
 
 
 
-
-.image-three {
-    height: 410px;
-    background-color:var(--dodgerBlue)
+.Experience-Wrapper .work {
+    border: 3px solid white
 
 }
 
 
 
-
-
-.image-five {
-    height: 410px;
-    background-color:rgba(248, 29, 29, 0.764);
+.Experience-Wrapper .work:hover {
+    border: 2px solid green;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 
+                0 0 20px rgba(0, 255, 0, 0.5), 
+                0 0 30px rgba(0, 255, 0, 0.4), 
+                0 0 40px rgba(0, 255, 0, 0.3);
+    transform: scale(1.08);
+    transition: all 0.4s ease-in-out; 
 }
 
 
 
 
-.image-seven {
-    height: 410px;
-    background-color:rgba(238, 227, 7, 0.764);
-}
-
-
-
-
-.image-eight {
-    height: 410px;
-    background-color:rgba(7, 26, 238, 0.764);
-}
-
-.image-nine {
-    height: 410px;
-    background-color:pink
-}
-
-
-.image-ten {
-    height: 410px;
-    background-color:black
-}
-
-
-.image-eleven {
-    height: 410px;
-    background-color:goldenrod
-}
-
-
-
-
-
-
-
-
-.image-one:hover,
-.image-two:hover,
-.image-three:hover,
-.image-five:hover,
-.image-seven:hover ,
-.image-eight:hover,
-.image-nine:hover,
-.image-ten:hover,
-.image-eleven:hover{
+.Experience-Wrapper > div {
+    margin-top: 30px;
     cursor: pointer;
 }
 
 
 
-.image-one-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 1.2rem;
-}
-
-
-.image-one-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 1.1rem;
-    margin-top: 40px;
-}
-
-
-.image-one-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 30px;
+.Experience-Wrapper h3 {
+color:white;
+font-family: "Antic Didone", serif;
+font-weight: 400;
+font-size: 1.3rem;
 }
 
 
 
 
-
-
-
-
-
-
-.image-two-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 1rem;
-}
-
-
-.image-two-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 50px;
-}
-
-.image-two-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 3px;
-}
-
-
-
-
-
-
-
-
-.image-three-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-three-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 1rem;
-}
-
-
-
-
-.image-three-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image-five {
-    position: relative;
-    top:30px;
-    left: -15px;
-}
-
-
-.image-five-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-five-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:var(--white);
-    font-size: 1rem;
-}
-
-
-
-
-.image-five-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:var(--black);
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image-eight {
-    position: relative;
-    top:80px;
-    right:15px;
-}
-
-
-
-
-
-
-
-
+.Experience-Wrapper p:not(.work-link) {
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    }
     
+    
+    
+    
+    
+    .Experience-Wrapper .work-link {
+    cursor: pointer;
+    color:greenyellow;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
 
 
-
-
-
-.image-eight-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:white; 
-    font-size: 0.9rem;
-    margin-top: 30px;
+.work-link:hover {
+    color:white;
 }
 
 
 
-.image-eight-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:white; 
+
+
+
+.case-study-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    gap:30px
+}
+
+.case-study {
+    text-decoration: underline;
+    color:whitesmoke;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-
-
-
-.image-eight-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    color:white; 
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
-
-
-
-
-
-.image-nine {
-    position: relative;
-    top:78px;
-    left: -10px;
-}
-
-
-
-.image-nine-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:black;
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
-
-
-
-.image-nine-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:black;
-    font-size: 1rem;
-}
-
-
-
-
-.image-nine-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    color:black;
-    font-size: 0.9rem;
-    margin-top: 35px;
-}
-
-
-
-
-
-
-
-.image-ten {
-    position: relative;
-    top:101px;
-    left: 30px;
-}
-
-
-.image-ten img {
-    object-fit: cover;
-    width: 100%;
-}
-
-.image-ten-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 800; 
-    color:rgb(115, 115, 217);
+.case-study:hover {
+    color:white;
+    font-weight: bold;
     font-size: 1.2rem;
 }
 
 
-.image-ten-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:rgb(115, 115, 217);
-    font-size: 1rem;
-    margin-top: 40px;
-}
-
-
-.image-ten-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:rgb(115, 115, 217);
-    font-size: 1rem;
-    margin-top: 30px;
-}
 
 
 
@@ -1352,41 +1097,14 @@ body {
 
 
 
-.image-eleven {
-    position: relative;
-    top:101px;
-    left: 30px;
-}
-
-
-.image-eleven  img {
-    object-fit: cover;
-    width: 100%;
-}
-
-.image-eleven-text {
-    font-family: "Antic Didone", serif;
-    font-weight: 800; 
-    color:whitesmoke;
-    font-size: 1.2rem;
-}
-
-
-.image-eleven-text-two {
-    font-family: "Antic Didone", serif;
-    font-weight: 400; 
-    color:whitesmoke;
-    font-size: 1rem;
-    margin-top: 40px;
-}
-
-
-.image-eleven-text-three {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400; 
-    color:whitesmoke;
-    font-size: 1rem;
-    margin-top: 30px;
+/* Keyframe Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 
@@ -1406,7 +1124,7 @@ body {
 
 
 
-
+/*-------------------------------------CONTACT--------------------------------------------------*/
 
 
 
@@ -1493,7 +1211,12 @@ body {
 
 
 
-/*--------------------------FOOTER----------------------------*/
+
+
+
+
+
+/*------------------------------FOOTER-------------------------------------*/
 .Footer-Container {
     width: 100%;
     overflow: hidden;
