@@ -665,7 +665,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color:var(--black);
-    height: 810px;
+    height: 900px;
     animation-name:techContainer;
     animation-delay:0s;
     animation-duration:4s;
@@ -760,9 +760,9 @@ body {
 
 
 .image-language img {
-    width: 145px;
+    width: 125px;
     object-fit: contain;
-    margin:0px 20px;
+    margin:0px 31px;
     mix-blend-mode: normal;
 }
 

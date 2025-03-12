@@ -34,6 +34,12 @@ import clothing_store from '../images/clothing store.png'
 import  webdevelopment_image from '../images/Web development.png'
 import  simplemobile_image from '../images/Mobile screenshot.png'
 import  simpleweb_image from '../images/Web screenshot.png'
+import PostgresSQL_Image from '../images/TypeScriptPostgrelSQLAuthentication.png'
+import PostgresSQL_Image_Two from '../images/TypeScriptPostgrelSQLAuthentication_two.png'
+import PostgresSQL_Image_Three from '../images/postgrelformjsonsnapshot.png'
+import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
+
+
 import { Link } from "react-router-dom";
 
 
@@ -478,6 +484,9 @@ const Portfolio = () => {
 
                                         <img src={WebSocket} alt=""></img>
 
+                                        <img src={PostgresSQL_Image_Logo} alt=""></img>
+
+
 
 
                                         </div>
@@ -709,6 +718,30 @@ const Portfolio = () => {
         <div><h3>Socket.io Library | Nodejs | Reactjs</h3></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>Link To Project</span>
     </div>
+
+
+
+    <div className="work"  >
+        <div><img src={PostgresSQL_Image} alt="" /></div>
+        <div><h3>TypeScript PostgrelSQL Authentication </h3></div>
+        <div><p>Web App</p></div>
+        <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
+               <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('')}>
+                                              No Link To Project</span>
+                                        </div>
+                                <Link to="/postgres/case/study" className="case-study">
+                                <div>See Case Study</div>
+                                </Link>
+
+                                  </div>
+    </div>
+
+
+
+
 </div>
 
 
