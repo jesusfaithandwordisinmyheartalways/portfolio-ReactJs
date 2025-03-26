@@ -38,9 +38,8 @@ import PostgresSQL_Image from '../images/TypeScriptPostgrelSQLAuthentication.png
 import PostgresSQL_Image_Two from '../images/TypeScriptPostgrelSQLAuthentication_two.png'
 import PostgresSQL_Image_Three from '../images/postgrelformjsonsnapshot.png'
 import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
-
-
 import { Link } from "react-router-dom";
+import Dog_Ariival from '../images/dogarrivals.png'
 
 
 
@@ -596,9 +595,38 @@ const Portfolio = () => {
                             </div>
 
                         </div>
+
+
+                        
+
+
                         
                         
                           <div className="Experience-Wrapper">
+
+
+
+                          <div className="work"  >
+                                <div><img src={Dog_Ariival} alt="" /></div>
+                                <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
+                                <div><p> SidebarCart Context API | Reusable UI Components | Admin Panel | Server Security</p></div>
+                                <div><h3>MongoDB | React | Nodejs | Express</h3></div>
+                                  <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('https://dogstoreclient.onrender.com/')}>
+                                              Link To Project</span>
+                                        </div>
+                                <Link to="/simple/case/study" className="case-study">
+                              
+                                </Link>
+
+                                  </div>
+                        </div>
+
+
+
+                          
                                 <div className="work"  >
                                 <div><img src={simpleweb_image} alt="" /></div>
                                 <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
