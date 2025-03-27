@@ -40,6 +40,7 @@ import PostgresSQL_Image_Three from '../images/postgrelformjsonsnapshot.png'
 import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
 import { Link } from "react-router-dom";
 import Dog_Ariival from '../images/dogarrivals.png'
+import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
 
 
 
@@ -707,6 +708,16 @@ const Portfolio = () => {
         <span className="work-link" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>Link To Project</span>
     </div>
 
+
+    <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
+        <div><img src={ReactNativeCal} alt="" /></div>
+        <div><h3>React Native Calculator Mobile App</h3></div>
+        <div><p>Responsive App | Mobile Screen Design</p></div>
+        <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
+    </div>
+
+
     <div className="work" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
         <div><img src={StockMarketScreenshot} alt="" /></div>
         <div><h3>Popular Stock Market Web App</h3></div>
@@ -731,14 +742,7 @@ const Portfolio = () => {
         <span className="work-link" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>Link To Project</span>
     </div>
 
-    <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
-        <div><img src={ReactNativeCal} alt="" /></div>
-        <div><h3>React Native Calculator Mobile App</h3></div>
-        <div><p>Responsive App | Mobile Screen Design</p></div>
-        <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
-        <span className="work-link" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
-    </div>
-
+   
     <div className="work" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
         <div><img src={ChatApp} alt="" /></div>
         <div><h3>WebSocket Chat App - Full Stack</h3></div>
@@ -766,7 +770,27 @@ const Portfolio = () => {
 
                                   </div>
     </div>
+        
 
+
+
+
+    <div className="work"  >
+        <div><img src={tic_tak_toe} alt="" /></div>
+        <div><h3>React Tic Tak Toe Game </h3></div>
+        <div><p>Mobile Design | Web App</p></div>
+        <div><h3>React </h3></div>
+               <div className="case-study-wrapper">
+                                    <div>
+                                     <span className="work-link" 
+                                              onClick={() => handleExternalNavigation('https://reacttictactoe.onrender.com/')}>
+                                              No Link To Project</span>
+                                        </div>
+                                <Link to="/postgres/case/study" className="case-study">
+                                </Link>
+
+                                  </div>
+    </div>
 
 
 
