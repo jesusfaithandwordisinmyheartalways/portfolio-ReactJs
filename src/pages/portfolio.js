@@ -784,7 +784,7 @@ const Portfolio = () => {
                                     <div>
                                      <span className="work-link" 
                                               onClick={() => handleExternalNavigation('https://reacttictactoe.onrender.com/')}>
-                                              No Link To Project</span>
+                                              Link To Project</span>
                                         </div>
                                 <Link to="/postgres/case/study" className="case-study">
                                 </Link>
