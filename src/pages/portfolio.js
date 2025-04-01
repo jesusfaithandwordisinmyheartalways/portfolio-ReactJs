@@ -610,7 +610,7 @@ const Portfolio = () => {
                           <div className="work"  >
                                 <div><img src={Dog_Ariival} alt="" /></div>
                                 <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
-                                <div><p> SidebarCart Context API | Reusable UI Components | Admin Panel | Server Security</p></div>
+                                <div><p> User Authentication Navbar | SidebarCart Context API | Admin Panel | Server Security</p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
@@ -631,7 +631,7 @@ const Portfolio = () => {
                                 <div className="work"  >
                                 <div><img src={simpleweb_image} alt="" /></div>
                                 <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
-                                <div><p>Cart Functionality |StripePayment Form Handling | Duplicate Account Prevention | Server Security</p></div>
+                                <div><p> User Authentication Navbar | StripePayment Form | Duplicate Account Prevent | Server Security </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
