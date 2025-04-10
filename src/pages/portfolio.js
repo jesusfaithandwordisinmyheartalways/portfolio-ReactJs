@@ -607,15 +607,15 @@ const Portfolio = () => {
 
 
 
-                          <div className="work"  >
+                           <div className="work"  >
                                 <div><img src={Dog_Ariival} alt="" /></div>
                                 <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
-                                <div><p> User Authentication Navbar | SidebarCart Context API | Admin Panel | Server Security</p></div>
+                                <div><p> SidebarCart Context API | Google Pay | Admin Panel | User Products Filters </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
                                      <span className="work-link" 
-                                              onClick={() => handleExternalNavigation('https://dogstoreclient.onrender.com/')}>
+                                              onClick={() => handleExternalNavigation('https://dogsbreedwebappclient.onrender.com/')}>
                                               Link To Project</span>
                                         </div>
                                 <Link to="/simple/case/study" className="case-study">
@@ -624,6 +624,7 @@ const Portfolio = () => {
 
                                   </div>
                         </div>
+
 
 
 
