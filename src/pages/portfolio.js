@@ -673,11 +673,11 @@ const Portfolio = () => {
                 <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
         <div><img src={doctor_land_page} alt="" /></div>
         <div><h3>Doctor LandPage</h3></div>
-        <div><p>Responsive Web | UX/UI Design</p></div>
+        <div><p>Endless Interactive Animation Cycle | Responsive Web | UX/UI Design</p></div>
         <div><h3>Nodejs | Express | TypeScript</h3></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
     </div>
-    
+
 
 
 
