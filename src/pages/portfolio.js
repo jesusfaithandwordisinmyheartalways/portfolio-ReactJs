@@ -41,7 +41,7 @@ import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
 import { Link } from "react-router-dom";
 import Dog_Ariival from '../images/dogarrivals.png'
 import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
-
+import doctor_land_page from '../images/Dr. Land page.png'
 
 
 
@@ -728,8 +728,8 @@ const Portfolio = () => {
     </div>
 
     <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
-        <div><img src={Doctor} alt="" /></div>
-        <div><h3>Doctor LandPage & Welcome Page</h3></div>
+        <div><img src={doctor_land_page} alt="" /></div>
+        <div><h3>Doctor LandPage</h3></div>
         <div><p>Responsive Web | UX/UI Design</p></div>
         <div><h3>Nodejs | Express | TypeScript</h3></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
