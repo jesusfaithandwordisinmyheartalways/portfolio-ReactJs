@@ -670,6 +670,18 @@ const Portfolio = () => {
 
 
 
+                <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
+        <div><img src={doctor_land_page} alt="" /></div>
+        <div><h3>Doctor LandPage</h3></div>
+        <div><p>Responsive Web | UX/UI Design</p></div>
+        <div><h3>Nodejs | Express | TypeScript</h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
+    </div>
+    
+
+
+
+
 
     <div className="work"  >
         <div><img src={ReactNativeMobileApp} alt="" /></div>
@@ -727,21 +739,11 @@ const Portfolio = () => {
         <span className="work-link" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>Link To Project</span>
     </div>
 
-    <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
-        <div><img src={doctor_land_page} alt="" /></div>
-        <div><h3>Doctor LandPage</h3></div>
-        <div><p>Responsive Web | UX/UI Design</p></div>
-        <div><h3>Nodejs | Express | TypeScript</h3></div>
-        <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
-    </div>
+ 
+ 
 
-    <div className="work" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>
-        <div><img src={NodeMailerScreenshot} alt="" /></div>
-        <div className="image-nine-text"><h3>Nodemailer Express Web App</h3></div>
-        <div className="image-nine-text-three"><p>Responsive Web | Mobile Screen Design</p></div>
-        <div className="image-nine-text-two"><h3>SaaS | Express | Background Animation</h3></div>
-        <span className="work-link" onClick={() => handleExternalNavigation('https://saa-snodemailerapp-q27c.vercel.app/')}>Link To Project</span>
-    </div>
+
+
 
    
     <div className="work" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
