@@ -39,7 +39,7 @@ import PostgresSQL_Image_Two from '../images/TypeScriptPostgrelSQLAuthentication
 import PostgresSQL_Image_Three from '../images/postgrelformjsonsnapshot.png'
 import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
 import { Link } from "react-router-dom";
-import Dog_Ariival from '../images/dogarrivals.png'
+import Dog_Ariival from '../images/Dog arrivals homepage.png'
 import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
 import doctor_land_page from '../images/Dr. Land page.png'
 
