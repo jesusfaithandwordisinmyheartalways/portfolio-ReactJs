@@ -353,7 +353,7 @@ const Portfolio = () => {
                                 <div className={'degree-container'}>
                                     <div className={'degree-wrapper'}>
 
-                                            <div><div>INFORMATION TECHNOLOGY- SOFTWARE ENGINEERING</div></div>
+                                            <div><div>BIST INFORMATION TECHNOLOGY- SOFTWARE ENGINEERING</div></div>
 
                                     </div>
 
@@ -392,13 +392,13 @@ const Portfolio = () => {
                         <div>
                             <div><h3>I'm Andrew & I love to develop websites</h3></div>
                             <div>
-                                I'm a recent college graduate with a BS in Information Technology, concentrating in 
-                                Software Engineering (2023). I have a passion for Front-End & Back-End development and UI/UX design 
-                                for web apps, tablets, and mobile screens. My focus is on creating dynamic and user-friendly websites 
-                                within a team and continuing to improve my knowledge of the latest industry technologies. I always strive
-                                 to improve my skills with different programming languages and tools. My portfolio showcases some of 
-                                 the web applications I have developed,
-                                 highlighting my ability to deliver dynamic web apps. Please visit my GitHub or LinkedIn icons to see my work.
+                            I am a recent graduate with a Bachelor of Science in Information Technology, with a concentration in Software Engineering.
+                             I’m passionate about both Front-End and Back-End development, as well as UI/UX design for web applications,
+                              tablets, and mobile platforms. My primary focus is building dynamic, responsive, and user-friendly digital 
+                              experiences—whether independently or as part of a collaborative team.
+                        I’m committed to continually expanding my skills and staying current with the latest industry
+                       technologies and development practices. My portfolio features a range of projects that reflect my ability to create high-quality, interactive web applications.
+                        Feel free to explore my work by visiting my GitHub and LinkedIn through the icons provided.
                             </div>
                         </div>
                     </div>
@@ -508,15 +508,17 @@ const Portfolio = () => {
                                    
                                    <div className="know-text">
                                         <div><h3>My Experience</h3></div>
-                                       <div><p>Experienced in developing projects with a wide range of technologies of user-friendly & lively applications.
-                                        Motivated, love to learn from others, driven to achieve results, well equip in a project management environment, 
-                                        team person, & continually up to date on the latest technologies trends as a Web Developer.
-                                       Solid experience in Express.js and Node.js, proficient in building RESTful APIs 
-                                       for handling back-end server logic and data management.
-                                        With knowledge & experience with TypeScript, ReactJS framework, Context API, React Hooks,
-                                         Interface Design Tools with Figma, JavaScript, Git Version Control, GitHub, Regular expressions,
-                                          SaaS style sheets, CSS, CSS3, HTML5. I'm ready to contribute to your company to bring success 
-                                       in the UX/UI design aspect & to help clients to bring their website ideas to life.
+                                       <div><p>I have experience developing full-stack applications using a wide range of 
+                                       technologies to create user-friendly and engaging digital experiences. I’m a motivated and 
+                                       results-driven individual who thrives in collaborative, project-oriented environments. I 
+                                       value learning from others and stay up to date with the latest trends and advancements in web development.
+                                    My technical expertise includes solid experience with Express.js and Node.js,
+                                  particularly in building RESTful APIs for
+                              managing backend logic and data processing. I’m also proficient in modern front-end technologies
+                            such as TypeScript, ReactJS (including Context API and React Hooks),
+                         and interface design tools like Figma. Additionally, I have strong skills in JavaScript, Git version control,
+                           GitHub, Regular Expressions, SASS, CSS3, and HTML5.I’m well-prepared to contribute
+                       to your team by delivering impactful UX/UI solutions and helping clients bring their website visions to life.
                                           </p></div>
                                    </div>
 
@@ -543,9 +545,11 @@ const Portfolio = () => {
                                     <div className="dev-section">
                                         <div><img src={webdevelopment_image} alt=""></img></div>
                                         <div><h3>Web Development</h3></div>
-                                        <div><p>As a web developer, I create dynamic and functional websites using a combination of front-end and back-end technologies. 
-                                        I specialize in building responsive, user-friendly interfaces that enhance the user experience. 
-                                        Whether it’s an e-commerce site, a blog, or a custom web application, I can bring ideas to life through code. </p></div>
+                                        <div><p>As a web developer, I design and build dynamic, functional websites using 
+                                        a blend of front-end and back-end technologies. I specialize in creating responsive 
+                                        interfaces that prioritize usability and performance. From e-commerce platforms to custom web 
+                                        applications, I bring ideas to life through clean, scalable code and thoughtful design.
+                                        </p></div>
                                     </div>
 
 
@@ -553,10 +557,10 @@ const Portfolio = () => {
                                     <div className="dev-section">
                                         <div><img src={webdevelopment_image} alt=""></img></div>
                                         <div><h3>UI Development</h3></div>
-                                        <div><p>UI (User Interface) development focuses on creating the visual elements of a website or
-                                         application. I specialize in turning design mockups into interactive interfaces using HTML, CSS,
-                                          and JavaScript. My goal is to ensure that users have a 
-                                        seamless and enjoyable experience while interacting with your product. </p></div>
+                                        <div><p>I specialize in translating design mockups into responsive, interactive user interfaces using HTML,
+                                         CSS, and JavaScript. My focus is on creating visually engaging and intuitive digital experiences
+                                          that enhance usability and support seamless interaction. With a strong eye for detail and a user-first approach, 
+                                        I aim to deliver interfaces that are both functional and aesthetically refined. </p></div>
                                     </div>
 
 
@@ -564,10 +568,10 @@ const Portfolio = () => {
                                     <div className="dev-section"> 
                                         <div><img src={webdevelopment_image} alt=""></img></div>
                                         <div><h3>UI Designing</h3></div>
-                                        <div><p>UI design is all about aesthetics and usability. As a UI designer, I craft visually appealing 
-                                        layouts, choose color schemes, and create intuitive navigation. I pay attention to details like
-                                         typography, spacing, and consistency. My designs aim to enhance the overall look and feel of your
-                                          digital product
+                                        <div><p>UI design is centered on both aesthetics and usability. As a UI designer,
+                                         I create visually engaging layouts, select cohesive color schemes, and design intuitive navigation systems. 
+                                         I focus on details such as typography, spacing, and visual consistency to ensure a polished user experience.
+                                         My goal is to elevate the overall look and feel of digital products while maintaining functionality and clarity.
                                         </p></div>
                                     </div>
 
@@ -680,7 +684,7 @@ const Portfolio = () => {
 
                 <div className="work" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>
         <div><img src={ear_pod_landpage} alt="" /></div>
-        <div><h3>Ear Pond LandPage</h3></div>
+        <div><h3>Ear Bud LandPage</h3></div>
         <div><p>Advanced Image Sequence Scroll Animation | Animation  Features | UX/UI Design</p></div>
         <div><h3>ReactJs </h3></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>Link To Project</span>
