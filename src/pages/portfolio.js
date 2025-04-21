@@ -42,6 +42,12 @@ import { Link } from "react-router-dom";
 import Dog_Ariival from '../images/Dog arrivals homepage.png'
 import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
 import doctor_land_page from '../images/Dr. Land page.png'
+import ear_pod_landpage from '../images/Land page.png'
+
+
+
+
+
 
 
 
@@ -610,7 +616,7 @@ const Portfolio = () => {
                            <div className="work"  >
                                 <div><img src={Dog_Ariival} alt="" /></div>
                                 <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
-                                <div><p> SidebarCart Context API | Google Pay | Admin Panel | User Products Filters </p></div>
+                                <div><p> SidebarCart Context| User Authentication Nav | Google Pay |User Filters| Reviews Pagination | Skeletons and Loading indicators </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
@@ -632,7 +638,7 @@ const Portfolio = () => {
                                 <div className="work"  >
                                 <div><img src={simpleweb_image} alt="" /></div>
                                 <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
-                                <div><p> User Authentication Navbar | StripePayment Form | Duplicate Account Prevent | Server Security </p></div>
+                                <div><p>Authentication Nav| Marquee Animation| StripePayment| Duplicate Account Prevent| Server Security </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
@@ -666,6 +672,21 @@ const Portfolio = () => {
 
                                   </div>
                 </div>
+
+
+
+
+
+
+                <div className="work" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>
+        <div><img src={ear_pod_landpage} alt="" /></div>
+        <div><h3>Ear Pond LandPage</h3></div>
+        <div><p>Advanced Image Sequence Scroll Animation | Animation  Features | UX/UI Design</p></div>
+        <div><h3>ReactJs </h3></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>Link To Project</span>
+    </div>
+
+
 
 
 
