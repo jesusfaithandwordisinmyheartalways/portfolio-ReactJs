@@ -859,6 +859,13 @@ body {
 
 
 
+.dev-section {
+    border: 2px solid green;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 
+                0 0 20px rgba(0, 255, 0, 0.5), 
+                0 0 30px rgba(0, 255, 0, 0.4), 
+                0 0 40px rgba(0, 255, 0, 0.3);
+}
 
 
 .my-worth-wrapper h3 {
@@ -1390,14 +1397,18 @@ font-size: 1.3rem;
 
 
     .header-image {
-        margin-block:30px
+        margin-block:30px;
     }
+
+    
 
     .header-image img {
     width: 310px;
     object-fit: contain;
     border-radius:60%
     }
+
+
 
 
     .header-links-wrapper {

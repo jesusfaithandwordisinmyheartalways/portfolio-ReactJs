@@ -286,7 +286,7 @@ const Portfolio = () => {
                             <div className="Header-Wrapper">
 
                             <div className="header-content">
-                                <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Andrew Johnson, I'm a Full Stack Web Developer</h3></div></div>
+                                <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Andrew Johnson,  a Full Stack Web Developer</h3></div></div>
                                 
                                  <div className="header-links-wrapper">
                                    <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
@@ -305,7 +305,7 @@ const Portfolio = () => {
 
 
                             <div className="header-image">
-                                <img src={HeaderImage} alt=""></img>
+                                <img style={{width: '520px'}} src={HeaderImage} alt=""></img>
                             </div>
 
 
@@ -620,7 +620,9 @@ const Portfolio = () => {
                            <div className="work"  >
                                 <div><img src={Dog_Ariival} alt="" /></div>
                                 <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
-                                <div><p> SidebarCart Context| User Authentication Nav | Google Pay |User Filters| Reviews Pagination | Skeletons and Loading indicators </p></div>
+                                <div><p> SidebarCart Context | Count Up & Infinite Scroll Animation | User Auth Nav 
+                                 <br></br>
+                                 Google Pay | Multiple User Filters | Reviews Pagination & Filters Features </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
