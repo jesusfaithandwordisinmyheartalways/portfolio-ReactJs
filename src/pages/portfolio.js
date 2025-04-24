@@ -76,6 +76,12 @@ const Portfolio = () => {
         }
 
 
+
+        const coverLetter = () => {
+             window.location.href = '/coverletter.pdf'
+        }
+
+
         const handleExternalNavigation = (url) => {
             window.location.href = url
         }
@@ -290,7 +296,10 @@ const Portfolio = () => {
                                 
                                  <div className="header-links-wrapper">
                                    <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
-                                   <div onClick={ResumeDownload}><div><button  className="resume" >Download Resume</button></div></div>
+                                   <div onClick={ResumeDownload}><div><button  className="resume" > Resume</button></div></div>
+                                   <div onClick={coverLetter}><div><button  className="cl" > Cover Letter</button></div></div>
+
+
                                    
                                  </div>
 
@@ -644,7 +653,9 @@ const Portfolio = () => {
                                 <div className="work"  >
                                 <div><img src={simpleweb_image} alt="" /></div>
                                 <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
-                                <div><p>Authentication Nav| Marquee Animation| StripePayment| Duplicate Account Prevent| Server Security </p></div>
+                                <div><p>Auth Nav | Marquee Animation | StripePayment
+                                    <br></br>
+                                 Duplicate Account Prevent | Server-Side Security </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
@@ -664,7 +675,7 @@ const Portfolio = () => {
                 <div className="work">
                     <div><img src={clothing_store} alt="" /></div>
                     <div><h3>MERN Clothing Store E-commerce Web App</h3></div>
-                    <div><p>Filter Items | Search Bar | PayPal Integration | Server Security</p></div>
+                    <div><p>Filter Items | Search Bar | PayPal Integration | Server-Side Security</p></div>
                     <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                     <div className="case-study-wrapper">
                                     <div>
@@ -687,7 +698,9 @@ const Portfolio = () => {
                 <div className="work" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>
         <div><img src={ear_pod_landpage} alt="" /></div>
         <div><h3>Ear Bud LandPage</h3></div>
-        <div><p>Advanced Image Sequence Scroll Animation | Animation  Features | UX/UI Design</p></div>
+        <div><p>Advanced Image Sequence Scroll Animation | Animation  Features
+         <br></br>
+         UX/UI Design</p></div>
         <div><h3>ReactJs </h3></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>Link To Project</span>
     </div>
