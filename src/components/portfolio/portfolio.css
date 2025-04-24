@@ -180,6 +180,9 @@ body {
     }
 }
 
+
+
+
 /* Wrapper for the header content */
 .Header-Wrapper {
     display: flex;
@@ -231,6 +234,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap:4px;
     margin: 0 auto;
     max-width: 1000px;
     text-align: center;
@@ -254,6 +258,30 @@ body {
 .header-links-wrapper button.resume:hover {
     background: greenyellow;
 }
+
+
+
+
+
+.header-links-wrapper button.cl {
+    border: none;
+    outline: none;
+    background: grey;
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 0.9em 2em;
+    text-align: center;
+}
+
+.header-links-wrapper button.cl:hover {
+    background: greenyellow;
+
+}
+
+
+
 
 .font-end {
     position: relative;
@@ -283,6 +311,8 @@ body {
     background: greenyellow;
 }
 
+
+
 /* Fade-in and translate-up animation */
 @keyframes fadeInUp {
     0% {
@@ -294,6 +324,12 @@ body {
         transform: translateY(0);
     }
 }
+
+
+
+
+
+
 
 
 
