@@ -39,7 +39,7 @@ import PostgresSQL_Image_Two from '../images/TypeScriptPostgrelSQLAuthentication
 import PostgresSQL_Image_Three from '../images/postgrelformjsonsnapshot.png'
 import PostgresSQL_Image_Logo from '../images/postgres-logo.png'
 import { Link } from "react-router-dom";
-import Dog_Ariival from '../images/Dog arrivals homepage.png'
+import Dog_Ariival from '../images/User profile image home page.png'
 import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
 import doctor_land_page from '../images/Dr. Land page.png'
 import ear_pod_landpage from '../images/Land page.png'
@@ -631,7 +631,9 @@ const Portfolio = () => {
                                 <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
                                 <div><p> SidebarCart Context | Count Up & Infinite Scroll Animation | User Auth Nav 
                                  <br></br>
-                                 Google Pay | Multiple User Filters | Reviews Pagination & Filters Features </p></div>
+                                 Google Pay | Multiple User Filters |
+                                  Cloudinary & Multer Server Feature | 
+                                 Reviews Pagination & Filters Features </p></div>
                                 <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                   <div className="case-study-wrapper">
                                     <div>
