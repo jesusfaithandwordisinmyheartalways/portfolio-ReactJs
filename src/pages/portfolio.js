@@ -43,7 +43,9 @@ import Dog_Ariival from '../images/User profile image home page.png'
 import tic_tak_toe from '../images/Tic Tac Toe Game react.png'
 import doctor_land_page from '../images/Dr. Land page.png'
 import ear_pod_landpage from '../images/Land page.png'
-
+import tailwind_css from '../images/talwind.png'
+import tailwind_css_landpage from '../images/full landpage tailwind css .png'
+import tailwind_css_landpage_mobile from '../images/talwindmobile.png'
 
 
 
@@ -467,6 +469,10 @@ const Portfolio = () => {
 
                                         <img src={TS} alt=""></img>
 
+                                        <img src={tailwind_css} alt=""></img>
+
+                                        
+
                                         <img src={ReactLogo} alt=""></img>
 
                                         <img src={ReactNativeLogo} alt=""></img>
@@ -524,7 +530,7 @@ const Portfolio = () => {
                                     My technical expertise includes solid experience with Express.js and Node.js,
                                   particularly in building RESTful APIs for
                               managing backend logic and data processing. I’m also proficient in modern front-end technologies
-                            such as TypeScript, ReactJS (including Context API and React Hooks),
+                            such as TypeScript, ReactJS (including Context API and React Hooks), frameworks like TailwindCSS,
                          and interface design tools like Figma. Additionally, I have strong skills in JavaScript, Git version control,
                            GitHub, Regular Expressions, SASS, CSS3, and HTML5.I’m well-prepared to contribute
                        to your team by delivering impactful UX/UI solutions and helping clients bring their website visions to life.
@@ -746,6 +752,21 @@ const Portfolio = () => {
 
 
 
+  <div className="work" onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>
+        <div><img src={tailwind_css_landpage} alt="" /></div>
+        <div><img src={tailwind_css_landpage_mobile} alt="" /></div>
+
+
+        <div><h3>TailwindCSS ReactJs Land Page | Mobile </h3></div>
+        <div><p>Web, Mobile UX/UI Design</p></div>
+        <div><p>TailwindCSS | ReactJs | Animation</p></div>
+        <span className="work-link" onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>Link To Project</span>
+    </div>
+
+
+
+
+
 
     <div className="work" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
         <div><img src={TravelLandPage} alt="" /></div>
@@ -754,6 +775,12 @@ const Portfolio = () => {
         <div><p>ReactJs | User Re-routing | Animation</p></div>
         <span className="work-link" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>Link To Project</span>
     </div>
+
+
+
+
+
+
 
     <div className="work" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
         <div><img src={RecipeSearchImage} className="image-recipe" alt="" /></div>
