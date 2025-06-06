@@ -284,10 +284,10 @@ const Portfolio = () => {
                     <div className="Header-Wrapper">
 
                     <div className="header-content">
-                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Andrew Johnson,  a Full Stack Web Developer</h3></div></div>
+                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Milton Andrew Johnson,  a Full Stack Web Developer</h3></div></div>
                         
                         <div className="header-links-wrapper">
-                        <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
+                        <div onClick={Hire} className="hire"><div><button className="hire">Contact Milton</button></div></div>
                         <div onClick={ResumeDownload}><div><button  className="resume" > Resume</button></div></div>
                         <div onClick={coverLetter}><div><button  className="cl" > Cover Letter</button></div></div>
 
@@ -376,7 +376,7 @@ const Portfolio = () => {
                         <div className="about-me-content-bio">
                             <div>
                             <div>
-                                <h3>Hi, I'm Andrew — a Full Stack Developer</h3>
+                                <h3>Hi, I'm Milton — a Full Stack Developer</h3>
                                     <h4>Passionate about building modern web applications</h4>
                             </div>
                             <div>
