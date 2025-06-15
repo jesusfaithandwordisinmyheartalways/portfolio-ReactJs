@@ -49,8 +49,9 @@ import tailwind_css_landpage_mobile from '../images/talwindmobile.png'
 import AWS from '../images/aws.png'
 import Docker from '../images/Docker.png'
 import Internship from '../images/intenrship home pages.png'
-
-
+import JAVA_LOGO from '../images/java.png'
+import SPRING_BOOT from '../images/spring boot.png'
+import MERN_JAVA from '../images/MERN JAVA.png'
 
 
 
@@ -453,14 +454,16 @@ const Portfolio = () => {
                         My technical expertise spans the full stack. On the client side, I specialize in React.js with TypeScript, leveraging React Hooks, Context API, and modern UI frameworks like Tailwind CSS to build responsive, interactive user interfaces. I also have experience with React Native for cross-platform mobile development and use tools like Figma to design intuitive, polished UX.
 
                         On the server side, I’m skilled in Node.js, Express.js, and building robust RESTful APIs with secure, 
-                        scalable architecture. My backend experience includes advanced topics like real-time communication, rate limiting, role-based authentication, 
+                        scalable architecture. I also have hands-on experience developing backend services in Java using Spring Boot, implementing JWT-based authentication, MongoDB integration, and Dockerized microservices within a multi-container setup. This includes orchestrating full-stack communication between client and server using secure HTTP endpoints and environment-based configuration.
+
+                        My backend experience includes advanced topics like real-time communication, rate limiting, role-based authentication, 
                         error logging, and Docker containerization. I’ve also deployed applications using AWS services such as EC2, Amplify, and Elastic Beanstalk.
 
                         Beyond code, I embrace collaboration, Agile workflows, and continuous learning. I thrive in fast-paced environments where I can solve problems 
                         creatively and deliver high-impact solutions. With a strong foundation in both frontend and backend technologies, 
                         I’m prepared to contribute immediately and grow within a high-performing development team.
                     </p>
-                    </div>
+                                        </div>
                 </div>
 
 
@@ -487,6 +490,8 @@ const Portfolio = () => {
 
                                 <img src={MongoDB} alt=""></img>
 
+                                <img src={PostgresSQL_Image_Logo} alt=""></img>
+
 
                                 <img src={ExpressJs} alt=""></img>
                                 
@@ -494,6 +499,11 @@ const Portfolio = () => {
                                 <img src={NodeJs} alt=""></img>
 
                                 <img src={JavaScript} alt=""></img>
+
+                                <img src={JAVA_LOGO} alt=""></img>
+
+                                <img src={SPRING_BOOT} alt=""></img>
+
 
                                 <img src={SaasLogo} alt=""></img>
 
@@ -513,7 +523,6 @@ const Portfolio = () => {
 
                                 <img src={WebSocket} alt=""></img>
 
-                                <img src={PostgresSQL_Image_Logo} alt=""></img>
 
 
 
@@ -636,7 +645,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={Internship} alt="" /></div>
-                                    <div><h3>Full Stack Web Developer Internship & Admin Panel (MERN)</h3></div>
+                                    <div><h3>Full Stack Web | Mobile Developer Internship & Admin Panel (MERN)</h3></div>
                                     <div><p> 
                                     <br></br>
                                     Containerized the full stack application using Docker 
@@ -712,6 +721,37 @@ const Portfolio = () => {
 
                                     </div>
                             </div>
+
+
+
+
+
+
+
+                            <div className="work"  >
+                                    <div><img src={MERN_JAVA} alt="" /></div>
+                                    <div><h3>JAVA Server Side Full Stack User Web  App</h3></div>
+                                    <div><p>Authentication| Java with Spring Boot, integrating with MongoDB | 	
+                                    Containerized both client (React) and server (Spring Boot) applications using Docker, 
+                                        <br></br>
+                                    RestFul API| Server-Side Security </p></div>
+                                    <div><h3>Spring Boot | JAVA | Docker | MongoDB | TypeScript</h3></div>
+                                    <div className="case-study-wrapper">
+                                        <div>
+                                        <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://fsjavaformclient.onrender.com/')}>
+                                                Link To Project</span>
+                                            </div>
+                                   
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
 
 
 
