@@ -436,10 +436,10 @@ const Portfolio = () => {
                                 <hr />
                             </div>
                         </div>
-
-
-                                        
-                                    <div className="Tech-Skills-Wrapper">
+                        
+                        
+                        
+                        <div className="Tech-Skills-Wrapper">
                      <div className="know-text">
                     <div><h3>My Experience</h3></div>
                     <div>
@@ -645,7 +645,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={Internship} alt="" /></div>
-                                    <div><h3>Full Stack Web | Mobile Developer Internship & Admin Panel (MERN)</h3></div>
+                                    <div><h3>Full Stack Developer-Internship Web/ Mobile & Admin Panel(MERN)</h3></div>
                                     <div><p> 
                                     <br></br>
                                     Containerized the full stack application using Docker 
@@ -658,7 +658,7 @@ const Portfolio = () => {
                                     <br></br>
                                     Collaborated closely with the CEO and development team in an Agile environment,
                                    </p></div>
-                                    <div><h3>Docker | AWS (Amplify, EC2, Elastic)| Agile Development| TypeScript </h3></div>
+                                    <div><h3>Docker | AWS (Amplify, EC2, Elastic)| Agile| TypeScript| TailwindCSS </h3></div>
                                     <div className="case-study-wrapper">
                                         <div>
                                         <span className="work-link" 
@@ -735,7 +735,7 @@ const Portfolio = () => {
                                     Containerized both client (React) and server (Spring Boot) applications using Docker, 
                                         <br></br>
                                     RestFul API| Server-Side Security </p></div>
-                                    <div><h3>Spring Boot | JAVA | Docker | MongoDB | TypeScript</h3></div>
+                                    <div><h3>Spring Boot | JAVA | Docker | MongoDB | TypeScript | TailwindCSS</h3></div>
                                     <div className="case-study-wrapper">
                                         <div>
                                         <span className="work-link" 
