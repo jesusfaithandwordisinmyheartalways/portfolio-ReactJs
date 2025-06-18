@@ -595,6 +595,14 @@ body {
   
 }
 
+
+.about-me-content-bio p {
+    color:black
+}
+
+
+
+
 .about-me-content-bio h3 {
     font-family: "ZCOOL XiaoWei", sans-serif;
     font-weight: 400;
@@ -773,6 +781,8 @@ body {
     height: 510px;
     margin:0 auto;
     max-width: 2000px;
+    position: relative;
+    top:91px
  
    
 }
@@ -1145,6 +1155,128 @@ font-size: 1.3rem;
     to {
         opacity: 1;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------- QA TESTING -------------------------------------------------*/
+
+
+
+.QA-Container {
+    width: 100%;
+    overflow: hidden;
+    background: green;
+    height:710px;
+    margin-top: 10px;
+}
+
+
+
+.qa-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+
+
+}
+
+
+
+.qa-wrapper  h3 {
+    color:whitesmoke;
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.qa-wrapper-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+
+
+}
+
+
+
+.qa-wrapper-two img {
+    width:510px;
+    object-fit: contain;
+}
+
+
+
+
+
+.qa-test-work {
+    background: black;
+}
+
+
+.qa-wrapper-two .qa-test-work {
+    border: 3px solid white
+
+}
+
+
+
+.qa-wrapper-two .qa-test-work:hover {
+    border: 2px solid green;
+    box-shadow: 0 0 10px rgba(113, 85, 160, 0.6), 
+                0 0 10px rgba(113, 85, 160, 0.6), 
+                0 0 10px rgba(113, 85, 160, 0.6), 
+                0 0 10px rgba(113, 85, 160, 0.6);
+    transform: scale(1.01);
+    transition: all 0.4s ease-in-out; 
+}
+
+.qa-wrapper-two h3 , p {
+    color:whitesmoke
+}
+
+
+
+
+.work-link-qa {
+    color:orange;
+    text-decoration: none;
+}
+
+
+.work-link-qa p {
+    color:orange;
+}
+
+
+
+.work-link-qa p:hover {
+    color:red
 }
 
 
