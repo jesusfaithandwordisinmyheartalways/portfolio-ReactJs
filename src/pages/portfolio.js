@@ -52,6 +52,14 @@ import Internship from '../images/intenrship home pages.png'
 import JAVA_LOGO from '../images/java.png'
 import SPRING_BOOT from '../images/spring boot.png'
 import MERN_JAVA from '../images/MERN JAVA.png'
+import S from '../components/ImagesTest/Selenium.png'
+import P from '../components/ImagesTest/Playwright.png'
+import J from '../components/ImagesTest/Jira.png'
+import JEST from '../components/ImagesTest/Jest and Supertest .png'
+
+
+
+
 
 
 
@@ -261,9 +269,17 @@ const Portfolio = () => {
                         
                     <div className="nav-button-content"> 
                     <div className="navbar-content">
-                      <div onClick={() => NavigateTo('showcase')}><button type="button">Live Projects</button></div>
+                      <div onClick={() => NavigateTo('showcase')}><button type="button">Live Web Apps</button></div>
                     </div>
-                    </div>   
+                    </div>
+
+
+                     <div className="nav-button-content"> 
+                    <div className="navbar-content">
+                      <div onClick={() => NavigateTo('qa')}><button type="button">QA & Test Automation</button></div>
+                    </div>
+                    </div>
+
 
                     <div className="nav-button-content">
                     <div className="navbar-content">
@@ -285,7 +301,7 @@ const Portfolio = () => {
                     <div className="Header-Wrapper">
 
                     <div className="header-content">
-                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Milton Andrew Johnson,  a Full Stack Web Developer</h3></div></div>
+                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Milton Andrew Johnson,  a Full Stack Web Developer  & QA Engineer</h3></div></div>
                         
                         <div className="header-links-wrapper">
                         <div onClick={Hire} className="hire"><div><button className="hire">Contact Milton</button></div></div>
@@ -377,8 +393,8 @@ const Portfolio = () => {
                         <div className="about-me-content-bio">
                             <div>
                             <div>
-                                <h3>Hi, I'm Milton — a Full Stack Developer</h3>
-                                    <h4>Passionate about building modern web applications</h4>
+                                <h3>Hi, I'm Milton —  a Full Stack Developer with a Passion for Quality Assurance </h3>
+                                    <h4>Building scalable apps with performance, reliability, and testability in mind</h4>
                             </div>
                             <div>
                                <p> I hold a Bachelor of Science in Information Technology with a concentration in Software Engineering
@@ -440,9 +456,9 @@ const Portfolio = () => {
                         
                         
                         <div className="Tech-Skills-Wrapper">
-                     <div className="know-text">
-                    <div><h3>My Experience</h3></div>
-                    <div>
+                            <div className="know-text">
+                            <div><h3>My Experience</h3></div>
+                            <div>
                     <p>
                         As a confident and adaptable Full Stack Web Developer, I’ve honed my ability to tackle complex challenges 
                         across the software development lifecycle—from concept to deployment. Through my internship at Next Play Nation, I built a
@@ -463,7 +479,30 @@ const Portfolio = () => {
                         creatively and deliver high-impact solutions. With a strong foundation in both frontend and backend technologies, 
                         I’m prepared to contribute immediately and grow within a high-performing development team.
                     </p>
-                                        </div>
+
+                        <br></br>
+
+
+                        <p>In addition to full stack development, I took on key responsibilities as a Software Tester
+                         and QA during my time at Next Play Nation. I designed and executed a range of automated tests to make sure
+                          the application was stable, secure, and functioned as expected across both web and mobile platforms. For client-side testing
+                          , I used Playwright to simulate real user interactions and catch bugs early in the UI layer. On the backend, I set up automated
+                           testing for our RESTful APIs using Jest and Supertest, covering everything from authentication to edge case handling. I also used 
+                           Selenium to help with server-side testing scenarios, especially around form validation and session handling. We used Jira to track bugs,
+                            manage tasks, and stay organized as a team throughout each sprint. I even got some hands-on experience with Jenkins, contributing to automated 
+                            test pipelines that helped catch issues before they hit production. This experience strengthened my skills in software testing and quality
+                             assurance and made me comfortable working in Agile environments where fast feedback and continuous improvement are essential. Whether it’s
+                              writing test scripts,
+                         debugging issues, or working closely with developers, I’m confident in my ability to contribute as a reliable QA or software testing professional.</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div>
                 </div>
 
 
@@ -522,6 +561,18 @@ const Portfolio = () => {
                                 <img src={JSONImage} alt=""></img>
 
                                 <img src={WebSocket} alt=""></img>
+
+
+                                <img src={S} alt=""></img>
+
+                                <img src={P} alt=""></img>
+
+                                <img src={J} alt=""></img>
+
+
+                                <img src={JEST} alt=""></img>
+
+
 
 
 
@@ -624,18 +675,14 @@ const Portfolio = () => {
                     <div className="Showcase-Container" id="showcase">
 
 
-<div className="Showcase-Wrapper">
+                            <div className="Showcase-Wrapper">
 
-    <div>
-        <div><h3>Some of My Projects |  Click & See </h3></div>
-            <hr />
-    </div>
+                                <div>
+                                    <div><h3>Some of My Projects |  Click & See </h3></div>
+                                        <hr />
+                                </div>
 
-</div>
-
-
-
-
+                            </div>
 
 
 
@@ -951,6 +998,71 @@ const Portfolio = () => {
 
 
 </div>
+
+
+
+
+
+
+
+
+
+                 {/*----------------------------------QA & Test Automation Projects --------------------------------------------*/}
+
+
+                 <div className="QA-Container" id="qa ">
+
+                    <div className="qa-wrapper">
+                        <div><h3>QA & Test Automation Projects</h3></div>
+                    </div>
+
+
+
+                    <div className="qa-wrapper-two">
+
+                    <div className=" qa-test-work"  >
+                                    <div><img src={Internship} alt="" /></div>
+                                    <div><h3> Testing skills and Tools - Full Stack Developer-Internship </h3></div>
+                                    <div><p> 
+                                    <br></br>
+                                    Jest and SuperTest Sever Side Test Case - User sends a POST request
+                                    <br></br>
+                                    Playwright Test Case Client Side -  The navbar on the homepage.
+                                    <br></br>
+                                    Playwright Test Case Client Side - The hero section at the top of the homepage 
+                                    <br></br>
+                                    Playwright Test Case Client Side -  The footer section of the homepage.
+                                    <br></br>
+                                    Playwright Test Case Client Side -  That the homepage loads and displays the logo.
+
+                                    <br></br>
+                                    Jira - bug tracking tool for Web App
+
+
+                                   </p></div>
+
+
+                                  
+                                  
+
+
+                                    <div><h3>Playwright | Jest and SuperTest  | Selenium | Jira  </h3></div>
+                                    <div>
+                                    <Link to="/nextplay/test/tools" className="work-link-qa">
+                                            <div ><p> Link To Test Case & Test Code & Results of Testing Tools</p> </div>
+                                    </Link>
+                                 
+
+                                    </div>
+                            </div>
+
+                    </div>
+
+
+
+
+
+                 </div>
 
 
 

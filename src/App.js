@@ -8,6 +8,7 @@ import SimpleCaseStudy from "./pages/SimpleCaseStudy.jsx";
 import ClothingCaseStudy from "./pages/ClothingCaseStudy.jsx";
 import CampusCaseStudy from "./pages/CampusCaseStudy.jsx";
 import PostgresSQL from "./pages/PostgresSQL.jsx";
+import NextPlayNation from "./pages/NextPlayNation.jsx";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path="/clothing/case/study" element={<ClothingCaseStudy/>}/>
                     <Route path="/campus/case/study" element={<CampusCaseStudy/>}/>
                     <Route path="/postgres/case/study" element={<PostgresSQL/>}/>
+                    <Route path="/nextplay/test/tools" element={<NextPlayNation/>}/>
 
 
 
