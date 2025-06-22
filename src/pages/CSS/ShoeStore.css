@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+.next-play-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.next-wrappper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.next-wrappper p {
+    color: green;
+}
+
+
+.next-wrappper img {
+    width: 610px;
+    object-fit: contain;
+}
