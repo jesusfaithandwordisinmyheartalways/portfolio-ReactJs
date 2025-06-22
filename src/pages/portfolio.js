@@ -56,7 +56,7 @@ import S from '../components/ImagesTest/Selenium.png'
 import P from '../components/ImagesTest/Playwright.png'
 import J from '../components/ImagesTest/Jira.png'
 import JEST from '../components/ImagesTest/Jest and Supertest .png'
-
+import Shoe_Store_Image from '../images/ShoeStoreHomepage.png'
 
 
 
@@ -89,6 +89,12 @@ const Portfolio = () => {
                 window.location.href = '/resume.pdf'
 
         }
+
+
+        const QAResumeDownload = () => {
+            window.location.href = '/qa_resume.pdf'
+
+    }
 
 
 
@@ -293,10 +299,11 @@ const Portfolio = () => {
             
             
             
-
-
-
-                                <header className="Header-Container" id="header">
+            
+            
+            
+            
+             <header className="Header-Container" id="header">
 
                     <div className="Header-Wrapper">
 
@@ -306,6 +313,7 @@ const Portfolio = () => {
                         <div className="header-links-wrapper">
                         <div onClick={Hire} className="hire"><div><button className="hire">Contact Milton</button></div></div>
                         <div onClick={ResumeDownload}><div><button  className="resume" > Resume</button></div></div>
+                        <div onClick={QAResumeDownload}><div><button  className="resume" > QA Resume</button></div></div>
                         <div onClick={coverLetter}><div><button  className="cl" > Cover Letter</button></div></div>
 
 
@@ -1010,7 +1018,7 @@ const Portfolio = () => {
                  {/*----------------------------------QA & Test Automation Projects --------------------------------------------*/}
 
 
-                 <div className="QA-Container" id="qa ">
+                 <div className="QA-Container" id="qa">
 
                     <div className="qa-wrapper">
                         <div><h3>QA & Test Automation Projects</h3></div>
@@ -1055,6 +1063,56 @@ const Portfolio = () => {
 
                                     </div>
                             </div>
+
+
+
+
+
+
+
+                            <div className=" qa-test-work"  >
+                                    <div><img src={Shoe_Store_Image} alt="" /></div>
+                                    <div><h3> Testing skills and Tools - Shoe Store Web & Mobile App  </h3></div>
+                                    <div><p> 
+                                    <br></br>
+                                    Jest and SuperTest Sever Side Test Case -
+                                     <br></br>
+                                     Implemented automated API testing
+                                    <br></br>
+                                    validate authentication, route protection,
+                                    <br></br>
+                                    and response handling for a Node.js/Express backend
+                                    <br></br>
+                                    Playwright Test Case Client Side - 
+                                    <br></br>
+                                    Developed end-to-end UI tests with Playwright to simulate real user flows
+                                    <br></br>
+                                    ensuring reliability across login,
+                                    <br></br>
+                                    checkout, and Stripe payment interactions
+                                   </p></div>
+
+
+                                    <div><h3>Playwright | Jest and SuperTest  | Jira  </h3></div>
+                                    <div>
+                                    <Link to="/shoestore/test/tools" className="work-link-qa">
+                                            <div ><p> Link To Test Case & Test Code & Results of Testing Tools</p> </div>
+                                    </Link>
+                                 
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
 
                     </div>
 
