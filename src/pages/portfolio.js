@@ -57,6 +57,7 @@ import P from '../components/ImagesTest/Playwright.png'
 import J from '../components/ImagesTest/Jira.png'
 import JEST from '../components/ImagesTest/Jest and Supertest .png'
 import Shoe_Store_Image from '../images/ShoeStoreHomepage.png'
+import Junit from '../images/junit5-banner.png'
 
 
 
@@ -101,6 +102,12 @@ const Portfolio = () => {
         const coverLetter = () => {
              window.location.href = '/coverletter.pdf'
         }
+
+
+        const recommendationLetter = () => {
+            window.location.href = '/recommendationletter.pdf'
+       }
+
 
 
         const handleExternalNavigation = (url) => {
@@ -309,12 +316,18 @@ const Portfolio = () => {
 
                     <div className="header-content">
                         <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Milton Andrew Johnson,  a Full Stack Web Developer  & QA Engineer</h3></div></div>
+
+                        <div className="reference-quote"><p>"Milton made a tremendous impact by delivering a production-grade, 
+                            secure, and scalable real-time web platform that serves
+                            both internship and event management needs across desktop and mobile devices." - Jerrit A Judie, CEO at Next Play Nation (2025) </p></div>
                         
                         <div className="header-links-wrapper">
                         <div onClick={Hire} className="hire"><div><button className="hire">Contact Milton</button></div></div>
                         <div onClick={ResumeDownload}><div><button  className="resume" > Resume</button></div></div>
-                        <div onClick={QAResumeDownload}><div><button  className="resume" > QA Resume</button></div></div>
+                        <div onClick={QAResumeDownload}><div><button  className="qa-resume" > QA Resume</button></div></div>
                         <div onClick={coverLetter}><div><button  className="cl" > Cover Letter</button></div></div>
+                        <div onClick={recommendationLetter}><div><button  className="letter" > Internship Recommendation</button></div></div>
+
 
 
                         
@@ -379,8 +392,12 @@ const Portfolio = () => {
                                 
                                 
                                 
+                                
+                                
+                                
+                              
 
-
+                                {/*----------------------------------ABOUT ME SECTION --------------------------------------------*/}
 
 
 
@@ -580,6 +597,9 @@ const Portfolio = () => {
 
                                 <img src={JEST} alt=""></img>
 
+                                <img src={Junit} alt=""></img>
+
+
 
 
 
@@ -621,9 +641,10 @@ const Portfolio = () => {
 
 
 
-
-
-
+                                 
+                                 
+                                 
+                                 
                                   {/*----------------------------------MY WORTH--------------------------------------------*/}
 
 
@@ -686,7 +707,7 @@ const Portfolio = () => {
                             <div className="Showcase-Wrapper">
 
                                 <div>
-                                    <div><h3>Some of My Projects |  Click & See </h3></div>
+                                    <div><h3>Some of My Deployed Web & Mobile Applicatons </h3></div>
                                         <hr />
                                 </div>
 
@@ -714,11 +735,26 @@ const Portfolio = () => {
                                     Collaborated closely with the CEO and development team in an Agile environment,
                                    </p></div>
                                     <div><h3>Docker | AWS (Amplify, EC2, Elastic)| Agile| TypeScript| TailwindCSS </h3></div>
+                                    
                                     <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
+
+                                        <div className="diff-links">
+
+                                            <div>
+                                            <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://nextplayinternshipclient.onrender.com/')}>
                                                 Link To Project</span>
+                                            </div>
+
+
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/nextplayinternship')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
                                             </div>
                                  
 
@@ -741,10 +777,27 @@ const Portfolio = () => {
                                     Reviews Pagination & Filters Features </p></div>
                                     <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                                     <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
+
+                                        <div className="diff-links">
+
+                                            <div>
+                                            <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://dogsbreedwebappclient.onrender.com/')}>
                                                 Link To Project</span>
+                                            </div>
+                                            
+                                            
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/dogsbreedwebapp')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+
+
+
+
                                             </div>
                                     <Link to="/simple/case/study" className="case-study">
                                 
@@ -765,11 +818,25 @@ const Portfolio = () => {
                                     Duplicate Account Prevent | Server-Side Security </p></div>
                                     <div><h3>Docker | MongoDB | React | Nodejs | </h3></div>
                                     <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
+
+                                        <div className="diff-links">
+                                            <div>
+                                            <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://clientshoestoreclient.onrender.com/')}>
                                                 Link To Project</span>
                                             </div>
+                                            </div>
+
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/clientshoestore')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+
+
                                     <Link to="/simple/case/study" className="case-study">
                                     <div>See Case Study</div>
                                     </Link>
@@ -792,10 +859,20 @@ const Portfolio = () => {
                                     RestFul API| Server-Side Security </p></div>
                                     <div><h3>Spring Boot | JAVA | Docker | MongoDB | TypeScript | TailwindCSS</h3></div>
                                     <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
+
+                                        <div className="diff-links">
+                                            <div>
+                                            <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://fsjavaformclient.onrender.com/')}>
                                                 Link To Project</span>
+                                            </div>
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/fsjavaform/tree/master')}>
+                                                 GitHub Code </span>
+                                            </div>
+
                                             </div>
                                    
 
@@ -817,16 +894,147 @@ const Portfolio = () => {
                             <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                             <div className="case-study-wrapper">
                                         <div>
+                                        
+                                        <div>
                                         <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
                                                 Link To Project</span>
                                             </div>
+                                        </div>
+
+
+
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/clothingstore')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+
+
                                     <Link to="/clothing/case/study" className="case-study">
                                     <div>See Case Study</div>
                                     </Link>
 
                                     </div>
                             </div>
+
+
+
+
+
+
+                            <div className="work"  >
+                            <div><img src={ReactNativeMobileApp} alt="" /></div>
+                            <div><h3>React Native College University Mobile App</h3></div>
+                            <div><p>Pagination | | Image Carousel | Search Filter | User Feedback</p></div>
+                            <div><h3>React Native | NavigationContainer | ScrollView</h3></div>
+                            
+                            <div className="case-study-wrapper">
+                                        <div className="diff-links">
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
+                                                Link To Project</span>
+                                            </div>
+                                            
+                                            
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/reactnativemobileapp')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+                                            </div>
+
+
+
+
+                                    <Link to="/campus/case/study" className="case-study">
+                                    <div>See Case Study</div>
+                                    </Link>
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+                            <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
+                            <div><img src={ReactNativeCal} alt="" /></div>
+                            <div><h3>React Native Calculator Mobile App</h3></div>
+                            <div><p>Responsive App | Mobile Screen Design</p></div>
+                            <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
+
+
+                            <div className="diff-links">
+
+                                <div>
+                                <span className="work-link" 
+                                    onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
+
+                                </div>
+
+                                        <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/reactnativegotocalculator')}>
+                                                 GitHub Code </span>
+                                                 </div>
+
+
+                            </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+
+                            <div className="work">
+                            <div><img src={doctor_land_page} alt="" /></div>
+                            <div><h3>Doctor LandPage</h3></div>
+                            <div><p>Endless Interactive Animation Cycle | Responsive Web | UX/UI Design</p></div>
+                            <div><h3>Nodejs | Express | TypeScript</h3></div>
+
+                                <div className="diff-links">
+
+                                    <div>
+                                    <span className="work-link" 
+                                    onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app/')}>
+                                        Link To Project</span>
+                                    </div>
+                                    
+                                    
+                                     <div>
+                                        <span className="work-link" 
+                                        onClick={() => 
+                                        handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/expressrestfulapidoctorpage')}>
+                                            GitHub Code </span>
+                                            </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -848,41 +1056,19 @@ const Portfolio = () => {
 
 
 
-                            <div className="work" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>
-                            <div><img src={doctor_land_page} alt="" /></div>
-                            <div><h3>Doctor LandPage</h3></div>
-                            <div><p>Endless Interactive Animation Cycle | Responsive Web | UX/UI Design</p></div>
-                            <div><h3>Nodejs | Express | TypeScript</h3></div>
-                            <span className="work-link" onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app//')}>Link To Project</span>
-                            </div>
+                       
 
 
 
 
 
 
-                            <div className="work"  >
-                            <div><img src={ReactNativeMobileApp} alt="" /></div>
-                            <div><h3>React Native College University Mobile App</h3></div>
-                            <div><p>Pagination | | Image Carousel | Search Filter | User Feedback</p></div>
-                            <div><h3>React Native | NavigationContainer | ScrollView</h3></div>
-                            <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
-                                                onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
-                                                Link To Project</span>
-                                            </div>
-                                    <Link to="/campus/case/study" className="case-study">
-                                    <div>See Case Study</div>
-                                    </Link>
-
-                                    </div>
-                            </div>
+                       
 
 
 
 
-                            <div className="work" onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>
+                            <div className="work">
                             <div><img src={tailwind_css_landpage} alt="" /></div>
                             <div><img src={tailwind_css_landpage_mobile} alt="" /></div>
 
@@ -890,7 +1076,26 @@ const Portfolio = () => {
                             <div><h3>TailwindCSS ReactJs Land Page | Mobile </h3></div>
                             <div><p>Web, Mobile UX/UI Design</p></div>
                             <div><p>TailwindCSS | ReactJs | Animation</p></div>
-                            <span className="work-link" onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>Link To Project</span>
+
+
+                            <div className="diff-links">
+
+                                <div>
+                                <span className="work-link" 
+                            onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>Link To Project</span>
+                                </div>
+                            
+                                    
+                                    <div>
+                                        <span className="work-link" 
+                                        onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/tailwindcsslandpage')}>
+                                            GitHub Code </span>
+                                            </div>
+
+                            </div>
+
+
+
                             </div>
 
 
@@ -921,13 +1126,11 @@ const Portfolio = () => {
                             </div>
 
 
-                            <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
-                            <div><img src={ReactNativeCal} alt="" /></div>
-                            <div><h3>React Native Calculator Mobile App</h3></div>
-                            <div><p>Responsive App | Mobile Screen Design</p></div>
-                            <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
-                            <span className="work-link" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
-                            </div>
+                           
+
+
+
+
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
@@ -963,8 +1166,8 @@ const Portfolio = () => {
                             <div className="case-study-wrapper">
                                         <div>
                                         <span className="work-link" 
-                                                onClick={() => handleExternalNavigation('')}>
-                                                No Link To Project</span>
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/TypeScriptPostgrelSQLAuthentication/tree/master')}>
+                                                Github Code</span>
                                             </div>
                                     <Link to="/postgres/case/study" className="case-study">
                                     <div>See Case Study</div>
@@ -1028,7 +1231,7 @@ const Portfolio = () => {
 
                     <div className="qa-wrapper-two">
 
-                    <div className=" qa-test-work"  >
+                    <div className="qa-test-work"  >
                                     <div><img src={Internship} alt="" /></div>
                                     <div><h3> Testing skills and Tools - Full Stack Developer-Internship </h3></div>
                                     <div><p> 
@@ -1051,14 +1254,19 @@ const Portfolio = () => {
 
 
                                   
-                                  
-
-
                                     <div><h3>Playwright | Jest and SuperTest  | Selenium | Jira  </h3></div>
                                     <div>
                                     <Link to="/nextplay/test/tools" className="work-link-qa">
                                             <div ><p> Link To Test Case & Test Code & Results of Testing Tools</p> </div>
                                     </Link>
+
+
+                                    <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/nextplayinternship')}>
+                                                 GitHub Code </span>
+                                            </div>
+                                 
                                  
 
                                     </div>
@@ -1098,10 +1306,62 @@ const Portfolio = () => {
                                     <Link to="/shoestore/test/tools" className="work-link-qa">
                                             <div ><p> Link To Test Case & Test Code & Results of Testing Tools</p> </div>
                                     </Link>
+
+
+                                    <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/clientshoestore/tree/main/server')}>
+                                                 GitHub Code </span>
+                                            </div>
                                  
 
                                     </div>
                             </div>
+
+
+
+
+
+
+                            <div className="qa-test-work"  >
+                                    <div><img src={MERN_JAVA} alt="" /></div>
+                                    <div><h3> JUNIT Testing and Tools - Java Server-Side Spring Boot User Authentication Web App </h3></div>
+                                    <div><p> 
+                                    <br></br>
+                                    Implemented unit testing using JUnit 5
+                                    <br></br>
+                                    to validate server-side application startup and Spring Boot context loading in a full-stack Java project.
+                                    <br></br>
+                                    Configured Maven test lifecycle
+                                    <br></br>
+                                    and integrated automated testing into the build process 
+                                    to ensure code reliability and prevent regression.
+                                    <br></br>
+                                    Demonstrated test results -  via terminal logs and structured test suites 
+                                    <br></br>
+                                    in src/test/java, showcasing test coverage and clean build success using mvn test..
+
+                                   </p></div>
+
+                                    <div><h3>JUnit Server Side Testing </h3></div>
+
+
+                                    <div>
+                                    <Link to="/java/test/tools" className="work-link-qa">
+                                            <div ><p> Link To Test Case & Test Code & Results of Testing Tools</p> </div>
+                                    </Link>
+
+
+                                    <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/fsjavaform/tree/master/server')}>
+                                                 GitHub Code </span>
+                                            </div>
+                                 
+
+                                    </div>
+                            </div>
+
 
 
 
@@ -1162,7 +1422,7 @@ const Portfolio = () => {
         </div>
 
         <div className="contact-text-three">
-            <div><h3>Name</h3><span>Andrew Johnson</span></div>
+            <div><h3>Name</h3><span>Milton Andrew Johnson</span></div>
         </div>
 
         <div className="contact-text-three" >
@@ -1170,7 +1430,7 @@ const Portfolio = () => {
         </div>
 
         <div className="contact-text-three">
-            <div><h3>Address</h3><span>Savannah, TX</span></div>
+            <div><h3>Address</h3><span>Aubrey, TX</span></div>
         </div>
 
         <div>

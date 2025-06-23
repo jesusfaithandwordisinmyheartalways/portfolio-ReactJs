@@ -4,6 +4,8 @@
 
 
 
+
+
 .next-play-container {
     width: 100%;
     overflow: hidden;
@@ -24,22 +26,6 @@
 .next-wrappper p {
     color: green;
 }
-
-
-.next-wrappper img {
-    width: 610px;
-    object-fit: contain;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -65,3 +51,9 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     cursor: default;
   }
+
+
+.next-wrappper img {
+    width: 610px;
+    object-fit: contain;
+}
