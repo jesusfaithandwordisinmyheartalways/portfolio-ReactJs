@@ -999,6 +999,40 @@ const Portfolio = () => {
 
 
 
+                            <div className="work"  >
+                            <div><img src={PostgresSQL_Image} alt="" /></div>
+                            <div><h3>TypeScript PostgrelSQL Authentication </h3></div>
+                            <div><p>Web App</p></div>
+                            <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
+                            <div className="case-study-wrapper">
+                                        <div>
+                                        <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/TypeScriptPostgrelSQLAuthentication/tree/master')}>
+                                                Github Code</span>
+                                            </div>
+                                    <Link to="/postgres/case/study" className="case-study">
+                                    <div>See Case Study</div>
+                                    </Link>
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                             <div className="work">
                             <div><img src={doctor_land_page} alt="" /></div>
@@ -1158,23 +1192,7 @@ const Portfolio = () => {
 
 
 
-                            <div className="work"  >
-                            <div><img src={PostgresSQL_Image} alt="" /></div>
-                            <div><h3>TypeScript PostgrelSQL Authentication </h3></div>
-                            <div><p>Web App</p></div>
-                            <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
-                            <div className="case-study-wrapper">
-                                        <div>
-                                        <span className="work-link" 
-                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/TypeScriptPostgrelSQLAuthentication/tree/master')}>
-                                                Github Code</span>
-                                            </div>
-                                    <Link to="/postgres/case/study" className="case-study">
-                                    <div>See Case Study</div>
-                                    </Link>
-
-                                    </div>
-                            </div>
+                       
 
 
 
