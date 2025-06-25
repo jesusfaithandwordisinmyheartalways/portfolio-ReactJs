@@ -165,7 +165,7 @@ body {
         background-attachment: local;
     }
     50% {
-        background: url(/src/components/Images/softwaredeveloperstwo.jpg);
+        background: url(/src/components/Images/softwaredeveloperstwo.webp);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
