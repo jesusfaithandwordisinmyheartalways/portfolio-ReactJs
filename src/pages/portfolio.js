@@ -721,7 +721,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={Internship} alt="" /></div>
-                                    <div><h3>Full Stack Developer-Internship Web/ Mobile & Admin Panel(MERN)</h3></div>
+                                    <div><h3>Full Stack Developer-Internship Web/ Mobile & Admin Panel - <span className="header-span">(June 2025)</span> </h3></div>
                                     <div><p> 
                                     <br></br>
                                     Containerized the full stack application using Docker 
@@ -769,7 +769,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={Dog_Ariival} alt="" /></div>
-                                    <div><h3>MERN Dog Store E-commerce Web & Admin Panel</h3></div>
+                                    <div><h3>MERN Dog Store E-commerce Web & Admin Panel - <span className="header-span"> ( March 2025 )</span> </h3></div>
                                     <div><p> SidebarCart Context | Count Up & Infinite Scroll Animation | User Auth Nav 
                                     <br></br>
                                     Google Pay | Multiple User Filters |
@@ -812,7 +812,7 @@ const Portfolio = () => {
                             
                                     <div className="work"  >
                                     <div><img src={simpleweb_image} alt="" /></div>
-                                    <div><h3>MERN ShoeStore E-commerce Web & Mobile App</h3></div>
+                                    <div><h3>MERN ShoeStore E-commerce Web & Mobile App - <span className="header-span"> (Feb 2025)</span>   </h3></div>
                                     <div><p>Auth Nav | Marquee Animation | StripePayment
                                         <br></br>
                                     Duplicate Account Prevent | Server-Side Security </p></div>
@@ -852,7 +852,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={MERN_JAVA} alt="" /></div>
-                                    <div><h3>JAVA Server Side Full Stack User Web  App</h3></div>
+                                    <div><h3>JAVA Server Side Full Stack User Web App -  <span className="header-span"> (Nov 2023)</span>  </h3></div>
                                     <div><p>Authentication| Java with Spring Boot, integrating with MongoDB | 	
                                     Containerized both client (React) and server (Spring Boot) applications using Docker, 
                                         <br></br>
@@ -889,7 +889,7 @@ const Portfolio = () => {
 
                             <div className="work">
                             <div><img src={clothing_store} alt="" /></div>
-                            <div><h3>MERN Clothing Store E-commerce Web App</h3></div>
+                            <div><h3>MERN Clothing Store E-commerce Web App -   <span className="header-span">  (Dec 2024) </span> </h3></div>
                             <div><p>Filter Items | Search Bar | PayPal Integration | Server-Side Security</p></div>
                             <div><h3>MongoDB | React | Nodejs | Express</h3></div>
                             <div className="case-study-wrapper">
@@ -928,7 +928,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                             <div><img src={ReactNativeMobileApp} alt="" /></div>
-                            <div><h3>React Native College University Mobile App</h3></div>
+                            <div><h3>React Native College University Mobile App - <span className="header-span"> (Nov 2024) </span>  </h3></div>
                             <div><p>Pagination | | Image Carousel | Search Filter | User Feedback</p></div>
                             <div><h3>React Native | NavigationContainer | ScrollView</h3></div>
                             
@@ -968,7 +968,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
                             <div><img src={ReactNativeCal} alt="" /></div>
-                            <div><h3>React Native Calculator Mobile App</h3></div>
+                            <div><h3>React Native Calculator Mobile App - <span className="header-span">  (March 2025)   </span> </h3></div>
                             <div><p>Responsive App | Mobile Screen Design</p></div>
                             <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
 
@@ -1001,7 +1001,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                             <div><img src={PostgresSQL_Image} alt="" /></div>
-                            <div><h3>TypeScript PostgrelSQL Authentication </h3></div>
+                            <div><h3>TypeScript PostgrelSQL Authentication - <span className="header-span">  (April 2024)  </span> </h3></div>
                             <div><p>Web App</p></div>
                             <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
                             <div className="case-study-wrapper">
@@ -1036,7 +1036,7 @@ const Portfolio = () => {
 
                             <div className="work">
                             <div><img src={doctor_land_page} alt="" /></div>
-                            <div><h3>Doctor LandPage</h3></div>
+                            <div><h3>Doctor LandPage -   <span className="header-span">  (Sept 2024 )  </span> </h3></div>
                             <div><p>Endless Interactive Animation Cycle | Responsive Web | UX/UI Design</p></div>
                             <div><h3>Nodejs | Express | TypeScript</h3></div>
 
@@ -1077,7 +1077,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>
                             <div><img src={ear_pod_landpage} alt="" /></div>
-                            <div><h3>Ear Bud LandPage</h3></div>
+                            <div><h3>Ear Bud LandPage -  <span className="header-span">  (April 2025 )  </span> </h3></div>
                             <div><p>Advanced Image Sequence Scroll Animation | Animation  Features
                             <br></br>
                             UX/UI Design</p></div>
@@ -1107,7 +1107,7 @@ const Portfolio = () => {
                             <div><img src={tailwind_css_landpage_mobile} alt="" /></div>
 
 
-                            <div><h3>TailwindCSS ReactJs Land Page | Mobile </h3></div>
+                            <div><h3>TailwindCSS ReactJs Land Page | Mobile - <span className="header-span">  (April 2025 )  </span> </h3></div>
                             <div><p>Web, Mobile UX/UI Design</p></div>
                             <div><p>TailwindCSS | ReactJs | Animation</p></div>
 

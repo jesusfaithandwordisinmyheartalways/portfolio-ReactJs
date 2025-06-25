@@ -158,21 +158,21 @@ body {
 /* Keyframes for the background animation */
 @keyframes headerContent {
     0% {
-        background: url(/src/images/malibubackground.jpg);
+        background: url(/src/components/Images/softwaredevelopers.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;
     }
     50% {
-        background: url(/src/images/cannon-beach-oregon.jpg);
+        background: url(/src/components/Images/softwaredeveloperstwo.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: local;
     }
     100% {
-        background: url(/src/images/Oregon-Canon-Beach.png);
+        background: url(/src/components/Images/softwaredevelopersthree.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -268,6 +268,10 @@ body {
 
 
 
+
+.header-span {
+    color:lightgreen
+}
 
 
 
