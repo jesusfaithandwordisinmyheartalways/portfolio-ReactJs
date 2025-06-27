@@ -58,7 +58,7 @@ import J from '../components/ImagesTest/Jira.png'
 import JEST from '../components/ImagesTest/Jest and Supertest .png'
 import Shoe_Store_Image from '../images/ShoeStoreHomepage.png'
 import Junit from '../images/junit5-banner.png'
-
+import Graph_Ql from '../components/Images/graphql image.png'
 
 
 
@@ -492,9 +492,11 @@ const Portfolio = () => {
                         integrated CI/CD pipelines for seamless AWS-based deployment. This production-grade application reflected my strong grasp of system architecture, 
                         performance optimization, and user-centric design.
 
-                        My technical expertise spans the full stack. On the client side, I specialize in React.js with TypeScript, leveraging React Hooks, Context API, and modern UI frameworks like Tailwind CSS to build responsive, interactive user interfaces. I also have experience with React Native for cross-platform mobile development and use tools like Figma to design intuitive, polished UX.
+                        My technical expertise spans the full stack. On the client side, I specialize in React.js with TypeScript, leveraging React Hooks, experienced with  GraphQL, 
+                        Context API, and modern UI frameworks like Tailwind CSS to build responsive, interactive user interfaces. I also have experience with
+                         React Native for cross-platform mobile development and use tools like Figma to design intuitive, polished UX.
 
-                        On the server side, I’m skilled in Node.js, Express.js, and building robust RESTful APIs with secure, 
+                        On the server side, I’m skilled in Node.js, Express.js, GraphQL,  and building robust RESTful APIs with secure, 
                         scalable architecture. I also have hands-on experience developing backend services in Java using Spring Boot, implementing JWT-based authentication, MongoDB integration, and Dockerized microservices within a multi-container setup. This includes orchestrating full-stack communication between client and server using secure HTTP endpoints and environment-based configuration.
 
                         My backend experience includes advanced topics like real-time communication, rate limiting, role-based authentication, 
@@ -586,6 +588,10 @@ const Portfolio = () => {
                                 <img src={JSONImage} alt=""></img>
 
                                 <img src={WebSocket} alt=""></img>
+
+
+                                <img src={Graph_Ql} alt=""></img>
+
 
 
                                 <img src={S} alt=""></img>
@@ -734,7 +740,7 @@ const Portfolio = () => {
                                     <br></br>
                                     Collaborated closely with the CEO and development team in an Agile environment,
                                    </p></div>
-                                    <div><h3>Docker | AWS (Amplify, EC2, Elastic)| Agile| TypeScript| TailwindCSS </h3></div>
+                                    <div><h3>Graph QL | Docker | AWS (Amplify, EC2, Elastic)| Agile| TypeScript| TailwindCSS </h3></div>
                                     
                                     <div className="case-study-wrapper">
 
@@ -775,7 +781,7 @@ const Portfolio = () => {
                                     Google Pay | Multiple User Filters |
                                     Cloudinary & Multer Server Feature | 
                                     Reviews Pagination & Filters Features </p></div>
-                                    <div><h3>MongoDB | React | Nodejs | Express</h3></div>
+                                    <div><h3> GraphQL | MongoDB | React | Nodejs | Express</h3></div>
                                     <div className="case-study-wrapper">
 
                                         <div className="diff-links">
