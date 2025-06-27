@@ -852,7 +852,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={MERN_JAVA} alt="" /></div>
-                                    <div><h3>JAVA Server Side Full Stack User Web App -  <span className="header-span"> (Nov 2023)</span>  </h3></div>
+                                    <div><h3>JAVA Server Side Full Stack User Web App -  <span className="header-span"> (June 2025)</span>  </h3></div>
                                     <div><p>Authentication| Java with Spring Boot, integrating with MongoDB | 	
                                     Containerized both client (React) and server (Spring Boot) applications using Docker, 
                                         <br></br>
