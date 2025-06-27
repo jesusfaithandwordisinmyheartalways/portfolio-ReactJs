@@ -1001,7 +1001,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                             <div><img src={PostgresSQL_Image} alt="" /></div>
-                            <div><h3>TypeScript PostgrelSQL Authentication - <span className="header-span">  (April 2024)  </span> </h3></div>
+                            <div><h3>TypeScript PostgrelSQL Authentication - <span className="header-span">  (April 2025)  </span> </h3></div>
                             <div><p>Web App</p></div>
                             <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
                             <div className="case-study-wrapper">
@@ -1139,7 +1139,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
                             <div><img src={TravelLandPage} alt="" /></div>
-                            <div><h3>Travel Land ReactJs Web App</h3></div>
+                            <div><h3>Travel Land ReactJs Web App -  <span className="header-span">  (April 2024)  </span></h3></div>
                             <div><p>Web, UX/UI Design</p></div>
                             <div><p>ReactJs | User Re-routing | Animation</p></div>
                             <span className="work-link" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>Link To Project</span>
@@ -1153,7 +1153,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
                             <div><img src={RecipeSearchImage} className="image-recipe" alt="" /></div>
-                            <div><h3>Recipe Culture Search Web App</h3></div>
+                            <div><h3>Recipe Culture Search Web App -  <span className="header-span">  (Dec 2023)  </span></h3></div>
                             <div><p>Web, UX/UI Design (Mobile, Tablet Land & Login)</p></div>
                             <div><h3>JavaScript | User Redirection | Animation</h3></div>
                             <span className="work-link" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>Link To Project</span>
@@ -1169,7 +1169,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
                             <div><img src={StockMarketScreenshot} alt="" /></div>
-                            <div><h3>Popular Stock Market Web App</h3></div>
+                            <div><h3>Popular Stock Market Web App -  <span className="header-span">  (April 2024)  </span></h3></div>
                             <div><p>Responsive Web | Laptop | UX/UI Design</p></div>
                             <div><h3>TypeScript | JSON | Animation</h3></div>
                             <span className="work-link" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>Link To Project</span>
@@ -1184,7 +1184,7 @@ const Portfolio = () => {
 
                             <div className="work" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
                             <div><img src={ChatApp} alt="" /></div>
-                            <div><h3>WebSocket Chat App - Full Stack</h3></div>
+                            <div><h3>WebSocket Chat App - Full Stack -  <span className="header-span">  (July 2024)  </span></h3></div>
                             <div><p>Responsive App | Laptop Screen Design</p></div>
                             <div><h3>Socket.io Library | Nodejs | Reactjs</h3></div>
                             <span className="work-link" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>Link To Project</span>
@@ -1200,7 +1200,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                             <div><img src={tic_tak_toe} alt="" /></div>
-                            <div><h3>React Tic Tak Toe Game </h3></div>
+                            <div><h3>React Tic Tak Toe Game -  <span className="header-span">  (Jan 2025)  </span> </h3></div>
                             <div><p>Mobile Design | Web App</p></div>
                             <div><h3>React </h3></div>
                             <div className="case-study-wrapper">
