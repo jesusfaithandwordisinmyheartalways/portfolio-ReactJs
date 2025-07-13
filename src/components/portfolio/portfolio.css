@@ -73,7 +73,7 @@ body {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    gap:30px;
+    gap:10px;
 
 }
 
@@ -1228,6 +1228,99 @@ font-size: 1.3rem;
 
 
 
+
+
+
+
+
+
+
+/*------------------------------------- SaaS  -------------------------------------------------*/
+
+
+
+
+.SaaS-Container {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    height:800px;
+    margin-top: 3px;
+}
+
+
+
+
+.SaaS-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+
+}
+
+
+
+.SaaS-Wrapper h3 {
+    font-size: 1.5rem;
+    color:green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.SaaS-Wrapper-Two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+
+
+
+
+.SaaS-Wrapper-Two img {
+    width: 650px;
+    object-fit: contain;
+}
+
+
+.SaaS-span {
+    color:seagreen
+}
+
+
+
+.SaaS-Image .header-saas{
+    color:rgb(128, 105, 0);
+    font-size: 1.5rem;
+}
+
+
+
+.SaaS-Image .header-saas-two{
+    color:rgb(0, 83, 128);
+    font-size: 1rem;
+}
+
+
+
+.saas-work-link {
+    color:rgb(96, 211, 220);
+    cursor: pointer;
+}
+
+
+.saas-work-link:hover {
+    color:purple
+}
 
 
 

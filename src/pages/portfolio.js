@@ -59,6 +59,7 @@ import JEST from '../components/ImagesTest/Jest and Supertest .png'
 import Shoe_Store_Image from '../images/ShoeStoreHomepage.png'
 import Junit from '../images/junit5-banner.png'
 import Graph_Ql from '../components/Images/graphql image.png'
+import DataAnalytics from '../components/Images/RealTimeAnalytics.png'
 
 
 
@@ -287,6 +288,13 @@ const Portfolio = () => {
                     </div>
 
 
+                    <div className="nav-button-content"> 
+                    <div className="navbar-content">
+                      <div onClick={() => NavigateTo('SaaS')}><button type="button">SaaS Web Apps</button></div>
+                    </div>
+                    </div>
+
+
                      <div className="nav-button-content"> 
                     <div className="navbar-content">
                       <div onClick={() => NavigateTo('qa')}><button type="button">QA & Test Automation</button></div>
@@ -418,7 +426,7 @@ const Portfolio = () => {
                         <div className="about-me-content-bio">
                             <div>
                             <div>
-                                <h3>Hi, I'm Milton —  a Full Stack Developer with a Passion for Quality Assurance </h3>
+                                <h3>Hi, I'm Milton — a Full Stack Developer with a Passion for Software Testing & Develop SaaS Web Apps </h3>
                                     <h4>Building scalable apps with performance, reliability, and testability in mind</h4>
                             </div>
                             <div>
@@ -1233,6 +1241,104 @@ const Portfolio = () => {
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+            {/*----------------------------------SaaS Web Apps--------------------------------------------*/}
+
+
+            <div className="SaaS-Container" id="SaaS">
+                <div className="SaaS-Wrapper">
+
+                    <div><h3>SaaS Web Apps</h3></div>
+                    
+                </div>
+
+
+
+
+                <div className="SaaS-Wrapper-Two">
+
+
+
+
+
+                <div className="SaaS-Image"  >
+                                    <div><img src={DataAnalytics} alt="" /></div>
+                                    <div className="header-saas"><h3>Custom Analytics Platform that has Real-time Dashboards for Tracking User Behavior- 
+                                        <span className="SaaS-span">(July 2025)</span> </h3></div>
+                                   
+                                   
+                                    <div className="header-saas-two"><h3> TypeScript | TailwindCSS | Nodejs | Mongo DB | WebSockets </h3></div>
+                                    
+                                    <div className="case-study-wrapper">
+
+                                        <div className="diff-links">
+
+                                            <div>
+                                            <span className="saas-work-link" 
+                                                onClick={() => handleExternalNavigation('https://saasrealtimeanalyticsappclient.onrender.com/')}>
+                                                Link To Project</span>
+                                            </div>
+
+
+
+                                            <div>
+                                            <span className="saas-work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/SaaSRealTimeAnalyticsApp/tree/master')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+                                            </div>
+                                 
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
 
 
 
