@@ -5,8 +5,6 @@ import Admin_Panel from '../components/AdminImages/Admin Panel Edit.png';
 import Admin_Panel_Two from '../components/AdminImages/Admin Panel Edit Two.png';
 import './CSS/NPNAdminPage.css';
 
-import adminVideo from '../videos/npn-admin-record.mp4';
-
 const NPNAdminPage = () => {
   const videoRef = useRef(null);
   const [modalImage, setModalImage] = useState(null);
@@ -50,12 +48,14 @@ const NPNAdminPage = () => {
               controls
               onClick={handleVideoClick}
             >
-              <source src={adminVideo} type="video/mp4" />
+              <source src="/videos/npn-admin-record.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
 
           <div><h3>Admin Panel Images of Updates</h3></div>
+
+
 
           <div><img src={Blank_Event_Page} alt='' onClick={() => openModal(Blank_Event_Page)} /></div>
           <br />
@@ -67,6 +67,8 @@ const NPNAdminPage = () => {
         </div>
       </div>
 
+
+
       {modalImage && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -77,5 +79,8 @@ const NPNAdminPage = () => {
     </>
   );
 };
+
+
+
 
 export default NPNAdminPage;
