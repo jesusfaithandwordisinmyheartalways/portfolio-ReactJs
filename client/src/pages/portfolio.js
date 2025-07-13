@@ -666,7 +666,7 @@ const Portfolio = () => {
                             <div className="my-worth-wrapper">
 
                                     <div className="dev-section">
-                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><img src={webdevelopment_image} alt="" loading="lazy"></img></div>
                                         <div><h3>Web Development</h3></div>
                                         <div><p>As a web developer, I design and build dynamic, functional websites using 
                                         a blend of front-end and back-end technologies. I specialize in creating responsive 
@@ -678,7 +678,7 @@ const Portfolio = () => {
 
 
                                     <div className="dev-section">
-                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><img src={webdevelopment_image} alt="" loading="lazy"></img></div>
                                         <div><h3>UI Development</h3></div>
                                         <div><p>I specialize in translating design mockups into responsive, interactive user interfaces using HTML,
                                          CSS, and JavaScript. My focus is on creating visually engaging and intuitive digital experiences
@@ -689,7 +689,7 @@ const Portfolio = () => {
 
 
                                     <div className="dev-section"> 
-                                        <div><img src={webdevelopment_image} alt=""></img></div>
+                                        <div><img src={webdevelopment_image} alt="" loading="lazy"></img></div>
                                         <div><h3>UI Designing</h3></div>
                                         <div><p>UI design is centered on both aesthetics and usability. As a UI designer,
                                          I create visually engaging layouts, select cohesive color schemes, and design intuitive navigation systems. 
@@ -734,7 +734,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                                    <div><img src={Internship} alt="" /></div>
+                                    <div><img src={Internship} alt="" loading="lazy" /></div>
                                     <div><h3>Full Stack Internship Web/ Mobile App with Admin Panel - <span className="header-span">(June 2025)</span> </h3></div>
                                     <div><p> 
                                     <br></br>
@@ -794,7 +794,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                                    <div><img src={Dog_Ariival} alt="" /></div>
+                                    <div><img src={Dog_Ariival} alt="" loading="lazy" /></div>
                                     <div><h3>MERN Dog Store E-commerce Web & Admin Panel - <span className="header-span"> ( March 2025 )</span> </h3></div>
                                     <div><p> SidebarCart Context | Count Up & Infinite Scroll Animation | User Auth Nav 
                                     <br></br>
@@ -837,7 +837,7 @@ const Portfolio = () => {
 
                             
                                     <div className="work"  >
-                                    <div><img src={simpleweb_image} alt="" /></div>
+                                    <div><img src={simpleweb_image} alt="" loading="lazy" /></div>
                                     <div><h3>MERN ShoeStore E-commerce Web & Mobile App - <span className="header-span"> (Feb 2025)</span>   </h3></div>
                                     <div><p>Auth Nav | Marquee Animation | StripePayment
                                         <br></br>
@@ -877,7 +877,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                                    <div><img src={MERN_JAVA} alt="" /></div>
+                                    <div><img src={MERN_JAVA} alt="" loading="lazy" /></div>
                                     <div><h3>JAVA Server Side Full Stack User Web App -  <span className="header-span"> (June 2025)</span>  </h3></div>
                                     <div><p>Authentication| Java with Spring Boot, integrating with MongoDB | 	
                                     Containerized both client (React) and server (Spring Boot) applications using Docker, 
@@ -914,7 +914,7 @@ const Portfolio = () => {
 
 
                             <div className="work">
-                            <div><img src={clothing_store} alt="" /></div>
+                            <div><img src={clothing_store} alt="" loading="lazy" /></div>
                             <div><h3>MERN Clothing Store E-commerce Web App -   <span className="header-span">  (Dec 2024) </span> </h3></div>
                             <div><p>Filter Items | Search Bar | PayPal Integration | Server-Side Security</p></div>
                             <div><h3>MongoDB | React | Nodejs | Express</h3></div>
@@ -953,7 +953,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                            <div><img src={ReactNativeMobileApp} alt="" /></div>
+                            <div><img src={ReactNativeMobileApp} alt=""  loading="lazy"/></div>
                             <div><h3>React Native College University Mobile App - <span className="header-span"> (Nov 2024) </span>  </h3></div>
                             <div><p>Pagination | | Image Carousel | Search Filter | User Feedback</p></div>
                             <div><h3>React Native | NavigationContainer | ScrollView</h3></div>
@@ -993,7 +993,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>
-                            <div><img src={ReactNativeCal} alt="" /></div>
+                            <div><img src={ReactNativeCal} alt="" loading="lazy" /></div>
                             <div><h3>React Native Calculator Mobile App - <span className="header-span">  (March 2025)   </span> </h3></div>
                             <div><p>Responsive App | Mobile Screen Design</p></div>
                             <div><h3>React Native | TouchableOpacity | StyleSheet</h3></div>
@@ -1026,7 +1026,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                            <div><img src={PostgresSQL_Image} alt="" /></div>
+                            <div><img src={PostgresSQL_Image} alt="" loading="lazy" /></div>
                             <div><h3>TypeScript PostgrelSQL Authentication - <span className="header-span">  (April 2025)  </span> </h3></div>
                             <div><p>Web App</p></div>
                             <div><h3>PostgresSQL | TypeScript | MongoDB | Nodejs </h3></div>
@@ -1061,7 +1061,7 @@ const Portfolio = () => {
 
 
                             <div className="work">
-                            <div><img src={doctor_land_page} alt="" /></div>
+                            <div><img src={doctor_land_page} alt="" loading="lazy" /></div>
                             <div><h3>Doctor LandPage -   <span className="header-span">  (Sept 2024 )  </span> </h3></div>
                             <div><p>Endless Interactive Animation Cycle | Responsive Web | UX/UI Design</p></div>
                             <div><h3>Nodejs | Express | TypeScript</h3></div>
@@ -1102,7 +1102,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>
-                            <div><img src={ear_pod_landpage} alt="" /></div>
+                            <div><img src={ear_pod_landpage} alt="" loading="lazy" /></div>
                             <div><h3>Ear Bud LandPage -  <span className="header-span">  (April 2025 )  </span> </h3></div>
                             <div><p>Advanced Image Sequence Scroll Animation | Animation  Features
                             <br></br>
@@ -1129,8 +1129,8 @@ const Portfolio = () => {
 
 
                             <div className="work">
-                            <div><img src={tailwind_css_landpage} alt="" /></div>
-                            <div><img src={tailwind_css_landpage_mobile} alt="" /></div>
+                            <div><img src={tailwind_css_landpage} alt="" loading="lazy" /></div>
+                            <div><img src={tailwind_css_landpage_mobile} alt="" loading="lazy" /></div>
 
 
                             <div><h3>TailwindCSS ReactJs Land Page | Mobile - <span className="header-span">  (April 2025 )  </span> </h3></div>
@@ -1164,7 +1164,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://travelapp-react-js.vercel.app/')}>
-                            <div><img src={TravelLandPage} alt="" /></div>
+                            <div><img src={TravelLandPage} alt="" loading="lazy" /></div>
                             <div><h3>Travel Land ReactJs Web App -  <span className="header-span">  (April 2024)  </span></h3></div>
                             <div><p>Web, UX/UI Design</p></div>
                             <div><p>ReactJs | User Re-routing | Animation</p></div>
@@ -1178,7 +1178,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://culture-search-recipe.vercel.app/')}>
-                            <div><img src={RecipeSearchImage} className="image-recipe" alt="" /></div>
+                            <div><img src={RecipeSearchImage} className="image-recipe" alt="" loading="lazy" /></div>
                             <div><h3>Recipe Culture Search Web App -  <span className="header-span">  (Dec 2023)  </span></h3></div>
                             <div><p>Web, UX/UI Design (Mobile, Tablet Land & Login)</p></div>
                             <div><h3>JavaScript | User Redirection | Animation</h3></div>
@@ -1194,7 +1194,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://marketdata-typescript-s4n4.vercel.app/')}>
-                            <div><img src={StockMarketScreenshot} alt="" /></div>
+                            <div><img src={StockMarketScreenshot} alt="" loading="lazy" /></div>
                             <div><h3>Popular Stock Market Web App -  <span className="header-span">  (April 2024)  </span></h3></div>
                             <div><p>Responsive Web | Laptop | UX/UI Design</p></div>
                             <div><h3>TypeScript | JSON | Animation</h3></div>
@@ -1209,7 +1209,7 @@ const Portfolio = () => {
 
 
                             <div className="work" onClick={() => handleExternalNavigation('https://www.linkedin.com/feed/update/urn:li:activity:7278737121689919488/')}>
-                            <div><img src={ChatApp} alt="" /></div>
+                            <div><img src={ChatApp} alt=""  loading="lazy"/></div>
                             <div><h3>WebSocket Chat App - Full Stack -  <span className="header-span">  (July 2024)  </span></h3></div>
                             <div><p>Responsive App | Laptop Screen Design</p></div>
                             <div><h3>Socket.io Library | Nodejs | Reactjs</h3></div>
@@ -1225,7 +1225,7 @@ const Portfolio = () => {
 
 
                             <div className="work"  >
-                            <div><img src={tic_tak_toe} alt="" /></div>
+                            <div><img src={tic_tak_toe} alt="" loading="lazy" /></div>
                             <div><h3>React Tic Tak Toe Game -  <span className="header-span">  (Jan 2025)  </span> </h3></div>
                             <div><p>Mobile Design | Web App</p></div>
                             <div><h3>React </h3></div>
@@ -1284,7 +1284,7 @@ const Portfolio = () => {
 
 
                 <div className="SaaS-Image"  >
-                                    <div><img src={DataAnalytics} alt="" /></div>
+                                    <div><img src={DataAnalytics} alt="" loading="lazy" /></div>
                                     <div className="header-saas"><h3>Custom Analytics Platform that has Real-time Dashboards for Tracking User Behavior- 
                                         <span className="SaaS-span">(July 2025)</span> </h3></div>
                                    
@@ -1374,7 +1374,7 @@ const Portfolio = () => {
                     <div className="qa-wrapper-two">
 
                     <div className="qa-test-work"  >
-                                    <div><img src={Internship} alt="" /></div>
+                                    <div><img src={Internship} alt="" loading="lazy" /></div>
                                     <div><h3> Testing skills and Tools - Full Stack Developer-Internship </h3></div>
                                     <div><p> 
                                     <br></br>
@@ -1421,7 +1421,7 @@ const Portfolio = () => {
 
 
                             <div className=" qa-test-work"  >
-                                    <div><img src={Shoe_Store_Image} alt="" /></div>
+                                    <div><img src={Shoe_Store_Image} alt="" loading="lazy" /></div>
                                     <div><h3> Testing skills and Tools - Shoe Store Web & Mobile App  </h3></div>
                                     <div><p> 
                                     <br></br>
@@ -1466,7 +1466,7 @@ const Portfolio = () => {
 
 
                             <div className="qa-test-work"  >
-                                    <div><img src={MERN_JAVA} alt="" /></div>
+                                    <div><img src={MERN_JAVA} alt="" loading="lazy" /></div>
                                     <div><h3> JUNIT Testing and Tools - Java Server-Side Spring Boot User Authentication Web App </h3></div>
                                     <div><p> 
                                     <br></br>
@@ -1560,7 +1560,7 @@ const Portfolio = () => {
         <div className="Contact-Info-Wrapper">
 
         <div className="contact-text-three">
-              <div><img src={HeaderImage}  alt=""></img></div>
+              <div><img src={HeaderImage}  alt="" loading="lazy"></img></div>
         </div>
 
         <div className="contact-text-three">
@@ -1568,7 +1568,7 @@ const Portfolio = () => {
         </div>
 
         <div className="contact-text-three" >
-            <div><img src={Location}  alt=""></img></div>
+            <div><img src={Location}  alt="" loading="lazy"></img></div>
         </div>
 
         <div className="contact-text-three">
@@ -1576,7 +1576,7 @@ const Portfolio = () => {
         </div>
 
         <div>
-            <div><img src={Email}  alt=""></img></div>
+            <div><img src={Email}  alt="" loading="lazy"></img></div>
         </div>
 
         <div className="contact-text-three">
