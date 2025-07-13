@@ -735,7 +735,7 @@ const Portfolio = () => {
 
                             <div className="work"  >
                                     <div><img src={Internship} alt="" /></div>
-                                    <div><h3>Full Stack Developer-Internship Web/ Mobile & Admin Panel - <span className="header-span">(June 2025)</span> </h3></div>
+                                    <div><h3>Full Stack Internship Web/ Mobile App with Admin Panel - <span className="header-span">(June 2025)</span> </h3></div>
                                     <div><p> 
                                     <br></br>
                                     Containerized the full stack application using Docker 

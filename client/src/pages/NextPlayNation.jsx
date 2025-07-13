@@ -16,7 +16,7 @@ import home from '../components/ImagesTest/playwrightexample.spec.ts.png';
 import results from '../components/ImagesTest/clientpassedresults.png';
 import jira from '../components/ImagesTest/Jira - Next Play Nation Internship Web App - Jira.png';
 
-import '../pages/CSS/NextPlay.css';
+import './CSS/NextPlay.css';
 
 const NextPlayNation = () => {
   const [zoomedImg, setZoomedImg] = useState(null);
