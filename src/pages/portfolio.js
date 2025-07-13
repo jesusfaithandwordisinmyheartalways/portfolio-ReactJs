@@ -753,6 +753,15 @@ const Portfolio = () => {
                                     <div className="case-study-wrapper">
 
                                         <div className="diff-links">
+                                            
+                                            
+                                              <div>
+                                                <Link to="/internship/admin" className="npn-admin">
+                                                    <div>Admin Panel Display & Video With WebSockets Live Event Calendar Updates</div>
+                                                    </Link>
+                                            </div>
+
+
 
                                             <div>
                                             <span className="work-link" 
@@ -767,6 +776,9 @@ const Portfolio = () => {
                                                 onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/nextplayinternship')}>
                                                  GitHub Code </span>
                                             </div>
+
+
+                                       
 
 
                                             </div>

@@ -1206,6 +1206,20 @@ font-size: 1.3rem;
 
 
 
+.npn-admin {
+    cursor: pointer;
+    color:lightgreen;
+    font-size: 1.1rem;
+   
+}
+
+
+.npn-admin:hover {
+    color:white
+}
+
+
+
 
 
 

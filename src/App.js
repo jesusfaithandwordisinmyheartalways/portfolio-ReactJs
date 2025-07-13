@@ -11,6 +11,7 @@ import PostgresSQL from "./pages/PostgresSQL.jsx";
 import NextPlayNation from "./pages/NextPlayNation.jsx";
 import ShoeStore from "./pages/ShoeStore.jsx";
 import Java from "./pages/Java.jsx";
+import NPNAdminPage from "./pages/NPNAdminPage.jsx";
 
 
 
@@ -29,6 +30,9 @@ const App = () => {
                     <Route path="/nextplay/test/tools" element={<NextPlayNation/>}/>
                     <Route path="/shoestore/test/tools" element={<ShoeStore/>}/>
                     <Route path="/java/test/tools" element={<Java/>}/>
+                    <Route path="/internship/admin" element={<NPNAdminPage/>}/>
+
+                    
 
 
 
