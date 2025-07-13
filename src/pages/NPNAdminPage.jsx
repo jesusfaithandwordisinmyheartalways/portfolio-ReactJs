@@ -5,7 +5,7 @@ import Admin_Panel from '../components/AdminImages/Admin Panel Edit.png';
 import Admin_Panel_Two from '../components/AdminImages/Admin Panel Edit Two.png';
 import './CSS/NPNAdminPage.css';
 
-import adminVideo from '../videos/npn  admin record.mp4';
+import adminVideo from '../videos/npn-admin-record.mp4';
 
 const NPNAdminPage = () => {
   const videoRef = useRef(null);
