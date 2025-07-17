@@ -1289,10 +1289,11 @@ font-size: 1.3rem;
 .SaaS-Wrapper-Two {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1300px;
     text-align: center;
+    gap:31px
 }
 
 
@@ -1311,6 +1312,13 @@ font-size: 1.3rem;
 }
 
 
+.SaaS-span-two {
+    color:purple
+}
+
+
+
+
 
 .SaaS-Image .header-saas{
     color:rgb(128, 105, 0);
@@ -1324,6 +1332,14 @@ font-size: 1.3rem;
     font-size: 1rem;
 }
 
+
+
+
+.SaaS-Image .header-saas-dashboard {
+    color:rgb(90, 171, 214);
+    font-size: 1.3rem;
+
+}
 
 
 .saas-work-link {

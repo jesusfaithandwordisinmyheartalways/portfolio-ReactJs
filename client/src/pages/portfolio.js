@@ -60,6 +60,7 @@ import Shoe_Store_Image from '../images/ShoeStoreHomepage.png'
 import Junit from '../images/junit5-banner.png'
 import Graph_Ql from '../components/Images/graphql image.png'
 import DataAnalytics from '../components/Images/RealTimeAnalytics.png'
+import CRM from '../components/Images/CRM Dashboard.png'
 
 
 
@@ -766,7 +767,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://nextplayinternshipclient.onrender.com/')}>
-                                                Link To Project</span>
+                                                 Link To Deployed Web App </span>
                                             </div>
 
 
@@ -809,7 +810,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://dogsbreedwebappclient.onrender.com/')}>
-                                                Link To Project</span>
+                                                 Link To Deployed Web App </span>
                                             </div>
                                             
                                             
@@ -849,7 +850,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://clientshoestoreclient.onrender.com/')}>
-                                                Link To Project</span>
+                                                 Link To Deployed Web App  </span>
                                             </div>
                                             </div>
 
@@ -890,7 +891,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://fsjavaformclient.onrender.com/')}>
-                                                Link To Project</span>
+                                                Link To Deployed Web App  </span>
                                             </div>
 
                                             <div>
@@ -924,7 +925,7 @@ const Portfolio = () => {
                                         <div>
                                         <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://clothingstore-frontend.onrender.com/')}>
-                                                Link To Project</span>
+                                                Link To Deployed Web App  </span>
                                             </div>
                                         </div>
 
@@ -964,7 +965,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://reactnativemobileapp.vercel.app/')}>
-                                                Link To Project</span>
+                                                 Link To Deployed Web App  </span>
                                             </div>
                                             
                                             
@@ -1003,7 +1004,7 @@ const Portfolio = () => {
 
                                 <div>
                                 <span className="work-link" 
-                                    onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}>Link To Project</span>
+                                    onClick={() => handleExternalNavigation('https://reactnativegotocalculator.vercel.app/')}> Link To Deployed Web App </span>
 
                                 </div>
 
@@ -1071,7 +1072,7 @@ const Portfolio = () => {
                                     <div>
                                     <span className="work-link" 
                                     onClick={() => handleExternalNavigation('https://expressrestfulapidoctorpage.vercel.app/')}>
-                                        Link To Project</span>
+                                         Link To Deployed Web App  </span>
                                     </div>
                                     
                                     
@@ -1108,7 +1109,7 @@ const Portfolio = () => {
                             <br></br>
                             UX/UI Design</p></div>
                             <div><h3>ReactJs </h3></div>
-                            <span className="work-link" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}>Link To Project</span>
+                            <span className="work-link" onClick={() => handleExternalNavigation('https://earpodclient.onrender.com/')}> Link To Deployed Web App </span>
                             </div>
 
 
@@ -1142,7 +1143,7 @@ const Portfolio = () => {
 
                                 <div>
                                 <span className="work-link" 
-                            onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}>Link To Project</span>
+                            onClick={() => handleExternalNavigation('https://tailwindcsslandpageclient.onrender.com')}> Link To Deployed Web App </span>
                                 </div>
                             
                                     
@@ -1233,7 +1234,7 @@ const Portfolio = () => {
                                         <div>
                                         <span className="work-link" 
                                                 onClick={() => handleExternalNavigation('https://reacttictactoe.onrender.com/')}>
-                                                Link To Project</span>
+                                                 Link To Deployed Web App </span>
                                             </div>
                                     <Link to="/postgres/case/study" className="case-study">
                                     </Link>
@@ -1281,6 +1282,44 @@ const Portfolio = () => {
 
 
 
+                <div className="SaaS-Image"  >
+                                    <div><img src={CRM} alt="" loading="lazy" /></div>
+                                    <div className="header-saas-dashboard"><h3>CRM SaaS Dashboard
+                                        <span className="SaaS-span-two">(July 2025)</span> </h3></div>
+                                   
+                                   
+                                    <div className="header-saas-two"><h3> TypeScript | TailwindCSS | Nodejs | Mongo DB | WebSockets </h3></div>
+                                    
+                                    <div className="case-study-wrapper">
+
+                                        <div className="diff-links">
+
+                                            <div>
+                                            <span className="saas-work-link" 
+                                                onClick={() => handleExternalNavigation('https://crmdatabaseclient.onrender.com')}>
+                                                Link To Deployed Web App</span>
+                                            </div>
+
+
+
+                                            <div>
+                                            <span className="saas-work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/CRMdatabase')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+
+                                            </div>
+                                 
+
+                                    </div>
+                                    
+                            </div>
+
+
+
+
+
 
 
                 <div className="SaaS-Image"  >
@@ -1298,7 +1337,7 @@ const Portfolio = () => {
                                             <div>
                                             <span className="saas-work-link" 
                                                 onClick={() => handleExternalNavigation('https://saasrealtimeanalyticsappclient.onrender.com/')}>
-                                                Link To Project</span>
+                                                Link To Deployed Web App </span>
                                             </div>
 
 
@@ -1314,6 +1353,11 @@ const Portfolio = () => {
                                  
 
                                     </div>
+
+
+
+
+
                             </div>
 
 
