@@ -61,8 +61,8 @@ import Junit from '../images/junit5-banner.png'
 import Graph_Ql from '../components/Images/graphql image.png'
 import DataAnalytics from '../components/Images/RealTimeAnalytics.png'
 import CRM from '../components/Images/CRM Dashboard.png'
-
-
+import python from '../components/Images/pyhton_django.png'
+import python_app from '../components/Images/user_python_app.png'
 
 
 
@@ -548,6 +548,9 @@ const Portfolio = () => {
 
                             <div className="image-language">
 
+                                <img src={python} alt="" loading="lazy" ></img>
+
+
                                 <img src={TS} alt="" loading="lazy" ></img>
 
                                 <img src={tailwind_css} alt="" loading="lazy" ></img>
@@ -867,6 +870,38 @@ const Portfolio = () => {
                                     <Link to="/simple/case/study" className="case-study">
                                     <div>See Case Study</div>
                                     </Link>
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+                            <div className="work"  >
+                                    <div><img src={python_app} alt="" loading="lazy" /></div>
+                                    <div><h3>Pyton & Django Full Stack Real-Time User Note Tracking App   <span className="header-span"></span>  </h3></div>
+                                    <div><p>Django & Django REST Framework (API)| Django Channels (WebSocket support)
+                                    SQLite (dev DB, easily swappable for PostgreSQL), 
+                                        <br></br>
+                                    RestFul API| Server-Side Security </p></div>
+                                    <div><h3>Python / Django| TypeScript | TailwindCSS</h3></div>
+                                    <div className="case-study-wrapper">
+
+                                        <div className="diff-links">
+                                           
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/pythonusertrackapp')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+                                            </div>
+                                   
 
                                     </div>
                             </div>
