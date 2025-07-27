@@ -63,6 +63,7 @@ import DataAnalytics from '../components/Images/RealTimeAnalytics.png'
 import CRM from '../components/Images/CRM Dashboard.png'
 import python from '../components/Images/pyhton_django.png'
 import python_app from '../components/Images/user_python_app.png'
+import python_tic_tak_toe from '../components/Images/pyhton_tac_toe.png'
 
 
 
@@ -878,12 +879,49 @@ const Portfolio = () => {
 
 
 
+                            <div className="work"  >
+                                    <div><img src={python_tic_tak_toe} alt="" loading="lazy" /></div>
+                                    <div><h3>Python Tic-Tac-Toe Game    <span className="header-span"></span>  </h3></div>
+                                    <div><p>
+                                  
+                                        <br></br>
+                                    </p></div>
+                                    <div><h3>Python | TailwindCSS</h3></div>
+                                    <div className="case-study-wrapper">
+
+                                        <div className="diff-links">
+
+
+                                        <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://pyhtonticktaktoe.onrender.com/')}>
+                                                 Link To Deployed Web App  </span>
+                                            </div>
+                                          
+                                           
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/pyhtonticktaktoe')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+                                            </div>
+                                   
+
+                                    </div>
+                            </div>
+
+
+
+
+
 
 
 
                             <div className="work"  >
                                     <div><img src={python_app} alt="" loading="lazy" /></div>
-                                    <div><h3>Pyton & Django Full Stack Real-Time User Note Tracking App   <span className="header-span"></span>  </h3></div>
+                                    <div><h3>Python & Django Full Stack Real-Time User Note Tracking App   <span className="header-span"></span>  </h3></div>
                                     <div><p>Django & Django REST Framework (API)| Django Channels (WebSocket support)
                                     SQLite (dev DB, easily swappable for PostgreSQL), 
                                         <br></br>
