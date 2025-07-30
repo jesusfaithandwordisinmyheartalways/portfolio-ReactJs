@@ -64,7 +64,7 @@ import CRM from '../components/Images/CRM Dashboard.png'
 import python from '../components/Images/pyhton_django.png'
 import python_app from '../components/Images/user_python_app.png'
 import python_tic_tak_toe from '../components/Images/pyhton_tac_toe.png'
-
+import python_database from '../components/Images/Python_Full_Stack_student_Profiles_Database.png'
 
 
 
@@ -874,6 +874,59 @@ const Portfolio = () => {
 
                                     </div>
                             </div>
+
+
+
+
+
+
+
+                            <div className="work"  >
+                                    <div><img src={python_database} alt="" loading="lazy" /></div>
+                                    <div><h3>Python Full Stack Student Management Database UI    <span className="header-span"></span>  </h3></div>
+                                    <div><p>
+                                  
+                                        <br></br>
+                                    </p></div>
+                                    <div><h3>Python | TypeScript | MongoDB | TailwindCSS </h3></div>
+                                    <div className="case-study-wrapper">
+
+                                        <div className="diff-links">
+
+
+                                        <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://pythonstudentdatabaseclient.onrender.com/')}>
+                                                 Link To Deployed Web App  </span>
+                                            </div>
+                                          
+                                           
+
+                                            <div>
+                                            <span className="work-link" 
+                                                onClick={() => handleExternalNavigation('https://github.com/jesusfaithandwordisinmyheartalways/pythonstudentdatabase/tree/master')}>
+                                                 GitHub Code </span>
+                                            </div>
+
+                                            </div>
+                                   
+
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
