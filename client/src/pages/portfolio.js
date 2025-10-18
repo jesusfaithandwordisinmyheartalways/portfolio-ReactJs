@@ -332,7 +332,7 @@ const Portfolio = () => {
                             both internship and event management needs across desktop and mobile devices." - Jerrit A Judie, CEO at Next Play Nation (2025) </p></div>
                         
                         <div className="header-links-wrapper">
-                        <div onClick={Hire} className="hire"><div><button className="hire">Contact Milton</button></div></div>
+                        <div onClick={Hire} className="hire"><div><button className="hire">Contact Andrew</button></div></div>
                         <div onClick={ResumeDownload}><div><button  className="resume" > Resume</button></div></div>
                         <div onClick={QAResumeDownload}><div><button  className="qa-resume" > QA Resume</button></div></div>
                         <div onClick={coverLetter}><div><button  className="cl" > Cover Letter</button></div></div>
@@ -1734,7 +1734,7 @@ const Portfolio = () => {
         </div>
 
         <div className="contact-text-three">
-            <div><h3>Name</h3><span>Milton Andrew Johnson</span></div>
+            <div><h3>Name</h3><span>Andrew Johnson</span></div>
         </div>
 
         <div className="contact-text-three" >
@@ -1742,7 +1742,7 @@ const Portfolio = () => {
         </div>
 
         <div className="contact-text-three">
-            <div><h3>Address</h3><span>Aubrey, TX</span></div>
+            <div><h3>Address</h3><span>Frisco, TX</span></div>
         </div>
 
         <div>
