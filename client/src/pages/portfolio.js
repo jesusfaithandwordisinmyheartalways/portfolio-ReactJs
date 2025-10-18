@@ -325,9 +325,9 @@ const Portfolio = () => {
                     <div className="Header-Wrapper">
 
                     <div className="header-content">
-                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm Milton Andrew Johnson,  a Full Stack Web Developer  & QA Engineer</h3></div></div>
+                        <div className="font-end-text"><div><h3>Hi <img src={HandImage} alt=""></img> I'm  Andrew Johnson,  a Full Stack Web Developer  & QA Engineer</h3></div></div>
 
-                        <div className="reference-quote"><p>"Milton made a tremendous impact by delivering a production-grade, 
+                        <div className="reference-quote"><p>"Andrew made a tremendous impact by delivering a production-grade, 
                             secure, and scalable real-time web platform that serves
                             both internship and event management needs across desktop and mobile devices." - Jerrit A Judie, CEO at Next Play Nation (2025) </p></div>
                         
@@ -428,7 +428,7 @@ const Portfolio = () => {
                         <div className="about-me-content-bio">
                             <div>
                             <div>
-                                <h3>Hi, I'm Milton — a Full Stack Developer with a Passion for Software Testing & Develop SaaS Web Apps </h3>
+                                <h3>Hi, I'm Andrew — a Full Stack Developer with a Passion for Software Testing & Develop SaaS Web Apps </h3>
                                     <h4>Building scalable apps with performance, reliability, and testability in mind</h4>
                             </div>
                             <div>
